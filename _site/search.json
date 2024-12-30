@@ -1,0 +1,163 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "SMT201-AY2024-25T2",
+    "section": "",
+    "text": "In this web site, you will find all course materials here.\nInstructor: Dr. Kam Tin Seong, Associate Professor of Information Systems (Practice)\nPiazza link.\nConsultation booking link.\nZoom link\n\n\n\nSection\nTime\nVenue\n\n\n\n\nG1\n12:00-3:15PM\nSCIS1 SR3-1\n\n\n\n\n\n\n\nAll acts of academic dishonesty (including, but not limited to, plagiarism, cheating, fabrication, facilitation of acts of academic dishonesty by others, unauthorized possession of exam questions, or tampering with the academic work of other students) are serious offences. All work (whether oral or written) submitted for purposes of assessment must be the student’s own work. Penalties for violation of the policy range from zero marks for the component assessment to expulsion, depending on the nature of the offense. When in doubt, students should consult the instructors of the course. Details on the SMU Code of Academic Integrity may be accessed at http://www.smuscd.org/resources.html\n\n\n\nCourse materials obtained during your course of study at SMU are meant for personal use only, namely, for the purposes of studying and research. You are strictly not permitted to make copies of or print additional copies or distribute such copies of the course materials or any parts thereof, for commercial gain or exchange. For example, offering such materials on the Internet through CourseHero, Carousell and the like, is strictly prohibited.\nThe selling of these materials and/or any copies thereof are strictly prohibited under Singapore copyright laws. Printed materials and electronic materials are both protected by copyright laws. All students are subject to Singapore copyright laws and must strictly adhere to SMU’s procedures and requirements relating to copyright.\nPlease also note that for some materials, the publishers may specifically state that each copy is for the personal use of one individual only and no further reprographic reproduction is allowed, including for personal use. These restrictions are spelt out clearly on these specific sets of resources and students are required to adhere to these rules.\nStudents who infringe any of the aforesaid rules, laws and requirements shall be liable to disciplinary action by SMU. In addition, such students may also leave themselves open to suits by copyright owners who are entitled to take legal action against persons who infringe their copyright.\nWe strongly urge all students to respect the copyright laws and abide by SMU’s procedures and requirements relating to copyright.\n\n\n\nSMU strives to make learning experiences accessible for all. If you anticipate or experience physical or academic barriers due to disability, please let the instructor know immediately. You are also welcome to contact the university’s disability support team if you have questions or concerns about academic accommodations:included@smu.edu.sg\nPlease be aware that the accessible tables in our seminar room should remain available for students who require them. Emergency Preparedness for Teaching and Learning (EPTL): As part of emergency preparedness, Instructors may conduct lessons online via the WebEx platform during the term, to prepare students for online learning. During an actual emergency, students will be notified to access the WebEx platform for their online lessons. The class schedule will mirror the current face-to-face class timetable unless otherwise stated."
+  },
+  {
+    "objectID": "index.html#other-important-information",
+    "href": "index.html#other-important-information",
+    "title": "SMT201-AY2024-25T2",
+    "section": "",
+    "text": "All acts of academic dishonesty (including, but not limited to, plagiarism, cheating, fabrication, facilitation of acts of academic dishonesty by others, unauthorized possession of exam questions, or tampering with the academic work of other students) are serious offences. All work (whether oral or written) submitted for purposes of assessment must be the student’s own work. Penalties for violation of the policy range from zero marks for the component assessment to expulsion, depending on the nature of the offense. When in doubt, students should consult the instructors of the course. Details on the SMU Code of Academic Integrity may be accessed at http://www.smuscd.org/resources.html\n\n\n\nCourse materials obtained during your course of study at SMU are meant for personal use only, namely, for the purposes of studying and research. You are strictly not permitted to make copies of or print additional copies or distribute such copies of the course materials or any parts thereof, for commercial gain or exchange. For example, offering such materials on the Internet through CourseHero, Carousell and the like, is strictly prohibited.\nThe selling of these materials and/or any copies thereof are strictly prohibited under Singapore copyright laws. Printed materials and electronic materials are both protected by copyright laws. All students are subject to Singapore copyright laws and must strictly adhere to SMU’s procedures and requirements relating to copyright.\nPlease also note that for some materials, the publishers may specifically state that each copy is for the personal use of one individual only and no further reprographic reproduction is allowed, including for personal use. These restrictions are spelt out clearly on these specific sets of resources and students are required to adhere to these rules.\nStudents who infringe any of the aforesaid rules, laws and requirements shall be liable to disciplinary action by SMU. In addition, such students may also leave themselves open to suits by copyright owners who are entitled to take legal action against persons who infringe their copyright.\nWe strongly urge all students to respect the copyright laws and abide by SMU’s procedures and requirements relating to copyright.\n\n\n\nSMU strives to make learning experiences accessible for all. If you anticipate or experience physical or academic barriers due to disability, please let the instructor know immediately. You are also welcome to contact the university’s disability support team if you have questions or concerns about academic accommodations:included@smu.edu.sg\nPlease be aware that the accessible tables in our seminar room should remain available for students who require them. Emergency Preparedness for Teaching and Learning (EPTL): As part of emergency preparedness, Instructors may conduct lessons online via the WebEx platform during the term, to prepare students for online learning. During an actual emergency, students will be notified to access the WebEx platform for their online lessons. The class schedule will mirror the current face-to-face class timetable unless otherwise stated."
+  },
+  {
+    "objectID": "syllabus.html",
+    "href": "syllabus.html",
+    "title": "Syllabus",
+    "section": "",
+    "text": "Effective planning and management of smart cities require urban planners to integrate and share data from multiple sources to the urban users so that they can be active participants in the smart city planning process. GIS with its capability to capture, manage, display, and analyse information spatially is emerging as one of the important enabling tool in smart city planning.\nThis course provides students with an introduction to practical applications of GIS in smart city management and planning. Emphasis will be placed on:\n\nlocating, acquiring and integrating multi-sources of data into GIS,\nunderstand the principles and methodologies of geocoding and geo referencing ,\nbecome familiar with geovisualisation and GIS analysis techniques, and\nexplore the technologies and possibilities of GIS-enabled Planning Support Systems for smart city management."
+  },
+  {
+    "objectID": "syllabus.html#competencies",
+    "href": "syllabus.html#competencies",
+    "title": "Syllabus",
+    "section": "Competencies",
+    "text": "Competencies\n\nExplain the concepts, principles and component of GIS with reference to urban planning and management.\nDescribing the differences between GIS and other related geospatial technologies for urban planning.\nImporting, converting, transforming, integrating and managing urban geographical data.\nGeocoding and georeferencing geographical data.\nDescribing the basic principles and concepts of geographical data visualisation and thematic mapping design.\nExplaining vector-based geoprocessing methods using appropriate use cases.\nUse appropriate geoprocessing and vector-based GIS analysis functions to solve real world urban analysis problems.\nExplaining raster-based GIS analysis functions using appropriate use cases.\nUse appropriate cartographic modelling functions to solve real world urban analysis problems.\nExplaining the concepts of a Planning Support System.\nDesigning GIS enabled Planning Support System to answer urban planning and management related questions."
+  },
+  {
+    "objectID": "syllabus.html#course-structure",
+    "href": "syllabus.html#course-structure",
+    "title": "Syllabus",
+    "section": "Course structure",
+    "text": "Course structure\n\nBasic Modules\nThis course comprises ten integrated components as shown below:"
+  },
+  {
+    "objectID": "syllabus.html#pre-requisites",
+    "href": "syllabus.html#pre-requisites",
+    "title": "Syllabus",
+    "section": "Pre-requisites",
+    "text": "Pre-requisites\nThere are no pre-requisites for the class and the class is open to all SMT students as well as non-SMT students. However, a basic understanding of the principles of urban management and planning in the context of smart city is required. Students who are new to the discipline of urban management /planning and smart cities are encouraged to do self-learning and research prior to the commencement of the course.\n\nNaomi Carmon , and Susan S. Fainstein (2013) Policy, Planning, and People : Promoting Justice in Urban Development, University of Pennsylvania Press, USA.\nHoubing Song, et. al (2017) Smart Cities : Foundations, Principles, and Applications, John Wiley & Sons, NJ. USA."
+  },
+  {
+    "objectID": "syllabus.html#grading-summary",
+    "href": "syllabus.html#grading-summary",
+    "title": "Syllabus",
+    "section": "Grading Summary",
+    "text": "Grading Summary\nThe grading distribution of this course are as follows:\n\n\n\nComponent\nWeights\n\n\n\n\nClass Participation\n5%\n\n\nHands-on Exercise\n10%\n\n\nIn-class Exercise\n15%\n\n\nTake-home Exercise (15% + 20%)\n35%\n\n\nGIS Project\n35%\n\n\n\nThere will be no mid-term test or final examination for this course."
+  },
+  {
+    "objectID": "syllabus.html#reference",
+    "href": "syllabus.html#reference",
+    "title": "Syllabus",
+    "section": "Reference",
+    "text": "Reference\n\nCore Readings\n\nJochen Albrecht (2007) Key Concepts & Techniques in GIS, SAGE Publication, London, UK.\nJonathan Campbell and MIchael Shin (2011) Essentials of Geographic Information Systems, Saylor Foundation.\nMaarseveen, Martin van.; Martinez, Javier.; Flacke, Johannes. (2019) GIS in Sustainable Urban Planning and Management, CRC Press.\n\n\n\nAdditional Readings\n\nDavid L. Berlyva (2002) Practical GIS Analysis, Taylor and Francis, London, UK.\nC. Dana Tomlin and C Dana Tomlin (2012) GIS and Cartographic Modeling, ESRI Press, Redland, USA."
+  },
+  {
+    "objectID": "GISproject.html",
+    "href": "GISproject.html",
+    "title": "GIS Project",
+    "section": "",
+    "text": "The purpose of the GIS project is to provide students with a first hand experience on building a GIS-Enabled Urban Planning Support System by integrating open government data and other open source data sets. You will also learn how to collect, process and analyse spatially related issues using real world data. Students are encouraged to focus on research topics that are relevant to their field of study.\nThe project is to be done in a team. You are required to form a project team of 2-3 members by the second week of the academic term. Each project team must start thinking about their project ideas from week 8 onwards. You are expected to discuss your project topic and scope of work with the instructor between week 8-9 of the academic term. A project website must be prepared and will be linked to this page by the end of week 10."
+  },
+  {
+    "objectID": "GISproject.html#overview",
+    "href": "GISproject.html#overview",
+    "title": "GIS Project",
+    "section": "",
+    "text": "The purpose of the GIS project is to provide students with a first hand experience on building a GIS-Enabled Urban Planning Support System by integrating open government data and other open source data sets. You will also learn how to collect, process and analyse spatially related issues using real world data. Students are encouraged to focus on research topics that are relevant to their field of study.\nThe project is to be done in a team. You are required to form a project team of 2-3 members by the second week of the academic term. Each project team must start thinking about their project ideas from week 8 onwards. You are expected to discuss your project topic and scope of work with the instructor between week 8-9 of the academic term. A project website must be prepared and will be linked to this page by the end of week 10."
+  },
+  {
+    "objectID": "GISproject.html#topic",
+    "href": "GISproject.html#topic",
+    "title": "GIS Project",
+    "section": "Topic",
+    "text": "Topic\nIn recent years, a slew of record-breaking natural disasters has devastated communities around the world with unprecedented intensity and frequency. For example, in this September, the world saw two devastating disaster events within two days of each other, namely the Morocco earthquake on 8th September 2023 and Libya flood caused by the collapsed of Derna dam on 10th September 2023. Both have caused large-scale destruction of infrastructure and thousands of tragic deaths and injuries. As this worrying trend shows no signs of slowing, the importance of investing in and incorporating advanced Geographic Information (GI) technologies into each phase of the disaster planning and response framework cannot be overstated. While we cannot stop disasters from happening completely, GI technologies can mitigate risk and damages to infrastructure by helping to track, predict, and prepare for disasters, and ultimately assist in recovery and relief.\nAssume the role of being a GIS team of an international organisation focusing on humanitarian affairs and disaster mitigation and management, your team are tasked to explore the potential used of GIS and remote sensing technologies in urban flood disaster mitigation and management. The used case must be developed based on the recent Libya dam collapsed and its subsequent flooding of Derna City.\nYou are required to choose one of the theme provided below:\n\nTheme 1: Urban Land Use/Land Cover (LULC) Change Detection for Flood Mapping Applications of Satellite Remote Sensing.\nTheme 2: GIS-based Accessibility Analysis and Mapping of Emergency Evacuation Centres and Medical Services.\nTheme 3: Integrating GIS and Remotely Sensed Data for Urban Flood Loss Assessment and Recovery Planning."
+  },
+  {
+    "objectID": "GISproject.html#the-data",
+    "href": "GISproject.html#the-data",
+    "title": "GIS Project",
+    "section": "The Data",
+    "text": "The Data\n\nDerna_city_250m_hexagon consists of a collection 250m hexagons defining the study area. It is in ESRI shapefile format and is available in the GIS project folder of eLearn.\nGIS data layer can be downloaded but not limited to OSM Libya at Geofabrik and Libya Floods at Humanitarian Data Exchange portal.\nSatellite images can be downloaded from but not limited to EarthExplorer, Opernicus Open Access Hub and Maxar Open Data Program: Libya Flood"
+  },
+  {
+    "objectID": "GISproject.html#scope-of-work",
+    "href": "GISproject.html#scope-of-work",
+    "title": "GIS Project",
+    "section": "Scope of Work",
+    "text": "Scope of Work\nThe project will comprise of, but not limited to the followings steps:\n\nSelection of project focus and conducting literature review.\nPreparing proposal and project website.\nData collection, extraction, integration, transformation and wrangling.\nDesigning and building GIS model and database.\nPerforming GIS analysis.\nPreparing poster and project webpage."
+  },
+  {
+    "objectID": "GISproject.html#project-milestone",
+    "href": "GISproject.html#project-milestone",
+    "title": "GIS Project",
+    "section": "Project Milestone",
+    "text": "Project Milestone\n\nFormulation of project team: by week 2 before lesson\nAssemble GIS data: from week 7 onwards\nCreate project website : by week 8\nSubmission of project poster: 8th Nov. 2023, 11:59PM (mid-night).\nTownhall presentation: 14th Nov 2023 (Tuesday), at 12:00-2:00pm. Venue: LKSLIB Basement concourse. Students are required to be at the venue latest by 11:30am to setup your project poster.\nSubmission of project artifacts and update project webpage: 19th November 2023 at 11.59pm (mid-night)"
+  },
+  {
+    "objectID": "GISproject.html#grading",
+    "href": "GISproject.html#grading",
+    "title": "GIS Project",
+    "section": "Grading",
+    "text": "Grading\nThe GIS project will account for 35% of your final grade in the course. The distribution of marks for each stage of the project are as follows:\n\nTownhall presentation (peer evaluation) 15%\nProject poster 15%\nProject website and report 30%\nMinutes of Meeting 15%\nProject artifact 25%\n\nThe course instructor will consider strongly the novelty of the idea (If it has never been done before, you will get lots of credit!), how it addresses the problem at hand, the methodology you employ in doing the research, and your technical skill in implementing the idea.\nIn small group projects, each person will be graded individually. A good group project is a system consisting of a collection of well-defined subsystems. Each subsystem should be the responsibility of one person and be clearly identified as their project. A good criteria for whether you should work in a group is whether the system as a whole is greater than the sum of its parts!"
+  },
+  {
+    "objectID": "GISproject.html#townhall-poster-presentation",
+    "href": "GISproject.html#townhall-poster-presentation",
+    "title": "GIS Project",
+    "section": "Townhall Poster Presentation",
+    "text": "Townhall Poster Presentation\nA townhall presentation will be held on 14th November 2023 (Tuesday) between 11.30am - 2.30pm. The venue will be at SMU Basement Concourse."
+  },
+  {
+    "objectID": "GISproject.html#deliverables",
+    "href": "GISproject.html#deliverables",
+    "title": "GIS Project",
+    "section": "Deliverables",
+    "text": "Deliverables\n\nMinutes of Meeting\nTo formulate the project proposal, you are required to have at least one round of brain-storming session and take down minutes of the discussion, disagreements, and consensus made within the team in the form of Minutes of Meeting. At least three differences should be included and a clear documentation on how the final decisions were reached must be provided. The Minutes of Meeting should also record the division of labour and the considerations involved in the decision made.\nThe following links provided useful guides on how to prepare the minutes of a meeting:\n\nHow to Write Meeting Minutes: Examples + Best Practices\nHow To Write Effective Meeting Minutes withTemplates and Samples\n\n\n\nProject Website\n\nProject Github\nAt the beginning of the project, project teams are required to create a project Github. The project Github should include all the materials used to develop the project and the written materials such as proposal, poster and project report. It must be used to maintain a complete project versioning including the application and project documents. The Github link must be included in the project webpage. By the end of the project, the project team must pack the final version of the Github repository and upload onto eLearn for final submission. The Github link also must be provided on eLearn.\n\n\nProject Website\nEach project team are required to create the project website by using Quarto. It will be disseminated by using Netfity web server.\n\nThe title of your project,\nA short description of not more than 350 words summarising the motivation, objectives, methodology and key findings, and\nThe project proposal.\n\nMotivation of the project\nProject objective\nData\nScope of work\nProject schedule including a Gantt chart\n\nMethodology\n\na detail documentation of the methods used.\n\nResults and Discussion\nLesson learned\n\nPlease refer to the two parts videos I prepared and shared on eLearn to how to create and edit project website using Quatro and how to publish the project website on Netlify service.\n\n\n\nPoster\nThe poster should provide an overview of your project. It should include, but not limited to the following information:\n\nIssues and problems - A clear statement of the issues or/and problems that your project addresses.\nMotivation - An explanation of why the issues and/or problems are interesting and what make them difficult to solve.\nApproach - A description of the GIS analysis and other urban analysis techniques you used to solve the problem.\nResults - Screenshots and a working demo of the system you built.\nFuture Work - An explanation of how the work could be extended.\n\nThe dimensions for the poster must conform to the International Standards Organization (ISO) poster size format (A1).\n\nSize = ISO A1 (594 × 841mm or 23.39 × 33.11inci)\nResolution = 300dpi or above\nFile format = jpeg\n\nPlease ensure that the poster is in high resolution.\nThe poster will be considered as a final deliverable. So don’t forget to apply good visual design principles to both your poster and project report.\nNote: The course instructor will be responsible for printing your poster. You are required to upload your posters to the project webpage of your project one week and your project Dropbox before the poster presentation.\nBelow are sample posters for your reference:\n\nHut of North\nWhat’s Best for Jurong West\n\n\n\nFinal Deliverable\nThe final deliverable will include:\n\nFully updated project webpage\nProject Poster on project webpage\nProject Report on project webpage\nProject artifact, the complete GIS project folder including but not limited to raw data, process data, QGIS project file, and output maps.\n\n\nProject Report\nThe project report should focus on but not limited to the followings:\n\nA detailed discussion of the GIS analysis process and functions used.\nA comprehensive discussion of the analysis results.\nA collection of analytical maps (can be statics or interactive web maps)\n\n\n\nSubmission instruction\nThe project artifact is due (submitted to LMS Dropbox) by the end of the day on 19th November 2023 at 11.59pm (mid-night)."
+  },
+  {
+    "objectID": "GISproject.html#sample-projects",
+    "href": "GISproject.html#sample-projects",
+    "title": "GIS Project",
+    "section": "Sample Projects",
+    "text": "Sample Projects\nNote that the following examples are for references purposes. You are urged to use your own creativity and innovation to design the application.\n\nAY2019-2020 Term 1 Project\n\nG1-Group3 Innogol\nG2-Group15 Nothing is 台南\n\nAY2020-2021 Term 1\n\nGroup 2\nGroup 4\n\nAY2022-2023 Term 1\n\nSingapore: A “Garden City”?\nMass Relevant Transport\nUrban Sensing With Satellites - Jurong Lake District\nLand Cover Change Detection of Punggol\nThe Cost of Coast?\nAl Norte"
+  },
+  {
+    "objectID": "GISproject.html#getting-started-with-quarto",
+    "href": "GISproject.html#getting-started-with-quarto",
+    "title": "GIS Project",
+    "section": "Getting Started with Quarto",
+    "text": "Getting Started with Quarto\n\nDownloading and installing the latest version of R\n\nFor Windows users, use this link\nFor Mac OS users, use this link\n\nDownloading and installing the latest version of RStudio (if you have yet to do so!)\n\nVisit this link.\n\nDownloading and installing Quarto (if you have yet to do so!)\n\nVisit this link to download Quarto installer.\n\nInstalling git\n\nDownload git at this link and install in your computer.\n\nRegister with github\n\nvisit this link and create a github account.\n\nConnecting git with RStudio\n\nVisit this link for instruction.\n\nSigning up at Netlify\n\nvisit this link and signing up with Netlify.\n\nInstalling usethis R package with RStudio.\nSolving git(GitHub) token issue (optional)\n\nRefer to this article if encountered git and gitHub credential issue when you need to connect a local repo with GitHub.\n\n\n\nUseful link to learn more about Quarto\n\nExploring RStudio’s Visual Markdown Editor\nHTML Theming\nMarkdown Basics\nQuarto Websites"
+  },
+  {
+    "objectID": "GISproject.html#peer-learning",
+    "href": "GISproject.html#peer-learning",
+    "title": "GIS Project",
+    "section": "Peer Learning",
+    "text": "Peer Learning\n\nGroup 1: Untitled\nGroup 2: 2023 LIBYA FLOOD\nGroup 3: Saving Derna\nGroup 4: FloodSafe: Derna, Libya\nGroup 5: Derna EvacuConnect\nGroup 6: Accessibility Analysis and Mapping of Emergency Evacuation Centres and Medical Services\nGroup 7: Untitled\nGroup 8: Untitled\nGroup 9: Land Cover Change Analysis in Libya 2023\nGroup 10: FloodScape\nGroup 11: Derna in Distress"
+  },
+  {
+    "objectID": "GISproject.html#reference",
+    "href": "GISproject.html#reference",
+    "title": "GIS Project",
+    "section": "Reference",
+    "text": "Reference\n\nNon-academic Publication\nDerna: The Libyan city known for rebellion — and neglect\nDerna dam collapses\nFloods worsened by Dams collapse lead to deaths of thousands in Libya\nLibya flooding: before and after satellite images reveal scale of disaster in Derna\nLibya flood: Satellite images and aerial photographs show destruction\nSee why Libya’s floods were so deadly in maps and videos\nStorm Daniel, Libya, September 2023\n\n\nResearch Publication\nGIS in Urban Disaster Management.\nGeorge D. Bathrellos et. al. (2023) Natural and Technological Hazards in Urban Areas Assessment, Planning and Solutions\nAbdalla, Rifaat Evaluation of spatial analysis application for urban emergency management, SpringerPlus, 2016, Vol.5 (1), p.2081-2081.\nElkhrachy, Ismail Assessment and Management Flash Flood in Najran Wady Using GIS and Remote Sensing, Journal of the Indian Society of Remote Sensing, 2018, Vol.46 (2), p.297-308.\nAlbano, R ; Sole, A ; Adamowski, J ; Mancusi, L () A GIS-based model to estimate flood consequences and the degree of accessibility and operability of strategic emergency response structures in urban areas, Natural Hazards and Earth System Sciences, Vol.14 (11), p.2847-2865.\nKarymbalis, Efthimios et. al. (2021) Integration of GIS-Based Multicriteria Decision Analysis and Analytic Hierarchy Process for Flood-Hazard Assessment in the Megalo Rema River Catchment(EastAttica,Greece), Sustainability, Vol.13 (18), p.10232\nShi, Hongbin et. al. (2023) A Study on the Accessibility of the Emergency Medical Services for Urban Kindergartens and Nursing Homes Based on Urban Pluvial Flooding Scenarios, Sustainability, Vol.15 (13), p.10443\nSi, Yunrui ; Li, Junli ; Si, Youbin (2023) Urban Flood Loss Estimation and Evacuation Design Based on a 500-Year Extreme Flood Event in Syracuse City, Water, Vol.15 (1), p.3\nQianqian Zhou et. al. (2021) A GIS-Based Hydrological Modeling Approach for Rapid Urban Flood Hazard Assessment, Water 2021, 13(11), 1483.\nWei Zhu et. al. (2022) [Urban Flood-Related Remote Sensing: Research Trends, Gaps and Opportunities] (https://www.mdpi.com/2072-4292/14/21/5505), Remote Sensing. 14(21), 5505.\nMarco Chini et. al. (2019) Sentinel-1 In SAR Coherence to Detect Flood water in Urban Areas: Houston and Hurricane Harvey as A Test Case. Remote sensing, Vol.11 (2), p.107.\nZhixia Wu et. al. (2023) Urban Flood Loss Assessment and Index Insurance Compensation Estimation by Integrating Remote Sensing and Rainfall Multi-Source Data: A Case Study of the 2021 Henan Rainstorm. Sustainability, 15(15), 11639.\nOliveira, E.R.; Disperati, L.; Alves, F.L. (2023) MINDED-FBA: An Automatic Remote Sensing Tool for the Estimation of Flooded and Burned Areas. Remote Sensing, 28 pages.\nManuel A. Aguilar et. al. (2016) “Classification of urban areas from GeoEye-1 imagery through texture features based on Histograms of Equivalent Patterns” European Journal of Remote Sensing, Vol. 49, pp. 93-120."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Welcome to the course webpage of SMT201 Geographic Information Systems for Urban Planning"
+  },
+  {
+    "objectID": "lesson.html",
+    "href": "lesson.html",
+    "title": "Weekly Lesson Plan",
+    "section": "",
+    "text": "Week\nDate\nTopic\nRemarks\n\n\n\n\n1\n13/1/2025\nLesson 1: Introduction to GIS for Urban Planning\n\n\n\n2\n20/1/2025\nLesson 2: The Evil is in The Data\n\n\n\n3\n27/1/2025\nLesson 3: Mapping and Visualising Urban World with GIS\n\n\n\n4\n3/2/2025\nLesson 4: Vector-based GeoProcessing and GIS Analysis\n\n\n\n5\n10/2/2025\nLesson 5: Urban Applications of Vector-based GIS Analysis\n\n\n\n6\n17/2/2025\nLesson 6: The Science of Mapthematics\n\n\n\n7\n24/2/2025\nLesson 7: GIS-based Multi-Criteria Decision Analysis\n\n\n\n8\n3/3/2025\nMid-term break\n\n\n\n9\n10/3/2025\nLesson 8: Introduction to Digital Image Processing and Analysis\n\n\n\n10\n17/3/2025\nLesson 9: Applied Image Analysis for the Urban Environment\n\n\n\n11\n24/3/2024\nLesson 10: Urban Network Analysis with GIS\n\n\n\n12\n31/3/2025\nLesson 11: Geographic Accessibility Analysis with GIS\n\n\n\n13\n7/4/2025\nLesson 12: Sharing Geographical Information\n\n\n\n14\n14/4/2025\nTownhall Presentation"
+  }
+]

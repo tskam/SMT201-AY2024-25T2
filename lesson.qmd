@@ -1,0 +1,21 @@
+---
+title: "Weekly Lesson Plan"
+editor: visual
+---
+
+| Week | Date | Topic | Remarks |
+|------------------|------------------|-------------------|------------------|
+| 1 | 13/1/2025 | [Lesson 1: Introduction to GIS for Urban Planning](outline/lesson01_outline.html) |  |
+| 2 | 20/1/2025 | [Lesson 2: The Evil is in The Data](outline/lesson02_outline.html) |  |
+| 3 | 27/1/2025 | [Lesson 3: Mapping and Visualising Urban World with GIS](outline/lesson03_outline.html) |  |
+| 4 | 3/2/2025 | [Lesson 4: Vector-based GeoProcessing and GIS Analysis](outline/lesson04_outline.html) |  |
+| 5 | 10/2/2025 | [Lesson 5: Urban Applications of Vector-based GIS Analysis](outline/lesson05_outline.html) |  |
+| 6 | 17/2/2025 | [Lesson 6: The Science of Mapthematics](outline/lesson06_outline.html) |  |
+| 7 | 24/2/2025 | [Lesson 7: GIS-based Multi-Criteria Decision Analysis](outline/lesson07_outline.html) |  |
+| 8 | 3/3/2025 | Mid-term break |  |
+| 9 | 10/3/2025 | [Lesson 8: Introduction to Digital Image Processing and Analysis](outline/lesson08_outline.html) |  |
+| 10 | 17/3/2025 | [Lesson 9: Applied Image Analysis for the Urban Environment](outline/lesson09_outline.html) |  |
+| 11 | 24/3/2024 | [Lesson 10: Urban Network Analysis with GIS](outline/lesson10_outline.html) |  |
+| 12 | 31/3/2025 | [Lesson 11: Geographic Accessibility Analysis with GIS](outline/lesson11_outline.html) |  |
+| 13 | 7/4/2025 | [Lesson 12: Sharing Geographical Information](outline/lesson12_outline.html) |  |
+| 14 | 14/4/2025 | Townhall Presentation |  |

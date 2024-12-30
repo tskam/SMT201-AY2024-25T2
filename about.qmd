@@ -1,0 +1,5 @@
+---
+title: "About"
+---
+
+Welcome to the course webpage of SMT201 Geographic Information Systems for Urban Planning
