@@ -1,0 +1,76 @@
+---
+title: "Lesson 3: Mapping and Visualising Urban World with GIS"
+date: "December 31, 2024"
+date-modified: "last-modified"
+format: html
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Overview
+
+In this lesson, you will learn the basic principles and methods of GIS mapping and Geovisualisation. You will also gain hands-on exercise on using QGIS to prepare GIS maps.
+
+## Content
+
+-   Maps and Urban Environments
+-   Typology of Maps
+    -   Reference maps
+    -   Thematic maps
+-   Qualitative thematic mapping
+-   Quantitative thematic mapping
+    -   Number of classes
+    -   Data classification
+    -   Colour scheme
+
+## Lesson Slides and Hands-on Notes
+
+-   Lesson slide in [html](../lesson/Lesson03/Lesson03.html) format.
+-   Hands-on Exercise in [html](https://gis4urbplan.netlify.app/hands-on_ex03) format.
+
+## Readings
+
+### Core Reading (Highly recommended)
+
+-   [What is a map?](https://www.axismaps.com/guide/what-is-a-map)
+-   [Visual Variables](https://www.axismaps.com/guide/visual-variables)
+-   [Using Colors on Maps](https://www.axismaps.com/guide/using-colors-on-maps)
+-   [Scale and Generalization](https://www.axismaps.com/guide/scale-and-generalization)
+-   [Proportional Symbols](https://www.axismaps.com/guide/proportional-symbols)
+-   [Choropleth Maps](https://www.axismaps.com/guide/choropleth)
+-   [The Basics of Data Classification](https://www.axismaps.com/guide/data-classification)
+
+### Additional Readings
+
+-   [Choropleth Maps -- A Guide to Data Classification](https://gisgeography.com/choropleth-maps-data-classification/)
+-   [Bivariate Choropleth](https://www.axismaps.com/guide/bivariate-choropleth)
+-   [Value-by-alpha maps](http://andywoodruff.com/blog/value-by-alpha-maps/)
+-   [What to consider when creating choropleth maps](https://blog.datawrapper.de/choroplethmaps/)
+-   [Choropleth Mapping with Exploratory Data Analysis](https://www.directionsmag.com/article/3363)
+-   [Cartogram Maps: Data Visualization with Exaggeration](https://gisgeography.com/cartogram-maps/)
+-   [Cartogram](https://en.wikipedia.org/wiki/Cartogram)
+
+## References
+
+-   Slocum, T., McMaster R., Kessler, F. and Howard, H. (2005) Thematic Cartography and Geographic Visualization (2nd Edition), Prentice Hall, New Jersey.
+-   Kraak, M-J & Ormeling, F. (2003) (2nd Edition) Cartography: Visualization of Geospatial Data. Pearson Education Limited, Essex, England.
+-   Monmonier, M. (1996) How to Lie with Maps, The University of Chicago Press, USA.
+
+## QGIS methods
+
+-   [4. Module: Laying out the Maps](https://docs.qgis.org/3.16/en/docs/training_manual/map_composer/index.html) of **QGIS Training Manual**.
+-   [9. Map Production](https://docs.qgis.org/3.16/en/docs/gentle_gis_introduction/map_production.html) of **A Gentle Introduction to GIS**.
+-   The following sub-sections of **QGIS User Guide**:
+    -   [The Vector Properties Dialog: Symbology Properties](https://docs.qgis.org/3.16/en/docs/user_manual/working_with_vector/vector_properties.html#symbology-properties)
+    -   [The Vector Properties Dialog: Labels Properties](https://docs.qgis.org/3.16/en/docs/user_manual/working_with_vector/vector_properties.html#labels-properties)
+    -   [The Vector Properties Dialog: Diagrams Properties](https://docs.qgis.org/3.16/en/docs/user_manual/working_with_vector/vector_properties.html#diagrams-properties)
+    -   [14.1.6. Masks Properties](https://docs.qgis.org/3.16/en/docs/user_manual/working_with_vector/vector_properties.html#masks-properties)
+    -   [14.1.7. 3D View Properties](https://docs.qgis.org/3.16/en/docs/user_manual/working_with_vector/vector_properties.html#d-view-properties)
+    -   [14.1.10. Joins Properties](https://docs.qgis.org/3.16/en/docs/user_manual/working_with_vector/vector_properties.html#joins-properties)
+    -   [14.1.13. Display Properties](https://docs.qgis.org/3.16/en/docs/user_manual/working_with_vector/vector_properties.html#display-properties)
+    -   [14.1.14. Rendering Properties](https://docs.qgis.org/3.16/en/docs/user_manual/working_with_vector/vector_properties.html#rendering-properties)
+    -   [14.1.15. Variables Properties](https://docs.qgis.org/3.16/en/docs/user_manual/working_with_vector/vector_properties.html#variables-properties)
+    -   [14.1.18. Legend Properties](https://docs.qgis.org/3.16/en/docs/user_manual/working_with_vector/vector_properties.html#legend-properties)
+    -   [18. Laying out the maps](https://docs.qgis.org/3.16/en/docs/user_manual/print_composer/index.html)

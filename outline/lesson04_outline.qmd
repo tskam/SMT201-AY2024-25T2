@@ -1,0 +1,54 @@
+---
+title: "Lesson 4: Vector-based GIS Analysis Methods"
+date: "December 31, 2024"
+date-modified: "last-modified"
+format: html
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Overview
+
+In this lesson, you will learn the basic concepts and methods of vector-based GIS Analysis. You will also gain hands-on experience on using QGIS to perform basic vector-based GIS analysis operations.
+
+## Content
+
+-   Spatial SQL
+-   Spatial relationship
+-   Geoprocessing Techniques
+    -   CLIP
+    -   DISSOLVE
+    -   APPEND
+    -   SPLIT
+    -   ERASE
+-   Proximity Analysis
+    -   Buffering
+    -   Thiessen Polygon
+-   Vector Overlaying
+
+## Lesson Slides and Hands-on Notes
+
+-   Lesson slide in [html](../lesson/Lesson04/Lesson04.html) format.
+-   Hands-on Exercise in [html](https://gis4urbplan.netlify.app/hands-on_ex04) format.
+
+## Readings
+
+### Core readings
+
+-   [Searches and Queries](https://saylordotorg.github.io/text_essentials-of-geographic-information-systems/s10-02-searches-and-queries.html)
+-   [Geospatial Analysis I: Vector Operations](https://saylordotorg.github.io/text_essentials-of-geographic-information-systems/s11-geospatial-analysis-i-vector-o.html)
+
+## QGIS Methods
+
+-   [10. Vector Spatial Analysis (Buffers))](https://docs.qgis.org/3.16/en/docs/gentle_gis_introduction/vector_spatial_analysis_buffers.html) of **A Gentle Introduction to GIS**.
+-   [6.2. Lesson: Vector Analysis](https://docs.qgis.org/3.16/en/docs/training_manual/vector_analysis/basic_analysis.html) of **QGIS Training Manual**.
+-   The following sub-sections of **QGIS User Guide**:
+    -   [24.1.12. Vector analysis](https://docs.qgis.org/3.16/en/docs/user_manual/processing_algs/qgis/vectoranalysis.html)
+    -   [24.1.13. Vector creation](https://docs.qgis.org/3.16/en/docs/user_manual/processing_algs/qgis/vectorcreation.html)
+    -   [24.1.14. Vector general](https://docs.qgis.org/testing/en/docs/user_manual/processing_algs/qgis/vectorgeneral.html)
+    -   [24.1.15. Vector geometry](https://docs.qgis.org/testing/en/docs/user_manual/processing_algs/qgis/vectorgeometry.html)
+    -   [24.1.16. Vector overlay](https://docs.qgis.org/testing/en/docs/user_manual/processing_algs/qgis/vectoroverlay.html)
+    -   [24.1.17. Vector selection](https://docs.qgis.org/testing/en/docs/user_manual/processing_algs/qgis/vectorselection.html)
+    -   [24.1.18. Vector table](https://docs.qgis.org/testing/en/docs/user_manual/processing_algs/qgis/vectortable.html)

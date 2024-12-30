@@ -1,0 +1,51 @@
+---
+title: "Lesson 6: The Science of Mapthematics: Raster-based GIS analysis methods"
+date: "December 31, 2024"
+date-modified: "last-modified"
+format: html
+---
+
+## Overview
+
+In this lesson, you will learn the basic principles and methods of raster-based GIS analysis. You will also gain hands-on experience on using QGIS to perform basic raster-based GIS analysis operations.
+
+## Content
+
+-   Introduction to Raster-based GIS Analysis
+    -   The basic concept of raster GIS data model
+    -   Raster database
+    -   Characteristics of raster
+    -   Raster resolution
+    -   The composite weight
+-   Map Algebra Methods
+    -   Local functions
+    -   Focal functions
+    -   Neighbourhood functions
+    -   Zonal functions
+-   Cartographic Modelling
+    -   A process of map analysis
+
+## Lesson Slides and Hands-on Notes
+
+-   Lesson slide in [html](../lesson/Lesson06/Lesson06.html) format.
+-   Hands-on Exercise in [html](https://gis4urbplan.netlify.app/hands-on_ex06) format.
+
+## References
+
+### Core Reading
+
+-   [Chapter 10 Map Algebra](https://mgimond.github.io/Spatial/chp10_0.html) of Intro to GIS and Spatial Analysis (online version)
+-   Berry, Joseph (1987) ["A mathematical structure for analyzing maps"](https://link-springer-com.libproxy.smu.edu.sg/content/pdf/10.1007%2FBF01867159.pdf), Environmental Management, Vol.11(3), pp.317-325.
+-   [Cartographic Modeling](http://www.wiley.com/legacy/wileychi/gis/Volume1/BB1v1_ch23.pdf)
+
+### Additional readings
+
+-   [Map algebra](http://en.wikipedia.org/wiki/Map_algebra)
+-   [GIS Modeling and Analysis](http://www.innovativegis.com/basis/papers/other/asprschapter/)
+
+## All About QGIS
+
+-   [Working with Raster Data](https://docs.qgis.org/3.4/en/docs/user_manual/working_with_raster/index.html)
+-   [8.3. Lesson: Terrain Analysis](https://docs.qgis.org/3.4/en/docs/training_manual/rasters/terrain_analysis.html)
+-   [6. Raster Data](https://docs.qgis.org/3.16/en/docs/gentle_gis_introduction/raster_data.html) of **A Gentle Introduction to GIS**.
+-   [7. Module: Rasters](https://docs.qgis.org/3.16/en/docs/training_manual/rasters/index.html) of **QGIS Training Manual**.

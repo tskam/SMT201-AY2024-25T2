@@ -1,0 +1,58 @@
+---
+title: "Lesson 2: The Evil is in The Data"
+date: "December 31, 2024"
+date-modified: "last-modified"
+format: html
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Overview
+
+In this lesson, students will learn the basic principles and concepts of GIS data models. Related properties such as map projection, coordinates systems, georeferencing, geocoding, data storage formats will be discussed too. Open data sources from the global communities as well as Singapore government agencies will be shared too.
+
+## Content
+
+-   Representing Real World Geography
+    -   Digital representation
+    -   The fundamental problem
+    -   The spatial data models
+    -   Topology data models
+-   Georeferencing
+    -   Basic concepts of projections and coordinates
+    -   Georeferencing
+    -   Geocoding
+-   Geospatial data modelling
+    -   Geospatial database design
+    -   Spatial Metadata
+    -   Spatial indexing
+    -   Multi-user editing and versioning
+-   Geospatial Data Repositories
+    -   File-based
+    -   Geospatial RDBMS
+    -   Cloud based geospatial database
+
+## Lesson Slides and Hands-on Notes
+
+-   Lesson slide in [html](../lesson/Lesson02/Lesson02.html) format.
+-   Hands-on Exercise in [html](https://gis4urbplan.netlify.app/hands-on_ex02) format.
+
+## Readings
+
+### Core Readings
+
+-   [Chapter 2 Feature Representation](https://mgimond.github.io/Spatial/chp02_0.html) of Intro to GIS and Spatial Analysis
+-   [Chapter 3 GIS Data Management](https://mgimond.github.io/Spatial/gis-data-management.html) of Intro to GIS and Spatial Analysis
+-   [Chapter 9 Coordinate Systems](https://mgimond.github.io/Spatial/chp09_0.html) of Intro to GIS and Spatial Analysis
+-   [Modeling Our World: The ESRI Guide to Geodatabase Design](http://downloads2.esri.com/support/documentation/ao_/Modeling_our_World.pdf)
+
+### Additional Readings
+
+-   [Map Projection](https://en.wikipedia.org/wiki/Map_projection)
+-   [Geocoding](https://en.wikipedia.org/wiki/Address_geocoding)
+
+## All About QGIS
+
+-   [A Gentle Introduction to GIS](https://docs.qgis.org/3.16/en/docs/gentle_gis_introduction/index.html). Chapter 3-9.

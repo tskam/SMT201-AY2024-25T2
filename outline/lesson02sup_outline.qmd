@@ -1,0 +1,44 @@
+---
+title: "Lesson 3: Modelling Urban World"
+description: "In this lesson, you will learn how to build an urban GIS database to extracting, assembling, integrating and wrangling data from different sources.  You will also learn how to create a geodatabase and performing manual editing."
+date: "`r Sys.Date()`"
+format: html
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Content
+
+-   Geospatial Data Models
+    -   Geospatial database design
+    -   Spatial Metadata
+    -   Spatial indexing
+    -   Multi-user editing and versioning
+-   Geospatial Data Repositories
+    -   File-based
+    -   Geospatial RDBMS
+    -   Cloud based geospatial database
+
+## Lesson Slides and Hands-on Notes
+
+-   Lesson slide in [html](../lesson/Lesson03/Lesson03.html) format.
+-   Hands-on Exercise in [html]() format.
+
+## Readings
+
+### Core Readings
+
+-   [Modeling Our World: The ESRI Guide to Geodatabase Design](http://downloads2.esri.com/support/documentation/ao_/Modeling_our_World.pdf)
+
+### Additional Readings
+
+-   [Geospatial Database Template for Urban Management in Fez (Morocco)](https://www.researchgate.net/publication/266222038_Geospatial_Database_Template_for_Urban_Management_in_Fez_Morocco)
+-   [Preparation of Geodatabase for Urban Planning in Nepal](https://www.fig.net/resources/proceedings/fig_proceedings/fig2018/papers/ts10h/TS10H_oli_shrestha_et_al_9568.pdf)
+-   [Proposal of building a standard geodatabase for urban land use](https://www.researchgate.net/publication/324989663_Proposal_of_building_a_standard_geodatabase_for_urban_land_use)
+-   [Object-oriented GIS Data Modelling for Urban Design](https://www.semanticscholar.org/paper/Object-oriented-GIS-Data-Modelling-for-Urban-Design-Li-Yang/1a170b10fcee2faa783505aac0e49cf32f5b0894?p2df)
+
+## All About QGIS
+
+-   [A Gentle Introduction to GIS](https://docs.qgis.org/3.16/en/docs/gentle_gis_introduction/index.html). Chapter 3-9.

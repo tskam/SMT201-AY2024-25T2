@@ -1,0 +1,59 @@
+---
+title: "Lesson 12: Sharing Geographic Information on the Web: GeoWeb Mapping"
+date: "December 31, 2024"
+date-modified: "last-modified"
+format: html
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Overview
+
+In this lesson, you will learn the basic concepts of GeoWeb Mapping. You will also gain hands-on experience on creating geoweb application using QGIS extension.
+
+## Content
+
+-   Motivation of GeoWeb Mapping
+-   Getting to Know GeoWeb Mapping Technology
+    -   GeoWeb mapping system architecture
+    -   GeoWeb mapping protocol
+    -   GeoWeb mapping systems
+-   Evolution of GeoWeb Mapping
+-   2nd Generation GeoWeb Mapping Technology
+    -   OpenLayers
+    -   Leaflet
+
+## Lesson Slides and Hands-on Notes
+
+-   Lesson slides in [html](../lesson/Lesson12/Lesson12.html) format.
+
+## References
+
+### Concepts and Methods
+
+-   [Web mapping](http://en.wikipedia.org/wiki/Web_mapping)
+-   [7 great alternatives to the Google Maps API](http://www.creativebloq.com/inspiration/top-seven-alternatives-google-maps-api-7122779)
+-   [Essential Resources: Mapping applications, frameworks and libraries](http://www.visualisingdata.com/index.php/2013/09/essential-resources-mapping-applications-frameworks-and-libraries/)
+-   [Research Explores How to Keep Up With Changing Web Mapping Technology](http://www.directionsmag.com/articles/research-explores-how-to-keep-up-with-changing-web-mapping-technology/294410)
+
+## QGIS Methods
+
+### QGIS2WEB Plugin
+
+-   [qgis2web plugin](https://github.com/tomchadwin/qgis2web/wiki)
+
+-   [Make an Open-Source Web Map with QGIS](https://www.youtube.com/watch?v=ZHynmLFhRZs)
+
+-   [Creating a WebMap using QGIS2WEB](https://www.youtube.com/watch?v=0V0V6TWBE14)
+
+-   [QGIS2Web plugin - search tool for multiple layers](https://www.youtube.com/watch?v=aVuL7hP-r7o)
+
+### Qgis2threejs
+
+-   [Qgis2threejs Plugin](https://qgis2threejs.readthedocs.io/en/docs/index.html#)
+
+-   [Creating 3D Maps and Animations using QGIS](https://www.youtube.com/watch?v=hSZSVQqX80k)
+
+-   [three.js](https://threejs.org/)

@@ -1,0 +1,52 @@
+---
+title: "Lesson 5: Urban Applications of Vector-based GIS Analysis"
+date: "December 31, 2024"
+date-modified: "last-modified"
+format: html
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Overview
+
+In this lesson, you will gain hands-on experience on using QGIS vector-based GIS analysis methods discussed in Lesson 5 to address real world urban planning questions.
+
+## Content
+
+-   Trade Area Analysis
+    -   Defining trade areas
+    -   Examples of trade areas
+    -   Factors that influence trade area
+    -   GIS-based trade area analysis process
+    -   GIS-based trade area delineation techniques
+-   Urban Analysis and Monitoring
+    -   Development control
+    -   Urban growth monitoring
+    -   Urban change detection
+
+## Lesson Slides and Hands-on Notes
+
+-   Lesson slide in [html](../lesson/Lesson04/Lesson04.html) format.
+-   Hands-on Exercise in [html](https://gis4urbplan.netlify.app/hands-on_ex05) format.
+
+## References
+
+### Trade Area Analysis
+
+-   [Retail Trade Area Analysis: Concepts and New Approaches](http://www.experts.com/content/articles/Donald-Segal-JDM-Trade%20Area%20Analysis.pdf)
+-   Cui, Can ; Wang, Jiechen ; Pu, Yingxia ; Ma, Jinsong ; Chen, Gang (2012) ["GIS-based method of delimitating trade area for retail chains"](https://web-a-ebscohost-com.libproxy.smu.edu.sg/ehost/detail/detail?vid=0&sid=d8645ef8-9d8e-4b2f-a397-cfbcd9c25f45%40sessionmgr4008&bdata=JnNpdGU9ZWhvc3QtbGl2ZSZzY29wZT1zaXRl#AN=80736486&db=asn). International *Journal of Geographical Information Science*, Vol.26(10), pp.1863-1879.
+-   ["The Evaluation of Trade Area Models and Analysis Methods for Site Selection"](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=17&ved=2ahUKEwiCgIqb4ePkAhWDXSsKHdKODNUQFjAQegQICBAC&url=http%3A%2F%2Ficonarp.selcuk.edu.tr%2Ficonarp%2Farticle%2Fdownload%2F203%2F153&usg=AOvVaw1-fj4zY8aWGmpKmE_2dL3k) from International Quick Service Restaurants' (QSR) Perspective.
+-   [Spatial Delineation of Market Areas: A Proposed Approach](https://spatial.usc.edu/wp-content/uploads/2014/04/GrayAmanda.pdf)
+-   [Shopping Mall Trade Area Analysis](http://www.slideshare.net/decemberstar55/shopping-mall-trade-area-analysis)
+-   [Downtown and Business District Market Analysis -\> Understand the Market: Trade Area Analysis](https://fyi.uwex.edu/downtown-market-analysis/understanding-the-market/trade-area-analysis/)
+-   Sample Trade Area Report
+    -   [Grafici Trade Area Report](http://www.brdconsulting.it/images/Progetti/TradeAreaReport/TradeAreaReportDemo.pdf)
+    -   [Wisconsin Example Studies](https://fyi.extension.wisc.edu/downtown-market-analysis/example-studies/wisconsin-example-studies/)
+
+### GIS-based Urban Analysis
+
+-   [GIS-based analysis of urban land-use changes](https://link-springer-com.libproxy.smu.edu.sg/content/pdf/10.1007%2Fs11769-002-0039-3.pdf)
+-   [Floodplain Management in Urban Developing Areas. Part II. GIS-Based Flood Analysis and Urban Growth Modelling](https://link-springer-com.libproxy.smu.edu.sg/article/10.1023/A%3A1008045419517)
+-   [Urban analysis with GIS](https://link-springer-com.libproxy.smu.edu.sg/content/pdf/10.1023%2FA%3A1014262530372.pdf)

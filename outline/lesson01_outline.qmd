@@ -1,0 +1,65 @@
+---
+title: "Lesson 1: Introduction to GIS for Urban Planning"
+date: "December 31, 2024"
+date-modified: "last-modified"
+format: html
+---
+
+## Overview
+
+This lesson comprises of two sections. First, the motivation, theory and practice of urban planning will be discussed. The urban planning and management of Singapore will be discussed in this section too. The second section discusses the fundamental of Geographic Information Systems (GIS).
+
+## Lesson Outline
+
+### Course Overview
+
+-   An Overview of Urban Planning
+    -   Theory and philosophy of urban planning
+    -   Practice of urban planning
+    -   Urban planning and management in Singapore
+-   Introduction to GIS
+    -   Basic concept of a GIS
+    -   System view of a GIS
+    -   GIS in the context of Smart Nation
+
+## Lesson Slides and Hands-on Notes
+
+-   Lesson slide in [html](../lesson/Lesson01/lesson01.html) format.
+-   Hands-on Exercise in [html](https://gis4urbplan.netlify.app/hands-on_ex01) format.
+
+## Readings
+
+### Core Readings
+
+-   [Urban Planning](https://www.britannica.com/topic/urban-planning)
+-   [What Is GIS?](https://www.esri.com/videos/watch?videoid=LHDCRjAxpI0&title=what-is-gis-)
+-   [Geographic Information Systems and Urban Planning](https://www.youtube.com/watch?v=G9xNKb4T8ZM)
+-   [How GIS technology helps in Smart City growth?](https://www.youtube.com/watch?v=OuzlMPbx78k)
+
+### Addition Readings
+
+#### Urban Planning
+
+-   [Urban Planning](https://en.wikipedia.org/wiki/Urban_planning)
+-   Chapter 2: Re-Examining Singapore's Urban Planning and Governance Framework in [Planning Singapore: The Experimental City](https://www-taylorfrancis-com.libproxy.smu.edu.sg/books/edit/10.4324/9781351058230/planning-singapore-stephen-hamnett-belinda-yuen). This book is available in digital form in smu library.
+-   Shatkin, G (2014) ["Reinterpreting the Meaning of the 'Singapore' Model: State Capitalism and Urban Planning"](https://onlinelibrary-wiley-com.libproxy.smu.edu.sg/doi/full/10.1111/1468-2427.12095), International Journal of Urban and Regional Research, Vol. 38, Issue 1, pp. 116-137.
+
+#### GIS
+
+-   [Chapter 6: Geographic Information Systems](https://link-springer-com.libproxy.smu.edu.sg/content/pdf/10.1007%2F978-3-540-72680-7_6.pdf) of Springer Handbook of Geographic Information
+
+-   [Chapter 20: Planning](https://link-springer-com.libproxy.smu.edu.sg/content/pdf/10.1007%2F978-3-540-72680-7_20.pdf) of Springer Handbook of Geographic Information
+
+-   [What is Geographic Information Systems (GIS)?](https://gisgeography.com/what-gis-geographic-information-systems/)
+
+-   [See What Others Can't](https://mediaspace.esri.com/media/t/1_d46trbg5)
+
+-   [GIS: The Intelligent Nervous System](https://mediaspace.esri.com/media/t/1_tsoo4q11)
+
+-   [GIS - Mapping Common Ground](https://mediaspace.esri.com/playlist/dedicated/261131512/1_4mznih0r/1_zliyhe49)
+
+## All About QGIS
+
+-   [2. Introducing GIS of **A Gentle Introduction to GIS**](https://docs.qgis.org/3.22/en/docs/gentle_gis_introduction/introducing_gis.html).
+-   [**QGIS Use**](https://docs.qgis.org/3.22/en/docs/user_manual/index.html)[**r Guide**](https://docs.qgis.org/3.16/en/docs/user_manual/index.html). Chapter 3-9.
+-   [2. Module: Creating and Exploring a Basic](https://docs.qgis.org/3.22/en/docs/training_manual/basic_map/index.html)[MapQGIS Training Manual](https://docs.qgis.org/3.16/en/docs/training_manual/basic_map/index.html) of **QGIS Training Manual**

@@ -1,0 +1,60 @@
+---
+title: "Lesson 7: GIS-based Multi-Criteria Decision Analysis"
+date: "December 31, 2024"
+date-modified: "last-modified"
+format: html
+---
+
+## Overview
+
+In this lesson, you will learn the basic principles and methods of MCDA. You will also gain hands-on experience on integrating MCDA with raster-based GIS modelling for land suitability analysis.
+
+## Content
+
+-   Descriptive model
+-   Prescriptive models
+    -   Binary method
+    -   Ranking method
+    -   Rating method
+-   GIS‐Based Multiple‐Criteria Decision Analysis
+-   Analytical Hierarchical Process (AHP)
+-   Predictive model
+
+## Lesson Slides and Hands-on Notes
+
+-   Lesson slide in [html](../lesson/Lesson07/lesson07.html) format.
+-   Hands-on Exercise:
+    -   [8 GIS Modelling for Urban Land Suitability Study](https://gis4urbplan.netlify.app/hands-on_ex07)
+    -   [9 GIS-based Multicriteria Decision Analysis (MCDA) for Land Suitability Study](https://gis4urbplan.netlify.app/hands-on_ex08)
+
+## References
+
+### Concepts and Methods
+
+-   Berry, J.K. (2005) [Topic 7--Basic Spatial Modeling Approaches](http://www.innovativegis.com/basis/BeyondMappingSeries/BeyondMapping_III/Topic7/BM_III_T7.htm) and [Topic 8--Spatial Modeling Example](http://www.innovativegis.com/basis/BeyondMappingSeries/BeyondMapping_III/Topic8/BM_III_T8.htm) in **Beyond Mapping III**.
+-   Berry, J. K. (2005) GIS Modeling and Analysis. [Chapter GIS Modeling Frameworks](http://www.innovativegis.com/basis/papers/other/asprschapter/#Berry6_Modeling_Frameworks).
+-   Malczewski, Jacek (2004) ["GIS-based land-use suitability analysis: a critical overview"](https://www-sciencedirect-com.libproxy.smu.edu.sg/science/article/pii/S0305900603000801). *Progress in Planning*, Vol.62(1), pp.3-65.
+-   Montgomery, Bryn ; Dragićević, Suzana (2016) ["Comparison of GIS‐Based Logic Scoring of Preference and Multicriteria Evaluation Methods: Urban Land Use Suitability"](https://onlinelibrary-wiley-com.libproxy.smu.edu.sg/doi/full/10.1111/gean.12103). *Geographical Analysis*, Vol.48(4), pp.427-447.
+-   Siobhan Ryan and Ellis Nimick (2019) [Multi-Criteria Decision Analysis and GIS](https://storymaps.arcgis.com/stories/b60b7399f6944bca86d1be6616c178cf), **ArcGIS StoryMaps**.
+
+### Applications
+
+-   Malihe Masoudi et. al (2021) ["GIS‑Based Multi‑Criteria and Multi‑Objective Evaluation for Sustainable Land‑Use Planning (Case Study: Qaleh Ganj County, Iran)"Landuse Planning Using MCE and Mola""](https://doi.org/10.1007/s41742-021-00326-0), *International Journal of Environmental Research* (2021) 15:457--474
+
+-   Abdullahi, Saleh ; Pradhan, Biswajeet (2016) ["Sustainable Brownfields Land Use Change Modeling Using GIS-based Weights-of-Evidence Approach"](https://link-springer-com.libproxy.smu.edu.sg/article/10.1007/s12061-015-9139-1) *Applied Spatial Analysis and Policy*, Vol.9(1), pp.21-38.
+
+-   Dong, Mei ; Hu, Hui ; Xu, Riqing ; Gong, Xiaonan (2018) ["A GIS-based quantitative geo-environmental evaluation for land-use development in an urban area: Shunyi New City, Beijing, China"](https://link-springer-com.libproxy.smu.edu.sg/article/10.1007/s10064-017-1069-5). *Bulletin of Engineering Geology and the Environment*, Vol.77(3), pp.1203-1215.
+
+-   Parry, Jahangeer A ; Ganaie, Showkat A ; Sultan Bhat, M (2018) ["GIS based land suitability analysis using AHP model for urban services planning in Srinagar and Jammu urban centers of J&K, India"](https://www.sciencedirect.com/science/article/pii/S2226585617301231?via%3Dihub). *Journal of Urban Management*, Vol.7(2), pp.46-56.
+
+-   Chen, Jiapei (2014) ["GIS-based multi-criteria analysis for land use suitability assessment in City of Regina"](https://environmentalsystemsresearch.springeropen.com/articles/10.1186/2193-2697-3-13). *Environmental Systems Research*, Vol.3(1), pp.1-10.
+
+-   Sarath Midatana ; S. Saran ; K. V. Ramana (2018) ["Site suitability analysis for industries using GIS and Multi criteria decision making"](https://doaj.org/article/c00d77c4bebf4754ab22bed617bd3117). *ISPRS Annals of the Photogrammetry, Remote Sensing and Spatial Information Sciences*, Vol.IV-5, pp.447-454.
+
+-   [Modelling land use changes according to transportation scenarios using raster based GIS indicators](https://pdfs.semanticscholar.org/57e2/8189fb06331966e99cb5f44f5e58eb45a6b0.pdf?_ga=2.87358040.1338523781.1569136260-1356347789.1558054866)
+
+-   [Cartographic Modeling Of Land Suitability For Industrial Development In The Egyptian Desert](http://journals.witpress.com/paperinfo.asp?pid=425)
+
+-   [Raster based GIS for Urban Management](http://www.isocarp.net/Data/case_studies/1262.pdf)
+
+-   [Suitability Analysis of Urban Green Space System Based on GIS](http://www.itc.nl/library/papers_2003/msc/upla/yang_manlun.pdf)

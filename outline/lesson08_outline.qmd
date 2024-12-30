@@ -1,0 +1,63 @@
+---
+title: "Lesson 8: Introduction to Digital Image Processing and Analysis "
+date: "December 31, 2024"
+date-modified: "last-modified"
+format: html
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Overview
+
+In this lesson, you will learn the basic principles and concepts of digital image processing and analysis.
+
+## Content
+
+-   Introduction to Remotely Sensed Data
+    -   Basic principles of remotely sensed data
+    -   Spectral resolution
+    -   Spatial resolution
+-   Remotely Sensed Data Sources
+-   Urban Applications of Remotely Sensed Data
+-   Digital Image Analysis Methods
+    -   digital image processing techniques
+    -   Unsupervised classification
+    -   Supervised classification
+
+## Lesson Slides and Hands-on Notes
+
+-   Lesson slides in [html](../lesson/Lesson08/Lesson08.html) format.
+
+-   Hands-on Exercise 8:
+
+    -   [Chapter 2: Acquiring Landsat 8 Data](https://qgis4rdpa.netlify.app/hands-on_01)
+    -   [Chapter 3: Acquiring Sentinel-2 Data](https://qgis4rdpa.netlify.app/hands-on_02)
+    -   [Chapter 4:Processing and Visualising Landsat 8 Data](https://qgis4rdpa.netlify.app/hands-on_03)
+
+## References
+
+### Concepts and Methods
+
+-   Richards, John A. author.; 2013Manfred M. Fischer (2013) [Remote Sensing Digital Image Analysis: An Introduction](https://link-springer-com.libproxy.smu.edu.sg/book/10.1007/978-3-642-30062-2), Springer.
+
+### QGIS Methods
+
+-   [From GIS to Remote Sensing](https://fromgistors.blogspot.com/)
+
+### Remote Sensing Data
+
+-   [Landsat and EROS Center](https://www.usgs.gov/landsat-missions)
+
+-   [Landsat Science](https://landsat.gsfc.nasa.gov/)
+
+-   [Landsat program](https://en.wikipedia.org/wiki/Landsat_program)
+
+-   [Sentinel-2](https://en.wikipedia.org/wiki/Sentinel-2)
+
+-   [Sentinel Online](https://sentinels.copernicus.eu/web/sentinel/home)
+
+-   [GeoEye-1 Satellite Sensor](https://www.satimagingcorp.com/satellite-sensors/geoeye-1/)
+
+-   [WorldView-3](https://earth.esa.int/eogateway/missions/worldview-3)
