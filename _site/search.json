@@ -754,5 +754,579 @@
     "title": "Lesson 1: Introduction to Geographic Information Systems for Urban Planning",
     "section": "In conclusion, GIS support",
     "text": "In conclusion, GIS support\n\n\nBetter informed decision making\nBetter communication with management\nBetter communication between departments\nBetter problem solving\nMore efficient use of resources\n\n\nGIS = Get Intelligent Solutions"
+  },
+  {
+    "objectID": "lesson/Lesson02/lesson02.html#what-will-you-learn-from-this-course",
+    "href": "lesson/Lesson02/lesson02.html#what-will-you-learn-from-this-course",
+    "title": "Lesson 2: The Devil is in the Data: Collection, representation, and modelling",
+    "section": "What will you learn from this course?",
+    "text": "What will you learn from this course?\n\nGetting to Know GIS Data Models\n\nVector Data Model\nRaster Data Model\n\nGeoreferencing\n\nGeographic Coordinate Systems\nProjected Coordinate Systems\n\nGeocoding\n\nHeoHash\n\nSources of GIS data\n\n\nIn this lesson, I will talk about GIS data models. The discussion consists of three main sections. First, I will share the basic principles of geographic phenomena. This is follow by a discussion of GIS data models. In this lesson, we will mainly focus on vector and raster data models. This is followed by explaining two important concepts of geospatial data, namely: georeferencing and geocoding. Lastly, I will share with you how and where we can find geospatial data."
+  },
+  {
+    "objectID": "lesson/Lesson02/lesson02.html#getting-to-know-gis-data-models",
+    "href": "lesson/Lesson02/lesson02.html#getting-to-know-gis-data-models",
+    "title": "Lesson 2: The Devil is in the Data: Collection, representation, and modelling",
+    "section": "Getting to Know GIS Data Models",
+    "text": "Getting to Know GIS Data Models\n\nBasic concept of geographical data\nBasic GIS data models\nVector data models\n\nSpaghetti data models\nTopological data models\n\nRaster data models"
+  },
+  {
+    "objectID": "lesson/Lesson02/lesson02.html#discrete-objects-and-continuous-fields",
+    "href": "lesson/Lesson02/lesson02.html#discrete-objects-and-continuous-fields",
+    "title": "Lesson 2: The Devil is in the Data: Collection, representation, and modelling",
+    "section": "Discrete Objects and Continuous Fields",
+    "text": "Discrete Objects and Continuous Fields\n\nTwo ways of conceptualizing geographic variation\n\nThe most fundamental distinction in geographic representation\n\nDiscrete objects\n\nThe world as a table-top\nObjects with well-defined boundaries"
+  },
+  {
+    "objectID": "lesson/Lesson02/lesson02.html#basic-gis-data-models",
+    "href": "lesson/Lesson02/lesson02.html#basic-gis-data-models",
+    "title": "Lesson 2: The Devil is in the Data: Collection, representation, and modelling",
+    "section": "Basic GIS Data Models",
+    "text": "Basic GIS Data Models\n\nVector, implementation of discrete object conceptual model\n\nPoint, line and polygon representations\nWidely used in cartography, and network analysis\n\nRaster, implementation of field conceptual model\n\nArray of cells used to represent objects\nUseful as background maps and for spatial analysis"
+  },
+  {
+    "objectID": "lesson/Lesson02/lesson02.html#vector-data-models",
+    "href": "lesson/Lesson02/lesson02.html#vector-data-models",
+    "title": "Lesson 2: The Devil is in the Data: Collection, representation, and modelling",
+    "section": "Vector Data Models",
+    "text": "Vector Data Models\n\n\n\nUsed to represent points, lines, and areas\nAll are represented using coordinates\n\nOne per point\n\nLines as polylines\n\nStraight lines between points\n\nAreas as polygons\n\nStraight lines between points, connecting back to the start\nPoint locations recorded as coordinates"
+  },
+  {
+    "objectID": "lesson/Lesson02/lesson02.html#raster-data-model",
+    "href": "lesson/Lesson02/lesson02.html#raster-data-model",
+    "title": "Lesson 2: The Devil is in the Data: Collection, representation, and modelling",
+    "section": "Raster Data Model",
+    "text": "Raster Data Model\n\n\n\nDivide the world into square cells\nRegister the corners to the Earth\nRepresent discrete objects as collections of one or more cells\nRepresent fields by assigning attribute values to cells\nMore commonly used to represent fields than discrete objects\n\nWhat is raster data?, ESRI. A good read to learn the basic of raster data."
+  },
+  {
+    "objectID": "lesson/Lesson02/lesson02.html#unique-properties-of-gis-data",
+    "href": "lesson/Lesson02/lesson02.html#unique-properties-of-gis-data",
+    "title": "Lesson 2: The Devil is in the Data: Collection, representation, and modelling",
+    "section": "Unique Properties of GIS Data",
+    "text": "Unique Properties of GIS Data\n\nGeographical reference\nCartographic generalisation\nGIS data accuracy and uncertainty"
+  },
+  {
+    "objectID": "lesson/Lesson02/lesson02.html#coordinate-systems-and-map-projections",
+    "href": "lesson/Lesson02/lesson02.html#coordinate-systems-and-map-projections",
+    "title": "Lesson 2: The Devil is in the Data: Collection, representation, and modelling",
+    "section": "Coordinate Systems and Map Projections",
+    "text": "Coordinate Systems and Map Projections"
+  },
+  {
+    "objectID": "lesson/Lesson02/lesson02.html#what-is-geocoding",
+    "href": "lesson/Lesson02/lesson02.html#what-is-geocoding",
+    "title": "Lesson 2: The Devil is in the Data: Collection, representation, and modelling",
+    "section": "What is geocoding",
+    "text": "What is geocoding\nReference data: features with address attributes points, lines, polygons.\n\nReference: Geocoding"
+  },
+  {
+    "objectID": "lesson/Lesson02/lesson02.html#sources-of-gis-data",
+    "href": "lesson/Lesson02/lesson02.html#sources-of-gis-data",
+    "title": "Lesson 2: The Devil is in the Data: Collection, representation, and modelling",
+    "section": "Sources of GIS data",
+    "text": "Sources of GIS data\n\nField surveying Conventional land surveying GPS surveying\nDigitising\nRemote sensing Airborn Satellite Sensor (i.e. IoT)\nDigital data Internet map services Open Data.gov"
+  },
+  {
+    "objectID": "lesson/Lesson03/lesson03.html#what-will-you-learn-in-this-lesson",
+    "href": "lesson/Lesson03/lesson03.html#what-will-you-learn-in-this-lesson",
+    "title": "Lesson 3: Mapping and Visualising Urban World with GIS",
+    "section": "What will you learn in this lesson?",
+    "text": "What will you learn in this lesson?\n\nMaps and Urban Environments\nTypology of Maps\n\nReference maps\nThematic maps\n\nQualitative thematic mapping\nQuantitative thematic mapping\n\nNumber of classes\nData classification\nColour scheme"
+  },
+  {
+    "objectID": "lesson/Lesson03/lesson03.html#learning-objectives",
+    "href": "lesson/Lesson03/lesson03.html#learning-objectives",
+    "title": "Lesson 3: Mapping and Visualising Urban World with GIS",
+    "section": "Learning objectives",
+    "text": "Learning objectives\nBy the end of this lesson, students will be able:\n\nto understand and explain the basic principles and methods of thematic mapping and cartographic design, and\nto use these understanding to design analytical maps to enlighten."
+  },
+  {
+    "objectID": "lesson/Lesson03/lesson03.html#visualising-urban-environments-in-a-map",
+    "href": "lesson/Lesson03/lesson03.html#visualising-urban-environments-in-a-map",
+    "title": "Lesson 3: Mapping and Visualising Urban World with GIS",
+    "section": "Visualising Urban Environments in a Map",
+    "text": "Visualising Urban Environments in a Map\nAn interface between geospatial data users and geospatial data.\n\nOld proverb: A picture is worth a thousand words\n\n\n\nNew proverb: A map is worth a thousand numbers, maybe more!\n\n\nA map is a model of our environments.\nA map represents geographical data. However, it is also an interface between map viewers and the"
+  },
+  {
+    "objectID": "lesson/Lesson03/lesson03.html#role-of-maps",
+    "href": "lesson/Lesson03/lesson03.html#role-of-maps",
+    "title": "Lesson 3: Mapping and Visualising Urban World with GIS",
+    "section": "Role of Maps",
+    "text": "Role of Maps\n\nRecord and store spatially referenced data\nServe as computational aids\nServe as aids to mobility\nSummarise complex, voluminous spatial data\nHelp us to explore spatial patterns\nHelp us to visualise large volume of spatial data\nServe as trigger devices to stimulate thought"
+  },
+  {
+    "objectID": "lesson/Lesson03/lesson03.html#typology-of-maps",
+    "href": "lesson/Lesson03/lesson03.html#typology-of-maps",
+    "title": "Lesson 3: Mapping and Visualising Urban World with GIS",
+    "section": "Typology of Maps",
+    "text": "Typology of Maps"
+  },
+  {
+    "objectID": "lesson/Lesson03/lesson03.html#thematic-mapping",
+    "href": "lesson/Lesson03/lesson03.html#thematic-mapping",
+    "title": "Lesson 3: Mapping and Visualising Urban World with GIS",
+    "section": "Thematic Mapping",
+    "text": "Thematic Mapping\n\n\nQualitative Thematic Map\n\n\n\n\n\n\nQuantitative Thematic Map"
+  },
+  {
+    "objectID": "lesson/Lesson03/lesson03.html#reference",
+    "href": "lesson/Lesson03/lesson03.html#reference",
+    "title": "Lesson 3: Mapping and Visualising Urban World with GIS",
+    "section": "Reference",
+    "text": "Reference\nProportional Symbols\nChoropleth Maps\nDot Density Maps\nThe Basics of Data Classification\nShould a map be interactive?\nMap interaction"
+  },
+  {
+    "objectID": "lesson/Lesson04/lesson04.html#content",
+    "href": "lesson/Lesson04/lesson04.html#content",
+    "title": "Lesson 4: Beyond MappingVector-based Geoprocessing and GIS Analysis",
+    "section": "Content",
+    "text": "Content\n\nIdentifying and Measurment\nSpatial Query\nGeoprocessing Techniques\n\nCLIP, DISSOLVE, APPEND, SPLIT, and ERASE\n\nProximity Analysis\n\nBuffering\nThiessen Polygon\n\nTopological Overlaying"
+  },
+  {
+    "objectID": "lesson/Lesson04/lesson04.html#what-will-you-learn-from-this-course",
+    "href": "lesson/Lesson04/lesson04.html#what-will-you-learn-from-this-course",
+    "title": "Lesson 4: Beyond MappingVector-based Geoprocessing and GIS Analysis",
+    "section": "What will you learn from this course?",
+    "text": "What will you learn from this course?\n\nIdentify or measure geographic data\nSearch geographical features by attributes\nTransform GIS data using geoprocessing tools such as clip, dissolve, and merge\nAnswer location related questions using vector-based GIS analysis functions such as spatial query, buffering, topology overlay, and spatial overlay\nPerform specialised spatial analysis using mathematical algorithms such as centroid, convex hull, voronoi, and districting."
+  },
+  {
+    "objectID": "lesson/Lesson04/lesson04.html#gis-analysis-or-the-end-of-mathematics",
+    "href": "lesson/Lesson04/lesson04.html#gis-analysis-or-the-end-of-mathematics",
+    "title": "Lesson 4: Beyond MappingVector-based Geoprocessing and GIS Analysis",
+    "section": "GIS Analysis or the end of Mathematics?",
+    "text": "GIS Analysis or the end of Mathematics?\n\n\n\nIdentifying & Measuring\nSelection\nGeoprocessing\nBuffering\nOverlay"
+  },
+  {
+    "objectID": "lesson/Lesson04/lesson04.html#gis-analysis-or-the-end-of-mathematics-1",
+    "href": "lesson/Lesson04/lesson04.html#gis-analysis-or-the-end-of-mathematics-1",
+    "title": "Lesson 4: Beyond MappingVector-based Geoprocessing and GIS Analysis",
+    "section": "GIS Analysis or the end of Mathematics?",
+    "text": "GIS Analysis or the end of Mathematics?\n\n\n\nIdentifying & Measuring\nSelection\nGeoprocessing\nBuffering\nOverlay"
+  },
+  {
+    "objectID": "lesson/Lesson04/lesson04.html#geoprocessing-functions",
+    "href": "lesson/Lesson04/lesson04.html#geoprocessing-functions",
+    "title": "Lesson 4: Beyond MappingVector-based Geoprocessing and GIS Analysis",
+    "section": "Geoprocessing Functions",
+    "text": "Geoprocessing Functions\nA collection of GIS functions for transforming the geometrics of GIS data\n\nCLIP\nDISSOLVE\nAPPEND\nSPLIT\nERASE etc"
+  },
+  {
+    "objectID": "lesson/Lesson04/lesson04.html#proximity-analysis-finding-whats-nearby",
+    "href": "lesson/Lesson04/lesson04.html#proximity-analysis-finding-whats-nearby",
+    "title": "Lesson 4: Beyond MappingVector-based Geoprocessing and GIS Analysis",
+    "section": "Proximity Analysis: Finding what’s nearby",
+    "text": "Proximity Analysis: Finding what’s nearby\n\n\n\nOne of the most powerful operations of a GIS.\nMany important questions hinge on proximity, the distance between features of interest.\n\nHow closed are secondary schools to alcohol and tobacco stores?\nWhat neighbourhood are far from NTUC Fairprice?\nWhich buildings will be affected by the construction of Thomson-East Coast Line?\n\n\n\n\nBased on the concept of proximity, buffering creates two areas: one area that is within a specified distance of selected features and the other area that is beyond.\nThe area that is within the specified distance is called buffer zone.\nFeatures for buffering may be points, lines, or areas."
+  },
+  {
+    "objectID": "lesson/Lesson04/lesson04.html#gis-analysis-or-the-end-of-mathematics-2",
+    "href": "lesson/Lesson04/lesson04.html#gis-analysis-or-the-end-of-mathematics-2",
+    "title": "Lesson 4: Beyond MappingVector-based Geoprocessing and GIS Analysis",
+    "section": "GIS Analysis or the end of Mathematics?",
+    "text": "GIS Analysis or the end of Mathematics?\n\n\n\nIdentifying & Measuring\nSelection\nGeoprocessing\nBuffering\nOverlay"
+  },
+  {
+    "objectID": "lesson/Lesson04/lesson04.html#reference",
+    "href": "lesson/Lesson04/lesson04.html#reference",
+    "title": "Lesson 4: Beyond MappingVector-based Geoprocessing and GIS Analysis",
+    "section": "Reference",
+    "text": "Reference\nJochen Albrecht (2007) Key Concepts and Techniques in GIS, Chapter 4-6. SAGE Publication. This book is available in smu library. Click on this link.\nJonathan Campbell and MIchael Shin (2011) Essentials of Geographic Information Systems, Saylor Foundation. Chapter 7: Geospatial Analysis I: Vector Operations."
+  },
+  {
+    "objectID": "lesson/Lesson06/lesson06.html#content",
+    "href": "lesson/Lesson06/lesson06.html#content",
+    "title": "Lesson 6: The Science of MapthematicsRaster-based GIS Analysis Methods",
+    "section": "Content",
+    "text": "Content\n\nIntroduction to Raster GIS\n\nThe basic concept of raster GIS data model\nRaster database\nCharacteristics of raster\nRaster resolution\n\nMap Algebra Methods\n\nLocal functions\nFocal functions\nNeighbourhood functions\nZonal functions"
+  },
+  {
+    "objectID": "lesson/Lesson06/lesson06.html#raster-gis-data",
+    "href": "lesson/Lesson06/lesson06.html#raster-gis-data",
+    "title": "Lesson 6: The Science of MapthematicsRaster-based GIS Analysis Methods",
+    "section": "Raster GIS Data",
+    "text": "Raster GIS Data\n\n\n\nAll raster formats are basically the same\n\nCells organized in a matrix of rows and columns\n\nContent is more important than format: data or picture?"
+  },
+  {
+    "objectID": "lesson/Lesson06/lesson06.html#map-algebra",
+    "href": "lesson/Lesson06/lesson06.html#map-algebra",
+    "title": "Lesson 6: The Science of MapthematicsRaster-based GIS Analysis Methods",
+    "section": "Map Algebra",
+    "text": "Map Algebra\n\n\n\nMap algebra is a simple and an elegant set based algebra for manipulating geographic data, proposed by Dr. Dana Tomlin in the early 1980s.\nIt is a set of primitive operations in a GIS which allows one or more raster layers (“maps”) of similar dimensions to produce a new raster layer (map) using algebraic operations such as addition, subtraction etc."
+  },
+  {
+    "objectID": "lesson/Lesson06/lesson06.html#map-algebra-functions",
+    "href": "lesson/Lesson06/lesson06.html#map-algebra-functions",
+    "title": "Lesson 6: The Science of MapthematicsRaster-based GIS Analysis Methods",
+    "section": "Map Algebra Functions",
+    "text": "Map Algebra Functions\n\nLocal function – characterising individual locations\nNeighbourhood function – characterising locations within neighbourhood\nZonal function – characterising location within a zone"
+  },
+  {
+    "objectID": "lesson/Lesson06/lesson06.html#neighbourhood-functions",
+    "href": "lesson/Lesson06/lesson06.html#neighbourhood-functions",
+    "title": "Lesson 6: The Science of MapthematicsRaster-based GIS Analysis Methods",
+    "section": "Neighbourhood Functions",
+    "text": "Neighbourhood Functions\n\nThese are also called focal functions.\nLocal neighbourhood functions examine the target cell and immediate neighbours.\nA value is returned based on their combined evaluation.\nNeighbourhood scan be defined by rectangles, circles, wedges, doughnut shapes (annulus) etc."
+  },
+  {
+    "objectID": "lesson/Lesson06/lesson06.html#zonal-functions",
+    "href": "lesson/Lesson06/lesson06.html#zonal-functions",
+    "title": "Lesson 6: The Science of MapthematicsRaster-based GIS Analysis Methods",
+    "section": "Zonal Functions",
+    "text": "Zonal Functions\n\n\n\nA zonal operation is employed on groups of cells of similar value or like features, not surprisingly called zones.\nThese zones could be conceptualized as raster versions of polygons. Zonal rasters are often created by reclassifying an input raster into just a few categories.\nZonal operations may be applied to a single raster or two overlaying rasters.\nGiven a single input raster, zonal operations measure the geometry of each zone in the raster, such as area, perimeter, thickness, and centroid."
+  },
+  {
+    "objectID": "lesson/Lesson06/lesson06.html#global-functions",
+    "href": "lesson/Lesson06/lesson06.html#global-functions",
+    "title": "Lesson 6: The Science of MapthematicsRaster-based GIS Analysis Methods",
+    "section": "Global Functions",
+    "text": "Global Functions\n\n\n\nGlobal operations are similar to zonal operations whereby the entire raster dataset’s extent represents a single zone.\nTypical global operations include determining basic statistical values for the raster as a whole.\nFor example, the minimum, maximum, average, range, and so forth can be quickly calculated over the entire extent of the input raster and subsequently be output to a raster in which every cell contains that calculated value."
+  },
+  {
+    "objectID": "lesson/Lesson06/lesson06.html#distance-functions-euclidean-distance",
+    "href": "lesson/Lesson06/lesson06.html#distance-functions-euclidean-distance",
+    "title": "Lesson 6: The Science of MapthematicsRaster-based GIS Analysis Methods",
+    "section": "Distance Functions: Euclidean Distance",
+    "text": "Distance Functions: Euclidean Distance\n\n\n\nThe Euclidean distance functions describe each cell’s relationship to a source or a set of sources.\nThe Euclidean distance output raster contains the measured distance from every cell to the nearest source."
+  },
+  {
+    "objectID": "lesson/Lesson06/lesson06.html#terrain-analysis",
+    "href": "lesson/Lesson06/lesson06.html#terrain-analysis",
+    "title": "Lesson 6: The Science of MapthematicsRaster-based GIS Analysis Methods",
+    "section": "Terrain Analysis",
+    "text": "Terrain Analysis\n\nTerrain models\nSlope and Aspect\nHillshading\nTerrain Profile\nVisibility Analysis"
+  },
+  {
+    "objectID": "lesson/Lesson06/lesson06.html#reference",
+    "href": "lesson/Lesson06/lesson06.html#reference",
+    "title": "Lesson 6: The Science of MapthematicsRaster-based GIS Analysis Methods",
+    "section": "Reference",
+    "text": "Reference\n\nBeyond Mapping I\nBeyond Mapping II - Spatial Reasoning\nBeyond Mapping III - Map Analysis\nBeyond Mapping IV – GIS Modeling"
+  },
+  {
+    "objectID": "lesson/Lesson07/lesson07.html#content",
+    "href": "lesson/Lesson07/lesson07.html#content",
+    "title": "Lesson 7: GIS-based Multi-Criteria Decision Analysis",
+    "section": "Content",
+    "text": "Content\n\nDescriptive model\nPrescriptive models\n\nBinary method\nRanking method\nRating method\n\nGIS‐Based Multiple‐Criteria Decision Analysis\nAnalytical Hierarchical Process (AHP)\nPredictive model"
+  },
+  {
+    "objectID": "lesson/Lesson07/lesson07.html#gis-based-descriptive-model",
+    "href": "lesson/Lesson07/lesson07.html#gis-based-descriptive-model",
+    "title": "Lesson 7: GIS-based Multi-Criteria Decision Analysis",
+    "section": "GIS-based Descriptive Model",
+    "text": "GIS-based Descriptive Model\n\nUsing GIS maps to describe the spatial distribution of real world phenomena."
+  },
+  {
+    "objectID": "lesson/Lesson07/lesson07.html#gis-based-prescriptive-model",
+    "href": "lesson/Lesson07/lesson07.html#gis-based-prescriptive-model",
+    "title": "Lesson 7: GIS-based Multi-Criteria Decision Analysis",
+    "section": "GIS-based Prescriptive Model",
+    "text": "GIS-based Prescriptive Model\n\nSuitability analysis in a GIS context is a geographic, or GIS-based process used to determine the appropriateness of a given area for a particular use.\nThe basic premise of GIS suitability analysis is that each aspect of the landscape has intrinsic characteristics that are to some degree either suitable or unsuitable for the activities being planned.\nThe results are often displayed on a map that is used to highlight areas from high to low suitability."
+  },
+  {
+    "objectID": "lesson/Lesson07/lesson07.html#multiplecriteria-decision-analysis-process",
+    "href": "lesson/Lesson07/lesson07.html#multiplecriteria-decision-analysis-process",
+    "title": "Lesson 7: GIS-based Multi-Criteria Decision Analysis",
+    "section": "Multiple‐Criteria Decision Analysis Process",
+    "text": "Multiple‐Criteria Decision Analysis Process"
+  },
+  {
+    "objectID": "lesson/Lesson07/lesson07.html#gisbased-multiplecriteria-decision-analysis",
+    "href": "lesson/Lesson07/lesson07.html#gisbased-multiplecriteria-decision-analysis",
+    "title": "Lesson 7: GIS-based Multi-Criteria Decision Analysis",
+    "section": "GIS‐Based Multiple‐Criteria Decision Analysis",
+    "text": "GIS‐Based Multiple‐Criteria Decision Analysis"
+  },
+  {
+    "objectID": "lesson/Lesson07/lesson07.html#analytical-hierarchical-process-ahp",
+    "href": "lesson/Lesson07/lesson07.html#analytical-hierarchical-process-ahp",
+    "title": "Lesson 7: GIS-based Multi-Criteria Decision Analysis",
+    "section": "Analytical Hierarchical Process (AHP)",
+    "text": "Analytical Hierarchical Process (AHP)\n\nA method for decision making in situations where multiple objectives are present.\nIt uses a pair-wise comparison matrix to calculate the relative value and costs of security requirements.\nBy using AHP, the requirements engineer can also confirm the consistency of the result.\nAHP can prevent subjective judgment errors and increase the likelihood that the results are reliable.\nTo learn more, click on this link."
+  },
+  {
+    "objectID": "lesson/Lesson07/lesson07.html#gis-based-predictive-model",
+    "href": "lesson/Lesson07/lesson07.html#gis-based-predictive-model",
+    "title": "Lesson 7: GIS-based Multi-Criteria Decision Analysis",
+    "section": "GIS-based Predictive Model",
+    "text": "GIS-based Predictive Model\n\nGeospatial hedonic pricing modelling"
+  },
+  {
+    "objectID": "lesson/Lesson08/lesson08.html#content",
+    "href": "lesson/Lesson08/lesson08.html#content",
+    "title": "Lesson 8: Fundamentals of Remote Sensing",
+    "section": "Content",
+    "text": "Content\n\nPrinciples of Remote Sensing\n\nA historical overview\n\nPhysical Principles of Remote Sensing\nBasic principles of remotely sensed data\n\nSpectral resolution\nSpatial resolution\n\nRemotely Sensed Data Sources\nUrban Applications of Remotely Sensed Data\nDigital Image Analysis Methods image\n\nprocessing techniques"
+  },
+  {
+    "objectID": "lesson/Lesson08/lesson08.html#principles-of-remote-sensing",
+    "href": "lesson/Lesson08/lesson08.html#principles-of-remote-sensing",
+    "title": "Lesson 8: Fundamentals of Remote Sensing",
+    "section": "Principles of Remote Sensing",
+    "text": "Principles of Remote Sensing\n\n\n\nRemote sensing refers to the activities of recording, observing, and perceiving (sensing) objects or events in far-away (remote) places.\nIn remote sensing, the sensors are not in direct contact with the objects or events being observed.\nElectromagnetic radiation normally is used as the information carrier in remote sensing.\nThe output of a remote sensing system is usually an image representing the scene being observed.\nA further step of image analysis and interpretation is required to extract useful information from the image."
+  },
+  {
+    "objectID": "lesson/Lesson08/lesson08.html#physical-principles-of-remote-sensing",
+    "href": "lesson/Lesson08/lesson08.html#physical-principles-of-remote-sensing",
+    "title": "Lesson 8: Fundamentals of Remote Sensing",
+    "section": "Physical Principles of Remote Sensing",
+    "text": "Physical Principles of Remote Sensing\nElectromagnetic Radiation\n\n\nElectromagnetic spectrum is a system, which “classifies all energy by wavelengths (from short wavelength cosmic energy to long wavelength radio waves) that travel harmonically with constant speed of light” (NASA, 2013)."
+  },
+  {
+    "objectID": "lesson/Lesson08/lesson08.html#popular-remotely-sensed-data-landsat",
+    "href": "lesson/Lesson08/lesson08.html#popular-remotely-sensed-data-landsat",
+    "title": "Lesson 8: Fundamentals of Remote Sensing",
+    "section": "Popular Remotely Sensed Data: Landsat",
+    "text": "Popular Remotely Sensed Data: Landsat\n\nThe Landsat program is the longest-running enterprise for the acquisition of satellite imagery of the Earth.\nThe first satellite within the program was launched in 1972, the most recent one, Landsat 8, on February 11, 2013."
+  },
+  {
+    "objectID": "lesson/Lesson08/lesson08.html#popular-remotely-sensed-data-sentinel",
+    "href": "lesson/Lesson08/lesson08.html#popular-remotely-sensed-data-sentinel",
+    "title": "Lesson 8: Fundamentals of Remote Sensing",
+    "section": "Popular Remotely Sensed Data: Sentinel",
+    "text": "Popular Remotely Sensed Data: Sentinel\nSentinel is the Copernicus Programme satellite constellation conducted by the European Space Agency. The Sentinel missions have the following objectives:\n\nSentinel‑1 provides all-weather, day and night radar imaging. The first Sentinel‑1A satellite was successfully launched in 2014, and the second, Sentinel‑1B, in two years — on 25 April 2016.\nSentinel‑2 provides high-resolution optical imaging for land services (e. g. imagery of vegetation, soil and water cover, inland waterways and coastal areas). Sentinel‑2 also provides real-time information for emergency services. The first Sentinel‑2 satellite was successfully launched on 23 June 2015.\nSentinel‑3 provides ocean and global land monitoring services. The first Sentinel‑3A satellite was launched on 16 January 2016.\nSentinel‑4 will be launched in 2023. It is intended to provide data for monitoring of atmospheric composition and operate jointly with a Meteosat Third Generation Satellite."
+  },
+  {
+    "objectID": "lesson/Lesson08/lesson08.html#fundamentals-of-image-processing",
+    "href": "lesson/Lesson08/lesson08.html#fundamentals-of-image-processing",
+    "title": "Lesson 8: Fundamentals of Remote Sensing",
+    "section": "Fundamentals of Image Processing",
+    "text": "Fundamentals of Image Processing\n\nImage Enhancement\nBand Combinations, Ratios and Indices\nColour Composite Images"
+  },
+  {
+    "objectID": "lesson/Lesson08/lesson08.html#image-enhancement",
+    "href": "lesson/Lesson08/lesson08.html#image-enhancement",
+    "title": "Lesson 8: Fundamentals of Remote Sensing",
+    "section": "Image enhancement",
+    "text": "Image enhancement\n\nEnhancements are used to make it easier for visual interpretation and understanding of imagery. The advantage of digital imagery is that it allows us to manipulate the digital pixel values in an image.\nCommon practices include\n\ncontrast enhancement,\nspatial filtering and\ndensity slicing."
+  },
+  {
+    "objectID": "lesson/Lesson08/lesson08.html#spatial-filtering",
+    "href": "lesson/Lesson08/lesson08.html#spatial-filtering",
+    "title": "Lesson 8: Fundamentals of Remote Sensing",
+    "section": "Spatial Filtering",
+    "text": "Spatial Filtering\n\nSpatial filtering encompasses another set of digital processing functions which are used to enhance the appearance of an image.\nSpatial filters are designed to highlight or suppress specific features in an image based on their spatial frequency.\nSpatial frequency is related to the concept of image texture,\nA common filtering procedure involves moving a ‘window’ of a few pixels in dimension (e.g. 3x3, 5x5, etc.) over each pixel in the image, applying a mathematical calculation using the pixel values under that window, and replacing the central pixel with the new value."
+  },
+  {
+    "objectID": "lesson/Lesson08/lesson08.html#band-combinations-ratios-and-indices",
+    "href": "lesson/Lesson08/lesson08.html#band-combinations-ratios-and-indices",
+    "title": "Lesson 8: Fundamentals of Remote Sensing",
+    "section": "Band Combinations, Ratios and Indices",
+    "text": "Band Combinations, Ratios and Indices\n\nNormalized Difference Vegetation Index (NDVI)\nNormalized Difference Built-up Index (NDBI)"
+  },
+  {
+    "objectID": "lesson/Lesson08/lesson08.html#colour-composite-images",
+    "href": "lesson/Lesson08/lesson08.html#colour-composite-images",
+    "title": "Lesson 8: Fundamentals of Remote Sensing",
+    "section": "Colour Composite Images",
+    "text": "Colour Composite Images\n\n\nIn displaying a colour composite image, three primary colours (red, green and blue) are used. When these three colours are combined in various proportions, they produce different colours in the visible spectrum. Associating each spectral band (not necessarily a visible band) to a separate primary colour results in a colour composite image."
+  },
+  {
+    "objectID": "lesson/Lesson08/lesson08.html#reference",
+    "href": "lesson/Lesson08/lesson08.html#reference",
+    "title": "Lesson 8: Fundamentals of Remote Sensing",
+    "section": "Reference",
+    "text": "Reference\n\nRichards, John A (2013) Remote Sensing Digital Image Analysis: An Introduction, Springer.\n\nChapter 1: Sources and Characteristics\nChapter 4: Radiometric Enhancement of Images\nChapter 5: Geometric Processing and Enhancement: Image Domain Techniques\n\nCanada Centre for Remote Sensing Fundamentals of Remote Sensing."
+  },
+  {
+    "objectID": "lesson/Lesson09/lesson09.html#content",
+    "href": "lesson/Lesson09/lesson09.html#content",
+    "title": "Lesson 9: Applied Image Analysis for the Urban Environment",
+    "section": "Content",
+    "text": "Content\n\nUrban Land Cover Classification\nUnsupervised Classification Methods\nSupervised Classification Process\nClassification Accuracy Metrics"
+  },
+  {
+    "objectID": "lesson/Lesson09/lesson09.html#urban-land-cover-classification-of-satellite-remote-sensing-imagery",
+    "href": "lesson/Lesson09/lesson09.html#urban-land-cover-classification-of-satellite-remote-sensing-imagery",
+    "title": "Lesson 9: Applied Image Analysis for the Urban Environment",
+    "section": "Urban Land Cover Classification of Satellite Remote Sensing Imagery",
+    "text": "Urban Land Cover Classification of Satellite Remote Sensing Imagery\n\n\nThe process of assigning a pixel (or groups of pixels) of remote sensing image to an urban land cover class.\n\nUnsupervised Classification in which the computer assigns pixels to categories with no instructions from the image analyst.\nSupervised Classification in which the image analyst provides training-site information that the computer uses to assign pixels to categories."
+  },
+  {
+    "objectID": "lesson/Lesson09/lesson09.html#unsupervised-classification",
+    "href": "lesson/Lesson09/lesson09.html#unsupervised-classification",
+    "title": "Lesson 9: Applied Image Analysis for the Urban Environment",
+    "section": "Unsupervised Classification",
+    "text": "Unsupervised Classification\n\n\n\nThe goal of unsupervised classification is to automatically segregate pixels of a remote sensing image into groups of similar spectral character.\nClassification is done using one of several statistical routines generally called “clustering” where classes of pixels are created based on their shared spectral signatures.\nClusters are split and /or merged until further clustering doesn’t improve the explanation of the variation in the scene."
+  },
+  {
+    "objectID": "lesson/Lesson09/lesson09.html#supervised-classification",
+    "href": "lesson/Lesson09/lesson09.html#supervised-classification",
+    "title": "Lesson 9: Applied Image Analysis for the Urban Environment",
+    "section": "Supervised Classification",
+    "text": "Supervised Classification\n\n\nSupervised training is closely controlled by the analyst. In this process, you select pixels that represent patterns or land cover features that you recognize, or that you can identify with help from other sources, such as aerial photos, ground truth data, or maps. Knowledge of the data, and of the classes desired, is required before classification.\nBy identifying patterns, you can instruct the computer system to identify pixels with similar characteristics. If the classification is accurate, the resulting classes represent the categories within the data that you originally identified."
+  },
+  {
+    "objectID": "lesson/Lesson09/lesson09.html#machine-learning-random-forest",
+    "href": "lesson/Lesson09/lesson09.html#machine-learning-random-forest",
+    "title": "Lesson 9: Applied Image Analysis for the Urban Environment",
+    "section": "Machine Learning: Random Forest",
+    "text": "Machine Learning: Random Forest\n\n\n\n\nThe Random Forest (RF) algorithm (Breimann 2001) is a supervised classification algorithm. It builds upon the concept of decision trees (DT).\nThe RF relies on many self-learning decision trees (i.e. “Forest”). The idea behind using many decision trees (i.e. an ensemble) is that many base learners can come to one strong and robust decision compared to a single DT.\nDifferent from the manual (expert-based) definition of decision rules, the RF uses self-learning decision trees. These trees automatically define rules at each node based on a training dataset.\nRF seeks to minimize the heterogeneity of the two resulting subsets of the data created by the respective rule. Heterogeneity is in this case expressed as the Gini impurity index and the rule creating the least heterogeneous subsets of the data is used for the respective node."
+  },
+  {
+    "objectID": "lesson/Lesson09/lesson09.html#reference",
+    "href": "lesson/Lesson09/lesson09.html#reference",
+    "title": "Lesson 9: Applied Image Analysis for the Urban Environment",
+    "section": "Reference",
+    "text": "Reference\n\nLand Cover & Land Use\nRichards and Jia (2006) Remote Sensing Digital Image Analysis: An Introduction, Springer."
+  },
+  {
+    "objectID": "lesson/Lesson10/lesson10.html#content",
+    "href": "lesson/Lesson10/lesson10.html#content",
+    "title": "Lesson 10: Urban Network Analysis with GIS",
+    "section": "Content",
+    "text": "Content\n\nWhy analyse with network?\nNetwork model\nReal world network system\nComplexity of urban road network\nShortest path analysis algorithm\nNetwork analysis methods"
+  },
+  {
+    "objectID": "lesson/Lesson10/lesson10.html#location-question",
+    "href": "lesson/Lesson10/lesson10.html#location-question",
+    "title": "Lesson 10: Urban Network Analysis with GIS",
+    "section": "Location question",
+    "text": "Location question\n\nHow to assign the eldercare centres to the closest polyclinic?"
+  },
+  {
+    "objectID": "lesson/Lesson10/lesson10.html#a-network-model",
+    "href": "lesson/Lesson10/lesson10.html#a-network-model",
+    "title": "Lesson 10: Urban Network Analysis with GIS",
+    "section": "A Network Model",
+    "text": "A Network Model\n\nA link refers to a linear segment defined by two end points. Also called edges.\nA node refers to an end point of a link."
+  },
+  {
+    "objectID": "lesson/Lesson10/lesson10.html#poor-man-network-data-source",
+    "href": "lesson/Lesson10/lesson10.html#poor-man-network-data-source",
+    "title": "Lesson 10: Urban Network Analysis with GIS",
+    "section": "Poor man network data source",
+    "text": "Poor man network data source\nBulk extract at Geofabrik free download server."
+  },
+  {
+    "objectID": "lesson/Lesson10/lesson10.html#shortest-path-analysis",
+    "href": "lesson/Lesson10/lesson10.html#shortest-path-analysis",
+    "title": "Lesson 10: Urban Network Analysis with GIS",
+    "section": "Shortest Path Analysis",
+    "text": "Shortest Path Analysis\nShortest path analysis finds the path with the minimum cumulative impedance between nodes on a network. The path may connect just two nodes an origin and a destination or have specific stops between the nodes."
+  },
+  {
+    "objectID": "lesson/Lesson10/lesson10.html#fastest-path",
+    "href": "lesson/Lesson10/lesson10.html#fastest-path",
+    "title": "Lesson 10: Urban Network Analysis with GIS",
+    "section": "Fastest Path",
+    "text": "Fastest Path\n\nFastest paths are based on time and you can use any measure of time you choose (seconds, minutes, hours, etc.)."
+  },
+  {
+    "objectID": "lesson/Lesson10/lesson10.html#travelling-salesman-problem",
+    "href": "lesson/Lesson10/lesson10.html#travelling-salesman-problem",
+    "title": "Lesson 10: Urban Network Analysis with GIS",
+    "section": "Travelling salesman problem",
+    "text": "Travelling salesman problem\n\nA route can visit many stops in a network. The origin can also be the destination, as the warehouse is in this example delivery route."
+  },
+  {
+    "objectID": "lesson/Lesson10/lesson10.html#beyond-network-model",
+    "href": "lesson/Lesson10/lesson10.html#beyond-network-model",
+    "title": "Lesson 10: Urban Network Analysis with GIS",
+    "section": "Beyond network model",
+    "text": "Beyond network model\nAccessibility modelling.\n\nSource: https://developers.route360.net/index.html"
+  },
+  {
+    "objectID": "lesson/Lesson10/lesson10.html#qgis-network-analysis-support",
+    "href": "lesson/Lesson10/lesson10.html#qgis-network-analysis-support",
+    "title": "Lesson 10: Urban Network Analysis with GIS",
+    "section": "QGIS Network Analysis Support",
+    "text": "QGIS Network Analysis Support\n\n\n\nBuild in\n\n\n\n\nPlug-in\n\n\nFor more detail, visit this link"
+  },
+  {
+    "objectID": "lesson/Lesson11/lesson11.html#content",
+    "href": "lesson/Lesson11/lesson11.html#content",
+    "title": "Lesson 11: Geographic Accessibility Analysis with GIS",
+    "section": "Content",
+    "text": "Content\n\nBasic Concepts of Geography of Accessibility\nAccessibility Models\n\nStewart Potential model\nReilly model\nHuff model"
+  },
+  {
+    "objectID": "lesson/Lesson11/lesson11.html#what-is-geography-of-accessibility",
+    "href": "lesson/Lesson11/lesson11.html#what-is-geography-of-accessibility",
+    "title": "Lesson 11: Geographic Accessibility Analysis with GIS",
+    "section": "What is Geography of Accessibility?",
+    "text": "What is Geography of Accessibility?\n\n\n\nAccessibility is the measure of the capacity of a location to be reached from, or to be reached by, different locations. Therefore, the capacity and the arrangement of transport infrastructure are key elements in the determination of accessibility."
+  },
+  {
+    "objectID": "lesson/Lesson11/lesson11.html#measuring-distances",
+    "href": "lesson/Lesson11/lesson11.html#measuring-distances",
+    "title": "Lesson 11: Geographic Accessibility Analysis with GIS",
+    "section": "Measuring Distances",
+    "text": "Measuring Distances\n\nDifferent spatial and distance conceptualizations that are commonly employed when measuring and modelling accessibility."
+  },
+  {
+    "objectID": "lesson/Lesson11/lesson11.html#the-geographical-unit",
+    "href": "lesson/Lesson11/lesson11.html#the-geographical-unit",
+    "title": "Lesson 11: Geographic Accessibility Analysis with GIS",
+    "section": "The Geographical Unit",
+    "text": "The Geographical Unit\n\nThis issue of irregularly shaped polygons created arbitrarily (such as county boundaries or block groups that have been created from a political process)."
+  },
+  {
+    "objectID": "lesson/Lesson11/lesson11.html#accessibility-measure-distance-to-nearest-location",
+    "href": "lesson/Lesson11/lesson11.html#accessibility-measure-distance-to-nearest-location",
+    "title": "Lesson 11: Geographic Accessibility Analysis with GIS",
+    "section": "Accessibility Measure: Distance to Nearest Location",
+    "text": "Accessibility Measure: Distance to Nearest Location\n\n\nThe formula:\n\n\nLimitation of the method:\n\nDoes not consider the size/attractiveness of the closest location, thereby implicitly treating all locations as being equally attractive.\nDoes not consider the cumulative effect of multiple accessible locations (e.g. is a zone that is within 1.1 km of two MRT stations inferior to one that is within 1.0 km of a single station?"
+  },
+  {
+    "objectID": "lesson/Lesson11/lesson11.html#spatial-accessibility-measure-sam",
+    "href": "lesson/Lesson11/lesson11.html#spatial-accessibility-measure-sam",
+    "title": "Lesson 11: Geographic Accessibility Analysis with GIS",
+    "section": "Spatial Accessibility Measure (SAM)",
+    "text": "Spatial Accessibility Measure (SAM)\nThe formula:\n\nwhere\n\nAai is the accessibility in ED i,\nnj is the capacity of the target facility j.\npi is the demand of this ED, and\ndij is the network distance between the EDi and each facility j.\n\n\nReference: Stamatis Kalogirou & Ronan Foley (2006) “Health, place and Hanly: Modelling accessibility to hospitals in Ireland”, Irish Geography, Volume 39(1), 2006, 52-68."
+  },
+  {
+    "objectID": "lesson/Lesson12/lesson12.html#content",
+    "href": "lesson/Lesson12/lesson12.html#content",
+    "title": "Lesson 12: Sharing Geographical Information with WebGIS",
+    "section": "Content",
+    "text": "Content\n\nMotivation of GeoWeb Mapping\nHistory of GeoWeb Mapping\nFundamental of GeoWeb Mapping\nGeoWeb Mapping Protocols\nGeoWeb Mapping software\nGeoWeb Mapping 2.0"
+  },
+  {
+    "objectID": "lesson/Lesson12/lesson12.html#motivation-sharing-geographic-information",
+    "href": "lesson/Lesson12/lesson12.html#motivation-sharing-geographic-information",
+    "title": "Lesson 12: Sharing Geographical Information with WebGIS",
+    "section": "Motivation: Sharing geographic information",
+    "text": "Motivation: Sharing geographic information\n\n\n\nThree possible ways to share geographic data.\nWeb GIS allows data to be shared over the Web"
+  },
+  {
+    "objectID": "lesson/Lesson12/lesson12.html#how-a-geoweb-mapping-service-works",
+    "href": "lesson/Lesson12/lesson12.html#how-a-geoweb-mapping-service-works",
+    "title": "Lesson 12: Sharing Geographical Information with WebGIS",
+    "section": "How A GeoWeb Mapping Service Works",
+    "text": "How A GeoWeb Mapping Service Works\n\nClient-server architecture"
+  },
+  {
+    "objectID": "lesson/Lesson12/lesson12.html#geoweb-mapping-protocols",
+    "href": "lesson/Lesson12/lesson12.html#geoweb-mapping-protocols",
+    "title": "Lesson 12: Sharing Geographical Information with WebGIS",
+    "section": "GeoWeb Mapping Protocols",
+    "text": "GeoWeb Mapping Protocols\n\nWeb Map Service (WMS)\nWeb Feature Service (WFS)\nExtensible Markup Language (XML)\nGeography Markup Language (GML)\nKeyhole Markup Language (KML)"
+  },
+  {
+    "objectID": "lesson/Lesson12/lesson12.html#geospatial-server-software",
+    "href": "lesson/Lesson12/lesson12.html#geospatial-server-software",
+    "title": "Lesson 12: Sharing Geographical Information with WebGIS",
+    "section": "Geospatial Server Software",
+    "text": "Geospatial Server Software\n\n\nCommercial off-the-shelf (COS) \n\nOpen Source"
+  },
+  {
+    "objectID": "lesson/Lesson12/lesson12.html#geoweb-mapping-evolution",
+    "href": "lesson/Lesson12/lesson12.html#geoweb-mapping-evolution",
+    "title": "Lesson 12: Sharing Geographical Information with WebGIS",
+    "section": "GeoWeb Mapping evolution",
+    "text": "GeoWeb Mapping evolution\n\nImpact of Rich Internet Application (RIA)"
+  },
+  {
+    "objectID": "lesson/Lesson12/lesson12.html#gis-and-social-consciousness",
+    "href": "lesson/Lesson12/lesson12.html#gis-and-social-consciousness",
+    "title": "Lesson 12: Sharing Geographical Information with WebGIS",
+    "section": "GIS and Social Consciousness",
+    "text": "GIS and Social Consciousness\n\n\nThe true value of GIS is: \n\nTo create a better world."
+  },
+  {
+    "objectID": "lesson/Lesson12/lesson12.html#what-is-next",
+    "href": "lesson/Lesson12/lesson12.html#what-is-next",
+    "title": "Lesson 12: Sharing Geographical Information with WebGIS",
+    "section": "What is Next?",
+    "text": "What is Next?\n\nFor more information, please visit this link."
   }
 ]

@@ -1,0 +1,192 @@
+---
+title: "Lesson 7: GIS-based Multi-Criteria Decision Analysis"
+author: "Dr. Kam Tin Seong<br/>Assoc. Professor of Information Systems"
+institute: "School of Computing and Information Systems,<br/>Singapore Management University"
+date: "last-modified"
+date-modified: "last-modified" 
+format: 
+  revealjs:
+    width: 1600
+    height: 900
+    show-notes: false
+    slide-number: true
+    show-slide-number: 'all'
+editor: visual
+execute: 
+  freeze: true
+---
+
+## Content
+
+-   Descriptive model
+
+-   Prescriptive models
+
+    -   Binary method
+
+    -   Ranking method
+
+    -   Rating method
+
+-   GIS‐Based Multiple‐Criteria Decision Analysis
+
+-   Analytical Hierarchical Process (AHP)
+
+-   Predictive model
+
+## GIS-based Descriptive Model
+
+-   Using GIS maps to describe the spatial distribution of real world phenomena.
+
+::::: columns
+::: {.column width="50%"}
+![](img/image1a.jpg)
+:::
+
+::: {.column width="50%"}
+![](img/image1b.jpg)
+:::
+:::::
+
+------------------------------------------------------------------------
+
+### GIS-based Descriptive Model
+
+-   Using GIS map, statistical graphic and table to describe footprint of a business.
+
+![](img/image2.jpg)
+
+------------------------------------------------------------------------
+
+### GIS-based Descriptive Model
+
+-   Using GIS to analyse and to describe taxi hotspots.
+
+![](img/image3.jpg){fig-align="center"}
+
+Source: Click on the wiki [link](https://wiki.smu.edu.sg/1213t2is415g1/IS415_2012-13_Term2_Assign2_Derek.Lee).
+
+## GIS-based Prescriptive Model
+
+-   Suitability analysis in a GIS context is a geographic, or GIS-based process used to determine the appropriateness of a given area for a particular use.
+
+-   The basic premise of GIS suitability analysis is that each aspect of the landscape has intrinsic characteristics that are to some degree either suitable or unsuitable for the activities being planned.
+
+-   The results are often displayed on a map that is used to highlight areas from high to low suitability.
+
+------------------------------------------------------------------------
+
+### GIS-based Prescriptive Model: Suitability Analysis
+
+![](img/image5.jpg){fig-align="center"}
+
+Source: Click on the wiki [link](http://www.innovativegis.com/basis/papers/other/asprschapter/#Berry6_Modeling_Frameworks).
+
+------------------------------------------------------------------------
+
+### GIS-based Prescriptive Model: Land Suitability Analysis in History
+
+![](img/image6.jpg){fig-align="center"}
+
+Source: Click on the wiki [link](https://en.wikipedia.org/wiki/Ian_McHarg).
+
+------------------------------------------------------------------------
+
+### GIS-based Prescriptive Model: Binary Model
+
+![](img/image7.jpg){fig-align="center"}
+
+Source: Click on the wiki [link](http://www.innovativegis.com/basis/papers/other/asprschapter/#Berry6_1_1_Binary_Model).
+
+------------------------------------------------------------------------
+
+### GIS-based Prescriptive Model: Rank model
+
+![](img/image8.jpg){fig-align="center"}
+
+Source: Click on the wiki [link](http://www.innovativegis.com/basis/papers/other/asprschapter/#Berry6_1_2_Ranking_Model).
+
+------------------------------------------------------------------------
+
+### GIS-based Prescriptive Model: Rating model
+
+![](img/image9.jpg){fig-align="center"}
+
+Source: Click on the wiki [link](http://www.innovativegis.com/basis/papers/other/asprschapter/#Berry6_1_3_Rating_Model).
+
+## Multiple‐Criteria Decision Analysis Process
+
+![](img/image10.jpg){fig-align="center"}
+
+## GIS‐Based Multiple‐Criteria Decision Analysis
+
+![](img/image11.jpg)
+
+## Analytical Hierarchical Process (AHP)
+
+-   A method for decision making in situations where multiple objectives are present.
+
+-   It uses a pair-wise comparison matrix to calculate the relative value and costs of security requirements.
+
+-   By using AHP, the requirements engineer can also confirm the consistency of the result.
+
+-   AHP can prevent subjective judgment errors and increase the likelihood that the results are reliable.
+
+-   To learn more, click on this [link](https://en.wikipedia.org/wiki/Analytic_hierarchy_process).
+
+![](img/image12.jpg)
+
+------------------------------------------------------------------------
+
+### AHP Steps
+
+-   Review candidate requirements for completeness.
+
+-   Apply the pair-wise comparison method to assess the relative value of the candidate requirements.
+
+-   Apply the pair-wise comparison method to assess the relative cost of implementing each candidate requirement.
+
+-   Calculate each candidate requirement's relative value and implementation cost, and plot each on a cost-value diagram.
+
+-   Use the cost-value diagram as a map for analyzing the candidate requirements.
+
+------------------------------------------------------------------------
+
+### AHP Pair-Wise Comparison Method
+
+![](img/image13.jpg)
+
+Reference: Click on this [link](https://buildsecurityin.us-cert.gov/articles/best-practices/requirements-engineering/requirements-prioritization-case-study-using-ahp)
+
+------------------------------------------------------------------------
+
+### AHP Scoring
+
+![](img/image14.jpg)
+
+------------------------------------------------------------------------
+
+### AHP: Consistency Index and Consistency Ratio
+
+![](img/image15.jpg)
+
+------------------------------------------------------------------------
+
+### Bank Branch Site Selection Study
+
+![](img/image16.jpg)
+
+## GIS-based Predictive Model
+
+-   Geospatial hedonic pricing modelling
+
+![](img/image4.jpg){fig-align="center"}
+
+```{r}
+#| echo: false
+#| eval: false
+renderthis::to_pdf(
+  from = "https://smt201-ay2023-24t1.netlify.app/lesson/lesson07/lesson07.html",
+  to = "D://SMT201_AY2023-24T1/02-Lesson/pdf/Lesson07.pdf"
+)
+```

@@ -1,0 +1,378 @@
+---
+title: "Lesson 6: The Science of Mapthematics<br/>Raster-based GIS Analysis Methods"
+author: "Dr. Kam Tin Seong<br/>Assoc. Professor of Information Systems"
+institute: "School of Computing and Information Systems,<br/>Singapore Management University"
+date: "last-modified"
+date-modified: "last-modified" 
+format: 
+  revealjs:
+    width: 1600
+    height: 900
+    show-notes: false
+    slide-number: true
+    show-slide-number: 'all'
+editor: visual
+execute: 
+  freeze: true
+---
+
+## Content
+
+-   Introduction to Raster GIS
+
+    -   The basic concept of raster GIS data model
+
+    -   Raster database
+
+    -   Characteristics of raster
+
+    -   Raster resolution
+
+-   Map Algebra Methods
+
+    -   Local functions
+
+    -   Focal functions
+
+    -   Neighbourhood functions
+
+    -   Zonal functions
+
+## Raster GIS Data
+
+::::: columns
+::: {.column width="50%"}
+-   All raster formats are basically the same
+
+    -   Cells organized in a matrix of rows and columns
+
+-   Content is more important than format: data or picture?
+:::
+
+::: {.column width="50%"}
+![](img/image1.jpg){fig-align="center"}
+:::
+:::::
+
+## Map Algebra
+
+::::: columns
+::: {.column width="50%"}
+-   Map algebra is a simple and an elegant set based algebra for manipulating geographic data, proposed by Dr. Dana Tomlin in the early 1980s.
+
+-   It is a set of primitive operations in a GIS which allows one or more raster layers ("maps") of similar dimensions to produce a new raster layer (map) using algebraic operations such as addition, subtraction etc.
+:::
+
+::: {.column width="50%"}
+![](img/image2.jpg){width="640"}
+:::
+:::::
+
+## Map Algebra Functions
+
+-   Local function -- characterising individual locations
+
+-   Neighbourhood function -- characterising locations within neighbourhood
+
+-   Zonal function -- characterising location within a zone
+
+------------------------------------------------------------------------
+
+### Local function
+
+::::: columns
+::: {.column width="50%"}
+-   Local functions use only the data in a single cell to calculate an output value.
+
+-   Potential operators fall into five categories:
+
+    -   trigonometric (i.e. sine, cosine, tangent, arcsine)
+
+    -   transformation (i.e. sqrt, exp, log)
+
+    -   relational operations (\>, \<, =)
+
+    -   statistical (i.e. mean, median, mode)
+
+    -   arithmetic (i.e. absolute value of x)
+:::
+
+::: {.column width="50%"}
+![](img/image3.jpg){width="640"}
+:::
+:::::
+
+------------------------------------------------------------------------
+
+### Local function - trigonometric
+
+![](img/image4.jpg){width="271"}
+
+------------------------------------------------------------------------
+
+### Local function - relational operations
+
+![](img/image5.jpg)
+
+------------------------------------------------------------------------
+
+### Local function -- transformation
+
+![](img/image8.jpg)
+
+------------------------------------------------------------------------
+
+### Local function - arithmetic
+
+-   Local function involves two raster layers
+
+![](img/image6.jpg)
+
+------------------------------------------------------------------------
+
+### Local function - statistical
+
+-   Local function involved more than two raster layers.
+
+![](img/image7.jpg){width="580" height="640"}
+
+## Neighbourhood Functions
+
+-   These are also called **focal** functions.
+
+-   Local neighbourhood functions examine the target cell and immediate neighbours.
+
+-   A value is returned based on their combined evaluation.
+
+-   Neighbourhood scan be defined by rectangles, circles, wedges, doughnut shapes (annulus) etc.
+
+![](img/image9.jpg)
+
+------------------------------------------------------------------------
+
+### Neighbourhood Functions
+
+A doughnut shape can be drawn around a focal cell, and the values of the surrounding shape (referred to an annulus neighbourhood) are used to reclassify the focal cell.
+
+![](img/image10.jpg)
+
+------------------------------------------------------------------------
+
+### Neighbourhood Functions: more examples
+
+::::: columns
+::: {.column width="50%"}
+![](img/image11a.jpg)
+:::
+
+::: {.column width="50%"}
+![](img/image11b.jpg)
+:::
+:::::
+
+## Zonal Functions
+
+::::: columns
+::: {.column width="50%"}
+-   A zonal operation is employed on groups of cells of similar value or like features, not surprisingly called zones.
+
+-   These zones could be conceptualized as raster versions of polygons. Zonal rasters are often created by reclassifying an input raster into just a few categories.
+
+-   Zonal operations may be applied to a single raster or two overlaying rasters.
+
+-   Given a single input raster, zonal operations measure the geometry of each zone in the raster, such as area, perimeter, thickness, and centroid.
+:::
+
+::: {.column width="50%"}
+![](img/image12.jpg){width="624"}
+:::
+:::::
+
+## Global Functions
+
+::::: columns
+::: {.column width="50%"}
+-   Global operations are similar to zonal operations whereby the entire raster dataset's extent represents a single zone.
+
+-   Typical global operations include determining basic statistical values for the raster as a whole.
+
+-   For example, the minimum, maximum, average, range, and so forth can be quickly calculated over the entire extent of the input raster and subsequently be output to a raster in which every cell contains that calculated value.
+:::
+
+::: {.column width="50%"}
+![](img/image13.jpg)
+:::
+:::::
+
+## Distance Functions: Euclidean Distance
+
+::::: columns
+::: {.column width="50%"}
+-   The Euclidean distance functions describe each cell's relationship to a source or a set of sources.
+
+-   The Euclidean distance output raster contains the measured distance from every cell to the nearest source.
+:::
+
+::: {.column width="50%"}
+![](img/image15.jpg){width="500"}
+:::
+:::::
+
+------------------------------------------------------------------------
+
+### Distance Functions: Euclidean Distance
+
+-   The distances are measured as the crow flies (Euclidean distance) in the projection units of the raster, such as feet or meters and are computed from cell centre to cell centre.
+
+![](img/image16.jpg)
+
+------------------------------------------------------------------------
+
+### Use Cells and Rings to Calculate Simple Proximity
+
+Simple proximity is generated by summing a series of orthogonal and diagonal steps emanating from a starting location.
+
+![](img/image17.jpg)
+
+::: notes
+In the figure, the first "ring" is formed by the three cells adjoining the starting cell in the lower-right corner. The top and side cells represent orthogonal movement while upper-left one is diagonal. The assigned distance of the steps reflect the type of movement---orthogonal equals 1.000 and diagonal equals 1.414.
+
+As the rings progress, 1.000 and 1.414 are added to the previous accumulated distances resulting in a matrix of proximity values. The value 7.01 in the extreme upper-left corner is derived by adding 1.414 for five successive rings (all diagonal steps). The other two corners are derived by adding 1.000 five times (all orthogonal steps). In these cases, the effective proximity procedure results in the same distance as calculated by the Pythagorean Theorem.
+:::
+
+------------------------------------------------------------------------
+
+### Effective Proximity
+
+-   **Effective proximity** is generated by summing a series of steps that reflect the characteristics and conditions of moving through geographic space.
+
+![](img/image18.jpg)
+
+## Terrain Analysis
+
+-   Terrain models
+
+-   Slope and Aspect
+
+-   Hillshading
+
+-   Terrain Profile
+
+-   Visibility Analysis
+
+------------------------------------------------------------------------
+
+### Terrain Mapping
+
+::::: columns
+::: {.column width="50%"}
+-   Topography map
+
+![](img/image20a.jpg)
+:::
+
+::: {.column width="50%"}
+-   Contour map
+
+![](img/image20b.jpg)
+:::
+:::::
+
+------------------------------------------------------------------------
+
+### Digital Elevation Model (DEM)
+
+-   A digital representation of the continuous variation of relief over space.
+
+![](img/image21.jpg)
+
+------------------------------------------------------------------------
+
+### Slope
+
+::::: columns
+::: {.column width="50%"}
+-   Slope identifies the steepest downhill slope for a location on a surface.
+
+![](img/image22a.jpg)
+:::
+
+::: {.column width="50%"}
+Mathematics of slope
+
+![](img/image22b.jpg)
+:::
+:::::
+
+------------------------------------------------------------------------
+
+### Aspect
+
+::::: columns
+::: {.column width="50%"}
+-   Aspect is the direction that a slope faces. It identifies the steepest downslope direction at a location on a surface.
+
+-   Usage of aspect:
+
+    -   Find all west-facing slopes on a mountain as part of a search for the best slopes for building resort residential units.
+
+    -   Calculate the solar illumination for each location in a region as part of a study to determine the diversity of life at each.
+:::
+
+::: {.column width="50%"}
+![](img/image23.jpg)
+:::
+:::::
+
+------------------------------------------------------------------------
+
+### Analytical Hillshading
+
+::::: columns
+::: {.column width="50%"}
+-   Casts shadows with an imaginary light source.
+
+-   Azimuth is the compass direction of the light source.
+
+-   Altitude is the angle of the light source above the horizon.
+:::
+
+::: {.column width="50%"}
+![](img/image24.jpg){width="640"}
+:::
+:::::
+
+------------------------------------------------------------------------
+
+### Analysing Visibility
+
+A line of sight is a line between two points that shows the parts the surface along the line that are visible to or hidden from an observer.
+
+![](img/image25.jpg){width="338"}
+
+------------------------------------------------------------------------
+
+### Viewsheds
+
+Viewsheds are regions of visibility observable from one or more observation points.
+
+![](img/image26.jpg)
+
+## Reference
+
+-   [Beyond Mapping I](http://www.innovativegis.com/basis/BeyondMappingSeries/BeyondMapping_I/Default.htm)
+
+-   [Beyond Mapping II - Spatial Reasoning](http://www.innovativegis.com/basis/BeyondMappingSeries/BeyondMapping_II/Default.htm)
+
+-   [Beyond Mapping III - Map Analysis](http://www.innovativegis.com/basis/BeyondMappingSeries/BeyondMapping_III/)
+
+-   [Beyond Mapping IV -- GIS Modeling](http://www.innovativegis.com/basis/BeyondMappingSeries/BeyondMapping_IV/)
+
+```{r}
+#| echo: false
+#| eval: false
+renderthis::to_pdf(
+  from = "https://smt201-ay2023-24t1.netlify.app/lesson/lesson06/lesson06.html",
+  to = "D://SMT201_AY2023-24T1/02-Lesson/pdf/Lesson06.pdf"
+)
+```

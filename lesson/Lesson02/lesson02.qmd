@@ -1,0 +1,667 @@
+---
+title: "Lesson 2: <br/>The Devil is in the Data: Collection, representation, and modelling"
+author: "Dr. Kam Tin Seong<br/>Assoc. Professor of Information Systems"
+institute: "School of Computing and Information Systems,<br/>Singapore Management University"
+date: "last-modified"
+date-modified: "last-modified" 
+format: 
+  revealjs:
+    width: 1600
+    height: 900
+    show-notes: false
+    slide-number: true
+    show-slide-number: 'all'
+editor: visual
+execute: 
+  freeze: true
+---
+
+## What will you learn from this course?
+
+-   Getting to Know GIS Data Models
+
+    -   Vector Data Model
+
+    -   Raster Data Model
+
+-   Georeferencing
+
+    -   Geographic Coordinate Systems
+
+    -   Projected Coordinate Systems
+
+-   Geocoding
+
+    -   HeoHash
+
+-   Sources of GIS data
+
+::: notes
+In this lesson, I will talk about GIS data models. The discussion consists of three main sections. First, I will share the basic principles of geographic phenomena. This is follow by a discussion of GIS data models. In this lesson, we will mainly focus on vector and raster data models. This is followed by explaining two important concepts of geospatial data, namely: georeferencing and geocoding. Lastly, I will share with you how and where we can find geospatial data.
+:::
+
+## Getting to Know GIS Data Models
+
+-   Basic concept of geographical data
+
+-   Basic GIS data models
+
+-   Vector data models
+
+    -   Spaghetti data models
+
+    -   Topological data models
+
+-   Raster data models
+
+## Discrete Objects and Continuous Fields
+
+-   Two ways of conceptualizing geographic variation
+
+    -   The most fundamental distinction in geographic representation
+
+-   Discrete objects
+
+    -   The world as a table-top
+
+    -   Objects with well-defined boundaries
+
+------------------------------------------------------------------------
+
+### Discrete Objects
+
+::::: columns
+::: {.column width="50%"}
+-   Countable, persistent through time, perhaps mobile
+
+-   Human-made objects
+
+    -   Office buildings, houses, bus stops, etc
+
+-   Biological organisms
+
+    -   Animals, trees
+:::
+
+::: {.column width="50%"}
+![](img/image2-1.jpg)
+:::
+:::::
+
+------------------------------------------------------------------------
+
+### Continuous Fields
+
+::::: columns
+::: {.column width="50%"}
+-   Properties that vary continuously over space
+    -   Value is a function of location
+
+    -   Property can be of any attribute type, including direction
+-   Elevation as the archetype
+    -   A single value at every point on the Earth's surface
+
+    -   The source of metaphor and language
+
+    -   Any field can have slope, gradient, peaks, pits
+:::
+
+::: {.column width="50%"}
+![](img/image2-2.jpg)
+:::
+:::::
+
+## Basic GIS Data Models
+
+-   Vector, implementation of discrete object conceptual model
+
+    -   Point, line and polygon representations
+
+    -   Widely used in cartography, and network analysis
+
+-   Raster, implementation of field conceptual model
+
+    -   Array of cells used to represent objects
+
+    -   Useful as background maps and for spatial analysis
+
+## Vector Data Models
+
+::::: columns
+::: {.column width="50%"}
+-   Used to represent points, lines, and areas
+
+-   All are represented using coordinates
+
+    -   One per point
+
+-   Lines as polylines
+
+    -   Straight lines between points
+
+-   Areas as polygons
+
+    -   Straight lines between points, connecting back to the start
+
+    -   Point locations recorded as coordinates
+:::
+
+::: {.column width="50%"}
+![](img/image2-3.jpg)
+:::
+:::::
+
+------------------------------------------------------------------------
+
+### Vector Database
+
+::::: columns
+::: {.column width="50%"}
+Building footprints are represented by polygon features, road reserves represented by polyline features, and convenient stores are represented by point features
+:::
+
+::: {.column width="50%"}
+![](img/image2-4.jpg)
+:::
+:::::
+
+------------------------------------------------------------------------
+
+### Georelational Vector Data Model
+
+::::: columns
+::: {.column width="50%"}
+Stores spatial and attribute data separately in a split system:
+
+-   spatial data ("geo") in graphic fields, and
+
+-   attribute data ("relational") in a relational database
+:::
+
+::: {.column width="50%"}
+![](img/image2-5.jpg)
+:::
+:::::
+
+------------------------------------------------------------------------
+
+### Attribute Table
+
+![](img/image2-6.jpg)
+
+------------------------------------------------------------------------
+
+### Types of Attributes: Numerical
+
+![](img/image2-7.jpg)
+
+------------------------------------------------------------------------
+
+### Other Types of Attributes
+
+![](img/image2-8.jpg)
+
+------------------------------------------------------------------------
+
+### Vector Data File Format: shapefile
+
+::::: columns
+::: {.column width="50%"}
+-   A shapefile is a simple, nontopological format for storing the geometric location and attribute information of geographic features.
+
+-   Geographic features in a shapefile can be represented by points, lines, or polygons (areas).
+
+-   To find out more about shapefile, visit this [link](https://en.wikipedia.org/wiki/Shapefile) .
+:::
+
+::: {.column width="50%"}
+![](img/image2-9.jpg)
+:::
+:::::
+
+------------------------------------------------------------------------
+
+### Limitation of shapefile
+
+-   It is proprietary (closed and controlled by ESRI).
+
+-   It's a multifile format (.shp,.dbf.,.shx,.prj, encoding, other indexes, etc.) (everybody knows the problem with GIS newbies sending you solely the .shp... 😉).
+
+-   Attribute names are limited to 10 characters and only 255 attributes are allowed in .dbf.
+
+-   Limited data types. Data types are limited to float, integer, date and text with a maximum 254 characters.
+
+-   Unknown character set. There is no way to specify the character set used in the database.
+
+-   It's limited to 2GB of file size. Although some tools are able to surpass this limit, they can never exceed 4GB of data.
+
+------------------------------------------------------------------------
+
+### Limitation of shapefile
+
+-   Uses ESRI's [WKT](https://en.wikipedia.org/wiki/Well-known_text_representation_of_geometry). Can result in inconsistencies.
+
+-   Single geometry type per file. There is no way to save mixed geometry features.
+
+-   More complicated data structures are impossible to save. It's a "flat table" format.
+
+-   There is no way to store 3D data with textures or appearances such as material definitions. There is also no way to store solids or parametric objects.
+
+-   Projections definition. They are incompatible or missing.
+
+-   Line and polygon geometry type, single or multipart, cannot be reliably determined at the layer level, it must be determined at the individual feature level.
+
+------------------------------------------------------------------------
+
+### Other Vector GIS File Formats
+
+-   MapInfo [TAB](https://en.wikipedia.org/wiki/MapInfo_TAB_format) format - MapInfo's vector data format using TAB, DAT, ID and MAP files.
+
+-   [Personal Geodatabase](https://desktop.arcgis.com/en/arcmap/latest/manage-data/administer-file-gdbs/personal-geodatabases.htm) - Esri's closed, integrated vector data storage strategy using Microsoft's Access MDB format
+
+-   [Keyhole Markup Language (KML)](https://en.wikipedia.org/wiki/Keyhole_Markup_Language) - XML based open standard (by OpenGIS) for GIS data exchange.
+
+-   [Geography Markup Language](http://en.wikipedia.org/wiki/Geography_Markup_Language) (GML) - XML based open standard (by OpenGIS) for GIS data exchange.
+
+-   [GeoJSON](https://en.wikipedia.org/wiki/GeoJSON) - a lightweight format based on JSON, used by many open source GIS packages.
+
+-   [TopoJSON](https://github.com/topojson/topojson) - an extension of GeoJSON that encodes topology.
+
+## Raster Data Model
+
+::::: columns
+::: {.column width="50%"}
+-   Divide the world into square cells
+
+-   Register the corners to the Earth
+
+-   Represent discrete objects as collections of one or more cells
+
+-   Represent fields by assigning attribute values to cells
+
+-   More commonly used to represent fields than discrete objects
+
+[What is raster data?](https://desktop.arcgis.com/en/arcmap/10.3/manage-data/raster-and-images/what-is-raster-data.htm), ESRI. A good read to learn the basic of raster data.
+:::
+
+::: {.column width="50%"}
+![](img/image2-10.jpg)
+:::
+:::::
+
+------------------------------------------------------------------------
+
+### Raster Database
+
+-   All raster formats are basically the same
+
+-   Cells organized in a matrix of rows and columns
+
+-   Content is more important than format- data or picture?
+
+![](img/image2-11.jpg)
+
+------------------------------------------------------------------------
+
+### Characteristics of raster data model
+
+-   Pixel size
+
+    -   The size of the cell or picture element, defining the level of spatial detail.
+
+    -   All variation within pixels is lost.
+
+-   Assignment scheme
+
+    -   The value of a cell may be an average over the cell, or a total within the cell, or the commonest value in the cell.
+
+    -   It may also be the value found at the cell's central point.
+
+------------------------------------------------------------------------
+
+### Features as raster
+
+Features lose uniqueness with raster representation a line becomes a collection of cells, not one feature.
+
+![](img/image2-12.jpg)
+
+------------------------------------------------------------------------
+
+### Raster Resolution
+
+-   Raster always generalize spatial data
+
+-   A function of cell size (smaller cells = higher resolution).
+
+-   Impacts accuracy, processing speed, storage space.
+
+![](img/image2-13.jpg)
+
+------------------------------------------------------------------------
+
+### Raster Resolution and Spatial Details
+
+![](img/image2-14.jpg)
+
+------------------------------------------------------------------------
+
+### Raster Resolution and Spatial Extent
+
+::::: columns
+::: {.column width="50%"}
+Small-scale satellite image ![](img/image2-15a.jpg)
+:::
+
+::: {.column width="50%"}
+Large-scale satellite image ![](img/image2-15b.jpg)
+:::
+:::::
+
+------------------------------------------------------------------------
+
+### Multi-band Raster Data
+
+::::: columns
+::: {.column width="50%"}
+-   A raster can contain one or more bands. One type of multi-band raster dataset that is familiar to many of us is a color image.
+
+-   A basic color image consists of three bands: red, green, and blue. Each band represents light reflected from the red, green or blue portions of the electromagnetic spectrum.
+
+-   The pixel brightness for each band, when composited creates the colors that we see in an image.
+:::
+
+::: {.column width="50%"}
+![](img/image2-16.jpg)
+:::
+:::::
+
+------------------------------------------------------------------------
+
+### Raster Data Format
+
+[GeoTIFF](https://en.wikipedia.org/wiki/GeoTIFF): TIFF variant enriched with GIS relevant metadata.
+
+[JPEG2000](http://en.wikipedia.org/wiki/JPEG2000): Open-source raster format. A compressed format, allows both lossy and lossless compression.
+
+[BIL, BIP, and BSQ raster files](https://desktop.arcgis.com/en/arcmap/10.3/manage-data/raster-and-images/bil-bip-and-bsq-raster-files.htm): image format linked with satellite derived imagery, namely: BIL (Band Interleaved by Line),BIP (Band Interleaved by Pixel) and BSQ (Band Sequential). To learn more about these three data types, read [Fundamental of raster data](https://desktop.arcgis.com/en/arcmap/10.3/manage-data/raster-and-images/cell-size-of-raster-data.htm), ESRI.
+
+[ADRG](http://en.wikipedia.org/w/index.php?title=ADRG&action=edit&redlink=1): National Geospatial-Intelligence Agency (NGA)'s ARC Digitized Raster Graphics.
+
+[Digital raster graphic (DRG)](http://en.wikipedia.org/wiki/Digital_raster_graphic): digital scan of a paper USGS topographic map.
+
+[ESRI grid](http://en.wikipedia.org/wiki/Esri_grid): proprietary binary and metadataless ASCII raster formats used by Esri.
+
+[IMG](http://en.wikipedia.org/wiki/ERDAS_IMAGINE): ERDAS IMAGINE image file format.
+
+------------------------------------------------------------------------
+
+### Raster Data Format
+
+[ECW](http://en.wikipedia.org/wiki/ECW_(file_format)): Enhanced Compressed Wavelet (from ERDAS). A compressed wavelet format, often lossy.
+
+[MrSID](https://en.wikipedia.org/wiki/MrSID): Multi-Resolution Seamless Image Database (by Lizardtech). A compressed wavelet format, allows both lossy and lossless compression.
+
+------------------------------------------------------------------------
+
+## Unique Properties of GIS Data
+
+-   Geographical reference
+
+-   Cartographic generalisation
+
+-   GIS data accuracy and uncertainty
+
+------------------------------------------------------------------------
+
+## Coordinate Systems and Map Projections
+
+![](img/image2-17.jpg)
+
+------------------------------------------------------------------------
+
+### What is a coordinate system?
+
+-   A coordinate system is a reference system used to represent the locations of geographic features, imagery, and observations such as GPS locations within a common geographic framework.
+
+-   Each coordinate system is defined by:
+
+    -   Its measurement framework which is either geographic (in which spherical coordinates are measured from the earth's center) or planimetric (in which the earth's coordinates are projected onto a two-dimensional planar surface).
+
+    -   Unit of measurement (typically feet or meters for projected coordinate systems or decimal degrees for latitude--longitude).
+
+    -   The definition of the map projection for projected coordinate systems.
+
+------------------------------------------------------------------------
+
+### What is a coordinate system?
+
+-   Other measurement system properties such as a spheroid of reference, a datum, and projection parameters like one or more standard parallels, a central meridian, and possible shifts in the x- and y-directions.
+
+-   There are two common types of coordinate systems used in mapping, namely:
+
+    -   geographic coordinate systems, and
+
+    -   projected coordinate systems
+
+------------------------------------------------------------------------
+
+### Geographical Coordinate Systems (GCS)
+
+:::::: columns
+::: {.column width="50%"}
+-   GCS define locations on the earth using a three-dimensional spherical surface. For example, WGS84. They provides accuracy position information.
+
+-   Unit of measurement will be in either decimal degree or degree-minute-second format.
+
+-   GCS, however, are not appropriate for distance and area measurements.
+
+    -   In this figure, it is clear that 1 degree distance at the north pole is relatively shorter than 1 degree at the equator.
+:::
+
+::: {.column width="50%"}
+![](img/image2-18.jpg)
+:::
+
+::: aside
+Reference: [Map Projection](http://en.wikipedia.org/wiki/Map_projection)
+:::
+::::::
+
+------------------------------------------------------------------------
+
+### Projected Coordinate Systems (PCS)
+
+A PCS based on a map projection such as transverse Mercator, Albers equal area, or Robinson, all of which (along with numerous other map projection models) provide various mechanisms to project maps of the earth's spherical surface onto a two-dimensional Cartesian coordinate plane.
+
+![](img/image2-19.jpg)
+
+------------------------------------------------------------------------
+
+### Projected Coordinate Systems
+
+-   PCS are sometimes referred to as **map projection**s. For example, **SVY21**, the national projected coordinate system of Singapore.
+
+-   PCS provides consistent length and area measurement across space. Hence, it is important to transform a geospatial data from GCS to PCS before performing geospatial analysis.
+
+-   Each country will have her own projected coordinate system. Some country have more than one type of PCS such as [SVY21/Singapore TM](https://epsg.io/3414) and [Kertau 1968/Singapore Grid](https://epsg.io/24500).
+
+------------------------------------------------------------------------
+
+### Singapore Projected Coordinate System
+
+::::: columns
+::: {.column width="40%"}
+There are at least three coordinate systems commonly used in Singapore. They are svy21, Kertau Cassini 1968, and Rectified Skewed Orthomorphic (RSO). RSO is used in military and topographical mapping and svy21 is used for land and engineering surveying, cadastre, landuse and infrastructure mapping.
+:::
+
+::: {.column width="60%"}
+![](img/image2-20.jpg)
+:::
+:::::
+
+------------------------------------------------------------------------
+
+### EPSG Reference System
+
+[epsg.io](https://epsg.io/) provides a comprehensive list of country coordinate systems such as [svy21](https://epsg.io/3414).
+
+![](img/image2-21.jpg)
+
+------------------------------------------------------------------------
+
+## What is geocoding
+
+Reference data: features with address attributes points, lines, polygons.
+
+![](img/image2-22.jpg)
+
+Reference: [Geocoding](http://en.wikipedia.org/wiki/Geocoding)
+
+------------------------------------------------------------------------
+
+### GeoHash
+
+::::: columns
+::: {.column width="50%"}
+-   [GeoHash](https://en.wikipedia.org/wiki/Geohash) is a public domain geocode system invented in 2008 by Gustavo Niemeyer.
+
+-   It encodes a geographic location into a short string of letters and digits.
+
+-   It is a hierarchical spatial data structure which subdivides space into buckets of grid shape, which is one of the many applications of what is known as a Z-order curve, and generally [space-filling curves](http://geohash.gofreerange.com/).
+
+For more information, visit this [link](https://www.pubnub.com/learn/glossary/what-is-geohashing/)
+:::
+
+::: {.column width="50%"}
+GeoHash of Singapore
+
+![](img/image2-23.jpg)
+:::
+:::::
+
+------------------------------------------------------------------------
+
+### Geocoding in Singapore: SLA's Address-Point Data
+
+![](img/image2-24.jpg)
+
+------------------------------------------------------------------------
+
+### Structure of SLA's Address-Point data
+
+![](img/image2-25.jpg)
+
+It is important to note that the 6-digit postal code used in Address-point data is in character data type and not numerical data type. This is because at downtown area such as Outram Plannign subzone, the postal codes start with 0, as a result, if numeric data type is used. These postal codes will truncated into five digits.
+
+------------------------------------------------------------------------
+
+### SLA Onemap Geocoding
+
+[SLA Onemap Geocoding API](https://www.onemap.gov.sg/docs/#onemap-rest-apis)
+
+![](img/image2-26.jpg)
+
+------------------------------------------------------------------------
+
+### Geocoding options for QGIS users
+
+Geocode Tools of [MMQGIS](https://michaelminn.com/linux/mmqgis/) plugin.
+
+![](img/image2-27.jpg)
+
+------------------------------------------------------------------------
+
+## Sources of GIS data
+
+-   Field surveying Conventional land surveying GPS surveying
+
+-   Digitising
+
+-   Remote sensing Airborn Satellite Sensor (i.e. IoT)
+
+-   Digital data Internet map services Open Data.gov
+
+------------------------------------------------------------------------
+
+### Field surveying
+
+![](img/image2-28.jpg)
+
+------------------------------------------------------------------------
+
+### Digitising
+
+![](img/image2-29.jpg)
+
+------------------------------------------------------------------------
+
+### Remotely Sensed Data
+
+![](img/image2-30.jpg)
+
+------------------------------------------------------------------------
+
+### Internet of Things (IoT)
+
+![](img/image2-30b.jpg)
+
+------------------------------------------------------------------------
+
+### Geospatial Digital Data from SLA
+
+![](img/image2-31.jpg)
+
+------------------------------------------------------------------------
+
+### Geospatial Digital Data from Open Gov
+
+::::: columns
+::: {.column width="50%"}
+[Singapore Open Govenment Data Portal](https://data.gov.sg/)
+
+![](img/image2-32a.jpg)
+:::
+
+::: {.column width="50%"}
+[LTA DataMall](https://datamall.lta.gov.sg/content/datamall/en.html)
+
+![](img/image2-32b.jpg)
+:::
+:::::
+
+------------------------------------------------------------------------
+
+### OpenStreetMap (OSM)
+
+![](img/image2-33.jpg)
+
+-   To learn more about OSM Singapore, visit this [link](http://wiki.openstreetmap.org/wiki/WikiProject_Singapore).
+
+-   To obtain the latest OSM extract for Singapore, visit either [Malaysia, Singapore, and Brunei](https://download.geofabrik.de/asia/malaysia-singapore-brunei.html) extract of [geofabrik](https://download.geofabrik.de/) or [Singapore](http://download.bbbike.org/osm/bbbike/Singapore/) extract of [bbbike](https://www.bbbike.org/)
+
+------------------------------------------------------------------------
+
+### Open Global Digital Data
+
+::::: columns
+::: {.column width="50%"}
+[Natural Earth](http://www.naturalearthdata.com/)
+
+![](img/image2-34a.jpg)
+:::
+
+::: {.column width="50%"}
+[GDAM: Global Administration Boundary Maps](https://gadm.org/)
+
+![](img/image2-34b.jpg)
+:::
+:::::
+
+```{r}
+#| echo: false
+#| eval: false
+renderthis::to_pdf(
+  from = "https://smt201-ay2023-24t1.netlify.app/lesson/lesson02/lesson02.html",
+  to = "D://SMT201_AY2023-24T1/02-Lesson/pdf/Lesson02.pdf"
+)
+```
