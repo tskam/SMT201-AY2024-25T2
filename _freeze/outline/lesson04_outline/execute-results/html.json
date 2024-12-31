@@ -1,0 +1,15 @@
+{
+  "hash": "a8cf7fdcc1e6396de2617e9989132f7e",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Lesson 4: Vector-based GIS Analysis Methods\"\ndate: \"December 31, 2024\"\ndate-modified: \"last-modified\"\nformat: html\nexecute: \n  freeze: true\n---\n\n\n\n\n\n\n\n## Overview\n\nIn this lesson, you will learn the basic concepts and methods of vector-based GIS Analysis. You will also gain hands-on experience on using QGIS to perform basic vector-based GIS analysis operations.\n\n## Content\n\n-   Spatial SQL\n-   Spatial relationship\n-   Geoprocessing Techniques\n    -   CLIP\n    -   DISSOLVE\n    -   APPEND\n    -   SPLIT\n    -   ERASE\n-   Proximity Analysis\n    -   Buffering\n    -   Thiessen Polygon\n-   Vector Overlaying\n\n## Lesson Slides and Hands-on Notes\n\n-   Lesson slide in [html](../lesson/Lesson04/Lesson04.html) format.\n-   Hands-on Exercise in [html](https://gis4urbplan.netlify.app/hands-on_ex04) format.\n\n## Readings\n\n### Core readings\n\n-   [Searches and Queries](https://saylordotorg.github.io/text_essentials-of-geographic-information-systems/s10-02-searches-and-queries.html)\n-   [Geospatial Analysis I: Vector Operations](https://saylordotorg.github.io/text_essentials-of-geographic-information-systems/s11-geospatial-analysis-i-vector-o.html)\n\n## QGIS Methods\n\n-   [10. Vector Spatial Analysis (Buffers))](https://docs.qgis.org/3.16/en/docs/gentle_gis_introduction/vector_spatial_analysis_buffers.html) of **A Gentle Introduction to GIS**.\n-   [6.2. Lesson: Vector Analysis](https://docs.qgis.org/3.16/en/docs/training_manual/vector_analysis/basic_analysis.html) of **QGIS Training Manual**.\n-   The following sub-sections of **QGIS User Guide**:\n    -   [24.1.12. Vector analysis](https://docs.qgis.org/3.16/en/docs/user_manual/processing_algs/qgis/vectoranalysis.html)\n    -   [24.1.13. Vector creation](https://docs.qgis.org/3.16/en/docs/user_manual/processing_algs/qgis/vectorcreation.html)\n    -   [24.1.14. Vector general](https://docs.qgis.org/testing/en/docs/user_manual/processing_algs/qgis/vectorgeneral.html)\n    -   [24.1.15. Vector geometry](https://docs.qgis.org/testing/en/docs/user_manual/processing_algs/qgis/vectorgeometry.html)\n    -   [24.1.16. Vector overlay](https://docs.qgis.org/testing/en/docs/user_manual/processing_algs/qgis/vectoroverlay.html)\n    -   [24.1.17. Vector selection](https://docs.qgis.org/testing/en/docs/user_manual/processing_algs/qgis/vectorselection.html)\n    -   [24.1.18. Vector table](https://docs.qgis.org/testing/en/docs/user_manual/processing_algs/qgis/vectortable.html)\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

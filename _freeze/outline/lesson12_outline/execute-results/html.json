@@ -1,0 +1,15 @@
+{
+  "hash": "3eff3055a2441362c6b201955f187e5f",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Lesson 12: Sharing Geographic Information on the Web: GeoWeb Mapping\"\ndate: \"December 31, 2024\"\ndate-modified: \"last-modified\"\nformat: html\nexecute: \n  freeze: true\n---\n\n\n\n\n\n\n\n## Overview\n\nIn this lesson, you will learn the basic concepts of GeoWeb Mapping. You will also gain hands-on experience on creating geoweb application using QGIS extension.\n\n## Content\n\n-   Motivation of GeoWeb Mapping\n-   Getting to Know GeoWeb Mapping Technology\n    -   GeoWeb mapping system architecture\n    -   GeoWeb mapping protocol\n    -   GeoWeb mapping systems\n-   Evolution of GeoWeb Mapping\n-   2nd Generation GeoWeb Mapping Technology\n    -   OpenLayers\n    -   Leaflet\n\n## Lesson Slides and Hands-on Notes\n\n-   Lesson slides in [html](../lesson/Lesson12/Lesson12.html) format.\n\n## References\n\n### Concepts and Methods\n\n-   [Web mapping](http://en.wikipedia.org/wiki/Web_mapping)\n-   [7 great alternatives to the Google Maps API](http://www.creativebloq.com/inspiration/top-seven-alternatives-google-maps-api-7122779)\n-   [Essential Resources: Mapping applications, frameworks and libraries](http://www.visualisingdata.com/index.php/2013/09/essential-resources-mapping-applications-frameworks-and-libraries/)\n-   [Research Explores How to Keep Up With Changing Web Mapping Technology](http://www.directionsmag.com/articles/research-explores-how-to-keep-up-with-changing-web-mapping-technology/294410)\n\n## QGIS Methods\n\n### QGIS2WEB Plugin\n\n-   [qgis2web plugin](https://github.com/tomchadwin/qgis2web/wiki)\n\n-   [Make an Open-Source Web Map with QGIS](https://www.youtube.com/watch?v=ZHynmLFhRZs)\n\n-   [Creating a WebMap using QGIS2WEB](https://www.youtube.com/watch?v=0V0V6TWBE14)\n\n-   [QGIS2Web plugin - search tool for multiple layers](https://www.youtube.com/watch?v=aVuL7hP-r7o)\n\n### Qgis2threejs\n\n-   [Qgis2threejs Plugin](https://qgis2threejs.readthedocs.io/en/docs/index.html#)\n\n-   [Creating 3D Maps and Animations using QGIS](https://www.youtube.com/watch?v=hSZSVQqX80k)\n\n-   [three.js](https://threejs.org/)\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

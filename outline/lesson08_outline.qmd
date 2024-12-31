@@ -3,6 +3,8 @@ title: "Lesson 8: Introduction to Digital Image Processing and Analysis "
 date: "December 31, 2024"
 date-modified: "last-modified"
 format: html
+execute: 
+  freeze: true
 ---
 
 ```{r setup, include=FALSE}

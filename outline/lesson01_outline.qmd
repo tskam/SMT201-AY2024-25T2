@@ -3,6 +3,8 @@ title: "Lesson 1: Introduction to GIS for Urban Planning"
 date: "December 31, 2024"
 date-modified: "last-modified"
 format: html
+execute: 
+  freeze: true
 ---
 
 ## Overview

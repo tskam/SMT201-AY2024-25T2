@@ -3,6 +3,8 @@ title: "Lesson 9: Applied Image Analysis for the Urban Environment"
 date: "December 31, 2024"
 date-modified: "last-modified"
 format: html
+execute: 
+  freeze: true
 ---
 
 ```{r setup, include=FALSE}

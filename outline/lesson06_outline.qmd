@@ -3,6 +3,8 @@ title: "Lesson 6: The Science of Mapthematics: Raster-based GIS analysis methods
 date: "December 31, 2024"
 date-modified: "last-modified"
 format: html
+execute: 
+  freeze: true
 ---
 
 ## Overview

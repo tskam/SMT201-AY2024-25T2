@@ -1,0 +1,15 @@
+{
+  "hash": "dd3b3f798997ec75bc651d6a9ecbdfe7",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Lesson 2: The Evil is in The Data\"\ndate: \"December 31, 2024\"\ndate-modified: \"last-modified\"\nformat: html\nexecute: \n  freeze: true\n---\n\n\n\n\n\n\n\n## Overview\n\nIn this lesson, students will learn the basic principles and concepts of GIS data models. Related properties such as map projection, coordinates systems, georeferencing, geocoding, data storage formats will be discussed too. Open data sources from the global communities as well as Singapore government agencies will be shared too.\n\n## Content\n\n-   Representing Real World Geography\n    -   Digital representation\n    -   The fundamental problem\n    -   The spatial data models\n    -   Topology data models\n-   Georeferencing\n    -   Basic concepts of projections and coordinates\n    -   Georeferencing\n    -   Geocoding\n-   Geospatial data modelling\n    -   Geospatial database design\n    -   Spatial Metadata\n    -   Spatial indexing\n    -   Multi-user editing and versioning\n-   Geospatial Data Repositories\n    -   File-based\n    -   Geospatial RDBMS\n    -   Cloud based geospatial database\n\n## Lesson Slides and Hands-on Notes\n\n-   Lesson slide in [html](../lesson/Lesson02/Lesson02.html) format.\n-   Hands-on Exercise in [html](https://gis4urbplan.netlify.app/hands-on_ex02) format.\n\n## Readings\n\n### Core Readings\n\n-   [Chapter 2 Feature Representation](https://mgimond.github.io/Spatial/chp02_0.html) of Intro to GIS and Spatial Analysis\n-   [Chapter 3 GIS Data Management](https://mgimond.github.io/Spatial/gis-data-management.html) of Intro to GIS and Spatial Analysis\n-   [Chapter 9 Coordinate Systems](https://mgimond.github.io/Spatial/chp09_0.html) of Intro to GIS and Spatial Analysis\n-   [Modeling Our World: The ESRI Guide to Geodatabase Design](http://downloads2.esri.com/support/documentation/ao_/Modeling_our_World.pdf)\n\n### Additional Readings\n\n-   [Map Projection](https://en.wikipedia.org/wiki/Map_projection)\n-   [Geocoding](https://en.wikipedia.org/wiki/Address_geocoding)\n\n## All About QGIS\n\n-   [A Gentle Introduction to GIS](https://docs.qgis.org/3.16/en/docs/gentle_gis_introduction/index.html). Chapter 3-9.\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
