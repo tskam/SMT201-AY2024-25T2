@@ -1,8 +1,10 @@
 ---
 title: "GIS Project"
-date: "10 August 2023"
-date-modified: "`r Sys.Date()`"
-format: docx
+date: "December 31,  2024"
+date-modified: "last-modified"
+format: html
+execute: 
+  freeze: true
 ---
 
 ```{r setup, include=FALSE}
@@ -17,25 +19,11 @@ The project is to be done in a team. You are required to form a project team of 
 
 ## Topic
 
-In recent years, a slew of record-breaking natural disasters has devastated communities around the world with unprecedented intensity and frequency. For example, in this September, the world saw two devastating disaster events within two days of each other, namely the Morocco earthquake on 8th September 2023 and Libya flood caused by the collapsed of Derna dam on 10th September 2023. Both have caused large-scale destruction of infrastructure and thousands of tragic deaths and injuries. As this worrying trend shows no signs of slowing, the importance of investing in and incorporating advanced Geographic Information (GI) technologies into each phase of the disaster planning and response framework cannot be overstated. While we cannot stop disasters from happening completely, GI technologies can mitigate risk and damages to infrastructure by helping to track, predict, and prepare for disasters, and ultimately assist in recovery and relief.
-
-Assume the role of being a GIS team of an international organisation focusing on humanitarian affairs and disaster mitigation and management, your team are tasked to explore the potential used of GIS and remote sensing technologies in urban flood disaster mitigation and management. The used case must be developed based on the recent Libya dam collapsed and its subsequent flooding of Derna City.
-
-You are required to choose one of the theme provided below:
-
--   Theme 1: Urban Land Use/Land Cover (LULC) Change Detection for Flood Mapping Applications of Satellite Remote Sensing.
-
--   Theme 2: GIS-based Accessibility Analysis and Mapping of Emergency Evacuation Centres and Medical Services.
-
--   Theme 3: Integrating GIS and Remotely Sensed Data for Urban Flood Loss Assessment and Recovery Planning.
+TBC
 
 ## The Data
 
--   Derna_city_250m_hexagon consists of a collection 250m hexagons defining the study area. It is in ESRI shapefile format and is available in the GIS project folder of eLearn.
-
--   GIS data layer can be downloaded but not limited to [OSM Libya](https://download.geofabrik.de/africa/libya.html) at Geofabrik and [Libya Floods](https://data.humdata.org/event/f1c3a777-4079-49fb-9d64-12a72f46f1e3) at Humanitarian Data Exchange portal.
-
--   Satellite images can be downloaded from but not limited to [EarthExplorer](https://earthexplorer.usgs.gov/), [Opernicus Open Access Hub](https://scihub.copernicus.eu/dhus/#/home) and [Maxar Open Data Program: Libya Flood](https://www.maxar.com/open-data/libya-floods-0923)
+TBC
 
 ## Scope of Work
 
@@ -53,9 +41,9 @@ The project will comprise of, but not limited to the followings steps:
 -   Formulation of project team: by week 2 before lesson
 -   Assemble GIS data: from week 7 onwards
 -   Create project website : by week 8
--   Submission of project poster: 8th Nov. 2023, 11:59PM (mid-night).
--   Townhall presentation: 14th Nov 2023 (Tuesday), at 12:00-2:00pm. Venue: LKSLIB Basement concourse. Students are required to be at the venue latest by 11:30am to setup your project poster.
--   Submission of project artifacts and update project webpage: 19th November 2023 at 11.59pm (mid-night)
+-   Submission of project poster: **9th April 2025, 11:59PM (mid-night)**.
+-   Townhall presentation: **14th April 2025 (Monday), at 12:00-2:00pm**. Venue: LKSLIB Basement concourse. Students are required to be at the venue latest by 11:30am to setup your project poster.
+-   Submission of project artifacts and update project webpage: **20th April 2025 at 11.59pm (mid-night)**
 
 ## Grading
 
@@ -73,7 +61,7 @@ In small group projects, each person will be graded individually. A good group p
 
 ## Townhall Poster Presentation
 
-A townhall presentation will be held on 14th November 2023 (Tuesday) between 11.30am - 2.30pm. The venue will be at SMU Basement Concourse.
+A townhall presentation will be held on **14th April 2025 (Monday) between 11.30am - 2.30pm**. The venue will be at LKSLIB Basement concourse.
 
 ## Deliverables
 
@@ -158,7 +146,7 @@ The project report should focus on but not limited to the followings:
 
 #### Submission instruction
 
-The project artifact is due (submitted to LMS Dropbox) by the end of the day on 19th November 2023 at 11.59pm (mid-night).
+The project artifact is due (submitted to LMS Dropbox) by the end of the day on **20th April 2025 at 11.59pm (mid-night)**.
 
 ## Sample Projects
 
@@ -177,6 +165,18 @@ Note that the following examples are for references purposes. You are urged to u
     -   [Land Cover Change Detection of Punggol](https://smt201-group9.netlify.app/)
     -   [The Cost of Coast?](https://smt201g2team10.netlify.app/)
     -   [Al Norte](https://gisproject-g2t11.netlify.app/)
+-   AY2023-24 Term 1
+    -   [Group 1: Rise of Derna Guardiens](https://geomusketeers.netlify.app/)
+    -   [Group 2: 2023 LIBYA FLOOD](https://smt201-g2-2023.netlify.app/)
+    -   [Group 3: Saving Derna](https://smt201-gist3.netlify.app/)
+    -   [Group 4: FloodSafe: Derna, Libya](https://smt201groupproject.netlify.app/)
+    -   [Group 5: Derna EvacuConnect](https://smt201-grp5-ay2023-24t1.netlify.app/)
+    -   [Group 6: Accessibility Analysis and Mapping of Emergency Evacuation Centres and Medical Services](https://smt201ay23-24-group6.netlify.app/)
+    -   [Group 7: Untitled](https://gisproject-group7.netlify.app/)
+    -   [Group 8: Untitled](https://long-phung-urban-pte-ltd.netlify.app/)
+    -   [Group 9: Land Cover Change Analysis in Libya 2023](https://smt201-group9-libya-flood-mapping.netlify.app/)
+    -   [Group 10: FloodScape](https://smt201-ay2023-24t1-team10.netlify.app/)
+    -   [Group 11: Derna in Distress](https://smt201-group11.netlify.app/)
 
 ## Getting Started with Quarto
 
@@ -209,17 +209,7 @@ Note that the following examples are for references purposes. You are urged to u
 
 ## Peer Learning
 
--   [Group 1: Untitled](https://geomusketeers.netlify.app/)
--   [Group 2: 2023 LIBYA FLOOD](https://smt201-g2-2023.netlify.app/)
--   [Group 3: Saving Derna](https://smt201-gist3.netlify.app/)
--   [Group 4: FloodSafe: Derna, Libya](https://smt201groupproject.netlify.app/)
--   [Group 5: Derna EvacuConnect](https://smt201-grp5-ay2023-24t1.netlify.app/)
--   [Group 6: Accessibility Analysis and Mapping of Emergency Evacuation Centres and Medical Services](https://smt201ay23-24-group6.netlify.app/)
--   [Group 7: Untitled](https://gisproject-group7.netlify.app/)
--   [Group 8: Untitled](https://long-phung-urban-pte-ltd.netlify.app/)
--   [Group 9: Land Cover Change Analysis in Libya 2023](https://smt201-group9-libya-flood-mapping.netlify.app/)
--   [Group 10: FloodScape](https://smt201-ay2023-24t1-team10.netlify.app/)
--   [Group 11: Derna in Distress](https://smt201-group11.netlify.app/)
+
 
 ## Reference
 
