@@ -691,5 +691,68 @@
     "title": "Lesson 11: Geographic Accessibility Analysis with GIS",
     "section": "References",
     "text": "References\n\nConcepts and Methods\n\nManfred M. Fischer (2003) “GIS AND NETWORK ANALYSIS” in Handbook 5 Transport Geography and Spatial Systems. Hensher D., Button K., Haynes K. and Stopher P. (eds.); Pergamon\n5 Types of Network Analysis in GIS\nChun, Y, and Kim, H. (2018). Networks Defined. The Geographic Information Science & Technology Body of Knowledge (4th Quarter 2018 Edition), John P. Wilson (Ed.).\n\n\n\nApplications\nLee, Jin ; Lubienski, Christopher (2017) “The Impact of School Closures on Equity of Access in Chicago”, Education and Urban Society, Vol.49 (1), p.53-80.\nJan Burdziej (2017) “Using hexagonal grids and network analysis for spatial accessibility assessment in urban environments – a case study of public amenities in Toruń”, MISCELLANEA GEOGRAPHICA – REGIONAL STUDIES ON DEVELOPMENT, Vol. 23, No. 2.\nRizwan Shahid, et al. (2009) “Comparison of distance measures in spatial analytical modeling for health service planning”, BMC Health Services Research, p1-14.\nBalasubramani, K., Gomathi, M., & Prasad, S. (2016) “GIS-based Service Area Analysis for Optimal Planning Strategies: A Case Study of Fire Service Stations in Madurai City”\n\n\nQGIS Methods\n\nAlgorithm description OD-Matrices of QNET3\nLinden, Philip (2021)Improving accessibility to the bus service. Master Thesis, UMEA Universitet.\nRicky Holzer (April 30, 2018) Analyzing Pedestrian Accessibility Using QGIS and OpenStreetMaps Data\nSam Marshall Gravity Model of Spatial Interaction in QGIS"
+  },
+  {
+    "objectID": "lesson/Lesson01/lesson01.html#what-will-you-learn-from-this-lesson",
+    "href": "lesson/Lesson01/lesson01.html#what-will-you-learn-from-this-lesson",
+    "title": "Lesson 1: Introduction to Geographic Information Systems for Urban Planning",
+    "section": "What will you learn from this lesson?",
+    "text": "What will you learn from this lesson?\n\nIntroducing Urban Planning\n\nMotivation of urban planning\nUrban planning practice\nUrban planning in Singapore\n\nGeographic Information Systems (GIS) Fundamentals\n\nBasic concepts of GIS\nMajor components of a GIS\nGIS toolkits"
+  },
+  {
+    "objectID": "lesson/Lesson01/lesson01.html#what-is-urban-planning",
+    "href": "lesson/Lesson01/lesson01.html#what-is-urban-planning",
+    "title": "Lesson 1: Introduction to Geographic Information Systems for Urban Planning",
+    "section": "What is Urban Planning?",
+    "text": "What is Urban Planning?\n\n\nA political process concerned with the development and design of land use and the environment and the infrastructure passing into and out of urban areas.\nThe primary concern is the public welfare, which includes considerations of efficiency, sanitation, protection and use of the environment, as well as effects on social and economic activities.\nUrban planning is considered an interdisciplinary field that includes social engineering and design sciences."
+  },
+  {
+    "objectID": "lesson/Lesson01/lesson01.html#why-geographic-information-matters",
+    "href": "lesson/Lesson01/lesson01.html#why-geographic-information-matters",
+    "title": "Lesson 1: Introduction to Geographic Information Systems for Urban Planning",
+    "section": "Why Geographic Information Matters?",
+    "text": "Why Geographic Information Matters?\nAbout 80% of all data maintained by organizations around the world has a location component. (Source: BusinessWeek Research Services, 2006)"
+  },
+  {
+    "objectID": "lesson/Lesson01/lesson01.html#gis-fundamentals",
+    "href": "lesson/Lesson01/lesson01.html#gis-fundamentals",
+    "title": "Lesson 1: Introduction to Geographic Information Systems for Urban Planning",
+    "section": "GIS Fundamentals",
+    "text": "GIS Fundamentals\n\nIntroduction to GIS\nMajor component of a GIS\nGIS functions\nGIS toolkits"
+  },
+  {
+    "objectID": "lesson/Lesson01/lesson01.html#gis-platforms",
+    "href": "lesson/Lesson01/lesson01.html#gis-platforms",
+    "title": "Lesson 1: Introduction to Geographic Information Systems for Urban Planning",
+    "section": "GIS platforms",
+    "text": "GIS platforms"
+  },
+  {
+    "objectID": "lesson/Lesson01/lesson01.html#gis-users-in-singapore",
+    "href": "lesson/Lesson01/lesson01.html#gis-users-in-singapore",
+    "title": "Lesson 1: Introduction to Geographic Information Systems for Urban Planning",
+    "section": "GIS Users in Singapore",
+    "text": "GIS Users in Singapore"
+  },
+  {
+    "objectID": "lesson/Lesson01/lesson01.html#gis-supported-urban-planning-framework",
+    "href": "lesson/Lesson01/lesson01.html#gis-supported-urban-planning-framework",
+    "title": "Lesson 1: Introduction to Geographic Information Systems for Urban Planning",
+    "section": "GIS Supported Urban Planning Framework",
+    "text": "GIS Supported Urban Planning Framework"
+  },
+  {
+    "objectID": "lesson/Lesson01/lesson01.html#social-consciousness",
+    "href": "lesson/Lesson01/lesson01.html#social-consciousness",
+    "title": "Lesson 1: Introduction to Geographic Information Systems for Urban Planning",
+    "section": "Social Consciousness",
+    "text": "Social Consciousness"
+  },
+  {
+    "objectID": "lesson/Lesson01/lesson01.html#in-conclusion-gis-support",
+    "href": "lesson/Lesson01/lesson01.html#in-conclusion-gis-support",
+    "title": "Lesson 1: Introduction to Geographic Information Systems for Urban Planning",
+    "section": "In conclusion, GIS support",
+    "text": "In conclusion, GIS support\n\n\nBetter informed decision making\nBetter communication with management\nBetter communication between departments\nBetter problem solving\nMore efficient use of resources\n\n\nGIS = Get Intelligent Solutions"
   }
 ]

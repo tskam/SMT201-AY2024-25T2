@@ -1,0 +1,251 @@
+---
+title: "Lesson 1: <br/>Introduction to Geographic Information Systems for Urban Planning"
+subtitle: ""
+author: "Dr. Kam Tin Seong<br/>Assoc. Professor of Information Systems"
+institute: "School of Computing and Information Systems,<br/>Singapore Management University"
+date: "December 31, 2024"
+date-modified: "last-modified" 
+format: 
+  revealjs:
+    width: 1600
+    height: 900
+    show-notes: false
+    slide-number: true
+    show-slide-number: 'all'
+editor: visual
+execute: 
+  freeze: true
+---
+
+## What will you learn from this lesson?
+
+-   Introducing Urban Planning
+
+    -   Motivation of urban planning
+
+    -   Urban planning practice
+
+    -   Urban planning in Singapore
+
+-   Geographic Information Systems (GIS) Fundamentals
+
+    -   Basic concepts of GIS
+
+    -   Major components of a GIS
+
+    -   GIS toolkits
+
+## What is Urban Planning?
+
+::: incremental
+-   A **political process** concerned with the development and design of land use and the environment and the infrastructure passing into and out of urban areas.
+
+-   The primary concern is the **public welfare**, which includes considerations of efficiency, sanitation, protection and use of the environment, as well as effects on social and economic activities.
+
+-   Urban planning is considered an **interdisciplinary** field that includes social engineering and design sciences.
+:::
+
+------------------------------------------------------------------------
+
+### Urban Planning in Practice
+
+::: incremental
+-   Practitioners of urban planning are concerned with research and analysis, strategic thinking, architecture, urban design, public consultation, policy recommendations, implementation and management.
+
+-   Enforcement methodologies include governmental zoning, planning permissions, and building codes, as well as private easements and restrictive covenants.
+:::
+
+------------------------------------------------------------------------
+
+### Urban Planning in Singapore
+
+Functions of Singapore's national planning authority
+
+![](img/image1-1.jpg)
+
+::: aside
+Source: [Singapore, Urban Redevelopment Authority](http://www.ura.gov.sg)
+:::
+
+## Why Geographic Information Matters?
+
+About 80% of all data maintained by organizations around the world has a location component. (Source: BusinessWeek Research Services, 2006)
+
+![](img/image1-2.jpg)
+
+------------------------------------------------------------------------
+
+### GI in Smart Nation
+
+![](img/image1-3.jpg)
+
+------------------------------------------------------------------------
+
+### The explosion in the availability of Government GI
+
+![](img/image1-4.jpg)
+
+## GIS Fundamentals
+
+-   Introduction to GIS
+
+-   Major component of a GIS
+
+-   GIS functions
+
+-   GIS toolkits
+
+------------------------------------------------------------------------
+
+### GIS as a toolkit
+
+A GIS is a toolkit for creating, managing, analysing, visualising, and sharing data of any kind according to where it is located.
+
+![](img/image1-5.jpg)
+
+------------------------------------------------------------------------
+
+### Components of a GIS
+
+A GIS extends the study of information systems by including geospatial data management, geoprocessing and geographically mediated knowledge.
+
+![](img/image1-6.jpg)
+
+------------------------------------------------------------------------
+
+### Getting to Know GIS Functions
+
+-   Geospatial Data Management
+
+-   GIS Mapping and Geovisualisation
+
+-   GIS Analysis
+
+------------------------------------------------------------------------
+
+### Geospatial Data Management: Data Capture
+
+![](img/image1-7.jpg)
+
+------------------------------------------------------------------------
+
+### Geospatial Data Management: Data Integration
+
+![](img/image1-8.jpg)
+
+------------------------------------------------------------------------
+
+### Geospatial Data Management: Georeferencing
+
+![](img/image1-9.jpg)
+
+------------------------------------------------------------------------
+
+### Geovisulisation: interactive maps
+
+![](img/image1-10.jpg)
+
+------------------------------------------------------------------------
+
+### GISs generates information
+
+-   Locations What is at .....? Conditions
+
+-   Which environment.....?
+
+-   Trends What has changed....?
+
+-   Patterns What data are related .....?
+
+-   Models What if .....?
+
+------------------------------------------------------------------------
+
+### GIS analysis -- vector-based
+
+![](img/image1-11.jpg)
+
+------------------------------------------------------------------------
+
+### GIS analysis -- raster-based
+
+![](img/image1-12.jpg)
+
+------------------------------------------------------------------------
+
+### GIS Analysis -- network-based
+
+![](img/image1-13.jpg)
+
+------------------------------------------------------------------------
+
+### GIS Analysis: 3d Urban Models
+
+![](img/image1-14.jpg)
+
+------------------------------------------------------------------------
+
+### GIS as a Melting-Pot
+
+![](img/image1-15.jpg)
+
+## GIS platforms
+
+![](img/image1-16.jpg)
+
+------------------------------------------------------------------------
+
+### GIS Desktop Software
+
+![](img/image1-17.jpg)
+
+------------------------------------------------------------------------
+
+### QGIS: An Open Source Desktop GIS
+
+![](img/image1-18.jpg)
+
+------------------------------------------------------------------------
+
+### ArcGIS vs QGIS
+
+![](img/image1-19.jpg)
+
+## GIS Users in Singapore
+
+![](img/image1-20.jpg)
+
+## GIS Supported Urban Planning Framework
+
+![](img/image1-21.jpg)
+
+## Social Consciousness
+
+![](img/image1-22.jpg)
+
+## In conclusion, GIS support
+
+:::: incremental
+-   Better informed decision making
+
+-   Better communication with management
+
+-   Better communication between departments
+
+-   Better problem solving
+
+-   More efficient use of resources
+
+::: r-fit-text
+GIS = Get Intelligent Solutions
+:::
+::::
+
+```{r}
+#| echo: false
+#| eval: false
+renderthis::to_pdf(
+  from = "https://smt201-ay2023-24t1.netlify.app/lesson/lesson01/lesson01.html",
+  to = "D://SMT201_AY2023-24T1/02-Lesson/pdf/Lesson01.pdf"
+)
+```
