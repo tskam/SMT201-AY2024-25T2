@@ -16,6 +16,6 @@ editor: visual
 | 9 | 10/3/2025 | [Lesson 8: Introduction to Digital Image Processing and Analysis](outline/lesson08_outline.html) |  |
 | 10 | 17/3/2025 | [Lesson 9: Applied Image Analysis for the Urban Environment](outline/lesson09_outline.html) |  |
 | 11 | 24/3/2024 | [Lesson 10: Urban Network Analysis with GIS](outline/lesson10_outline.html) |  |
-| 12 | 31/3/2025 | [Lesson 11: Geographic Accessibility Analysis with GIS](outline/lesson11_outline.html) |  |
+| 12 | 5/4/2025 | [Lesson 11: Geographic Accessibility Analysis with GIS](outline/lesson11_outline.html) |  |
 | 13 | 7/4/2025 | [Lesson 12: Sharing Geographical Information](outline/lesson12_outline.html) |  |
 | 14 | 14/4/2025 | Townhall Presentation |  |
