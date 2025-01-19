@@ -32,7 +32,7 @@ execute:
 
 -   Geocoding
 
-    -   HeoHash
+    -   GeoHash
 
 -   Sources of GIS data
 
