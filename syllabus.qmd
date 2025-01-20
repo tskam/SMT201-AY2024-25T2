@@ -91,7 +91,7 @@ There will be no mid-term test or final examination for this course.
 
 -   Jochen Albrecht (2007) [Key Concepts & Techniques in GIS](https://ebookcentral-proquest-com.libproxy.smu.edu.sg/lib/smu/detail.action?pq-origsite=primo&docID=456755), SAGE Publication, London, UK.
 
--   Jonathan Campbell and MIchael Shin (2011) [Essentials of Geographic Information Systems](https://open.umn.edu/opentextbooks/textbooks/essentials-of-geographic-information-systems), Saylor Foundation.
+-   Jonathan Campbell and Michael Shin (2011) [Essentials of Geographic Information Systems](https://open.umn.edu/opentextbooks/textbooks/essentials-of-geographic-information-systems), Saylor Foundation.
 
 -   Maarseveen, Martin van.; Martinez, Javier.; Flacke, Johannes. (2019) [GIS in Sustainable Urban Planning and Management](https://www.taylorfrancis.com/books/oa-edit/10.1201/9781315146638/gis-sustainable-urban-planning-management-martin-van-maarseveen-javier-martinez-johannes-flacke), CRC Press.
 
