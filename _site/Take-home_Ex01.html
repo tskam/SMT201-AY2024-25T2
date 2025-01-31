@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="dcterms.date" content="2025-01-05">
 
-<title>Syllabus – SMT201-AY2024-25T2</title>
+<title>Take-home Exercise 1: Urban Applications of Vector-based GIS Analysis – SMT201-AY2024-25T2</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -89,7 +90,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./syllabus.html" aria-current="page"> 
+    <a class="nav-link" href="./syllabus.html"> 
 <span class="menu-text">Syllabus</span></a>
   </li>  
   <li class="nav-item">
@@ -141,22 +142,17 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#synopsis" id="toc-synopsis" class="nav-link active" data-scroll-target="#synopsis">Synopsis</a></li>
-  <li><a href="#objectives" id="toc-objectives" class="nav-link" data-scroll-target="#objectives">Objectives</a>
+  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a></li>
+  <li><a href="#setting-the-scene" id="toc-setting-the-scene" class="nav-link" data-scroll-target="#setting-the-scene">Setting the Scene</a></li>
+  <li><a href="#task" id="toc-task" class="nav-link" data-scroll-target="#task">Task</a></li>
+  <li><a href="#data" id="toc-data" class="nav-link" data-scroll-target="#data">Data</a></li>
+  <li><a href="#take-home-exercise-deliverable" id="toc-take-home-exercise-deliverable" class="nav-link" data-scroll-target="#take-home-exercise-deliverable">Take-home Exercise Deliverable</a>
   <ul class="collapse">
-  <li><a href="#competencies" id="toc-competencies" class="nav-link" data-scroll-target="#competencies">Competencies</a></li>
-  <li><a href="#course-structure" id="toc-course-structure" class="nav-link" data-scroll-target="#course-structure">Course structure</a>
-  <ul class="collapse">
-  <li><a href="#basic-modules" id="toc-basic-modules" class="nav-link" data-scroll-target="#basic-modules">Basic Modules</a></li>
+  <li><a href="#gis-data-repository" id="toc-gis-data-repository" class="nav-link" data-scroll-target="#gis-data-repository">GIS data repository</a></li>
+  <li><a href="#take-home-exercise-report" id="toc-take-home-exercise-report" class="nav-link" data-scroll-target="#take-home-exercise-report">Take-home Exercise Report</a></li>
   </ul></li>
-  <li><a href="#pre-requisites" id="toc-pre-requisites" class="nav-link" data-scroll-target="#pre-requisites">Pre-requisites</a></li>
-  <li><a href="#grading-summary" id="toc-grading-summary" class="nav-link" data-scroll-target="#grading-summary">Grading Summary</a></li>
-  <li><a href="#reference" id="toc-reference" class="nav-link" data-scroll-target="#reference">Reference</a>
-  <ul class="collapse">
-  <li><a href="#core-readings" id="toc-core-readings" class="nav-link" data-scroll-target="#core-readings">Core Readings</a></li>
-  <li><a href="#additional-readings" id="toc-additional-readings" class="nav-link" data-scroll-target="#additional-readings">Additional Readings</a></li>
-  </ul></li>
-  </ul></li>
+  <li><a href="#grading" id="toc-grading" class="nav-link" data-scroll-target="#grading">Grading</a></li>
+  <li><a href="#submission-date" id="toc-submission-date" class="nav-link" data-scroll-target="#submission-date">Submission Date</a></li>
   </ul>
 </nav>
     </div>
@@ -165,7 +161,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Syllabus</h1>
+<h1 class="title">Take-home Exercise 1: Urban Applications of Vector-based GIS Analysis</h1>
 </div>
 
 
@@ -173,7 +169,19 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-title-meta">
 
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">January 5, 2025</p>
+    </div>
+  </div>
   
+    <div>
+    <div class="quarto-title-meta-heading">Modified</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date-modified">January 29, 2025</p>
+    </div>
+  </div>
     
   </div>
   
@@ -182,114 +190,79 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="synopsis" class="level1">
-<h1>Synopsis</h1>
-<p>Effective planning and management of smart cities require urban planners to integrate and share data from multiple sources to the urban users so that they can be active participants in the smart city planning process. GIS with its capability to capture, manage, display, and analyse information spatially is emerging as one of the important enabling tool in smart city planning.</p>
-<p>This course provides students with an introduction to practical applications of GIS in smart city management and planning. Emphasis will be placed on:</p>
+<section id="overview" class="level2">
+<h2 class="anchored" data-anchor-id="overview">Overview</h2>
+<p>This handout provides the context, task, expectations and grading criteria of Take-home Exercise 1. Students must review and understand them before getting started with the take-home exercise.</p>
+</section>
+<section id="setting-the-scene" class="level2">
+<h2 class="anchored" data-anchor-id="setting-the-scene">Setting the Scene</h2>
+<p>Every fives years, Urban Redevelopment Authority of Singapore will publish the new <a href="https://www.ura.gov.sg/Corporate/Planning/Master-Plan">Land-Use Master Plan (MP)</a>. It is the statutory land use plan which guides Singapore’s development in the medium term over the next 10 to 15 years. The latest version was published in <a href="https://www.ura.gov.sg/Corporate/Planning/Master-Plan/Master-Plan-2019">27th Nov 2019</a> and the digital version is available at data.gov.sg. Currently, URA are in the process of preparing Master Plan 2025 and <a href="https://www.ura.gov.sg/Corporate/Planning/Master-Plan/Draft-Master-Plan-2025">inviting public participation</a>.</p>
+<p>As a socially conscious GIS analyst, you have decided to conduct a study to reveal the distribution of new businesses between the Master Plan 2019 period (i.e.&nbsp;2020-2024). The study aims to provide policy makers as well as general public analytical-centric information for supporting inclusive and participatory planning process.</p>
+</section>
+<section id="task" class="level2">
+<h2 class="anchored" data-anchor-id="task">Task</h2>
+<p>In this take-home exercise, we are interested to prepare a report of survey focusing on the growth and geographic distribution of urban economy such as manufacturing industry, wholesaling, retailing and professional services during URA Master Plan 2019. We are especially interest to understand the utilisation level of the gazetted commecial landuse of Master Plan 2019 by newly registered businesses between the planning period (2020-2024).</p>
+<p>The specific tasks of this hands-on exercise are as follow:</p>
 <ul>
-<li><p>locating, acquiring and integrating multi-sources of data into GIS,</p></li>
-<li><p>understand the principles and methodologies of geocoding and geo referencing ,</p></li>
-<li><p>become familiar with geovisualisation and GIS analysis techniques, and</p></li>
-<li><p>explore the technologies and possibilities of GIS-enabled Planning Support Systems for smart city management.</p></li>
+<li>Determine Business land uses allocated by Master Plan 2019 (excluding those already allocated in Master Plan 2014).</li>
+<li>Select a business type by referring to 2-digit or 3-digit <a href="https://www.singstat.gov.sg/standards/standards-and-classifications/ssic">Singapore Standard Industrial Classification (SSIS) 2020</a></li>
+<li>Prepare a series of thematic maps by using appropriate mapping techniques showing the spatio-temporal patterns of the selected businesses at yearly interval (i.e.&nbsp;2020, 2021, 2022, 2023 &amp; 2024). Appropriate data visualisation and/or table(s) can be used to complement the maps.</li>
+<li>For each geovisualisation prepared, write a short report of not more than 150 words describing the spatio-temporal patterns revealed by the geovisualisation.<br>
+</li>
+<li>With reference to the analysis results above, discuss how these findings can be used to support urban land use planning and management. (Not more than 500 words)</li>
 </ul>
 </section>
-<section id="objectives" class="level1">
-<h1>Objectives</h1>
-<p>Upon completion of the course, students will be able to:</p>
+<section id="data" class="level2">
+<h2 class="anchored" data-anchor-id="data">Data</h2>
+<p>For the purpose of this study, the following data should be used:</p>
 <ul>
-<li><p>Understand the basic concepts and theories of GIScience and trends of GIS technologies.</p></li>
-<li><p>Create, integrate, manage geospatial data and build enterprise level geospatial database management systems.</p></li>
-<li><p>Use appropriate GIS analysis functions to visualise and analyse urban sector data.</p></li>
-<li><p>Model smart city processes using GIS’ advanced analytical methods.</p></li>
-<li><p>Design and implement cutting-edge GIS-based Planning Support Systems for smart city management.</p></li>
+<li>Master Plan 2014 Land Use,</li>
+<li>Master Plan 2019 Land Use, and</li>
+<li>ACRA Information on Corporate Entities</li>
 </ul>
-<section id="competencies" class="level2">
-<h2 class="anchored" data-anchor-id="competencies">Competencies</h2>
+<p>Other useful GIS data sets can be added if they are necessary.</p>
+</section>
+<section id="take-home-exercise-deliverable" class="level2">
+<h2 class="anchored" data-anchor-id="take-home-exercise-deliverable">Take-home Exercise Deliverable</h2>
+<section id="gis-data-repository" class="level3">
+<h3 class="anchored" data-anchor-id="gis-data-repository">GIS data repository</h3>
+<p>The GIS repository includes but not limited to geospatial data compiled and derived, QGIS project file and data dictionary. It must be in a single zipped file (i.e.&nbsp;.zip). The geospatial data must be stored in a GeoPackage database format. The data dictionary can be in either MS Word document or edited into the GIS data.The project deliverable must be uploaded onto eLearn.</p>
+</section>
+<section id="take-home-exercise-report" class="level3">
+<h3 class="anchored" data-anchor-id="take-home-exercise-report">Take-home Exercise Report</h3>
+<p>You are required to edit your take-home exercise report in MS Word format. The take-home exercise report, beside others, should include all the thematic maps prepared and their respective discussion.</p>
+<p>More importantly, the report must provide a <strong>reproducible</strong> step-by-step guide on the following process:</p>
 <ul>
-<li><p>Explain the concepts, principles and component of GIS with reference to urban planning and management.</p></li>
-<li><p>Describing the differences between GIS and other related geospatial technologies for urban planning.</p></li>
-<li><p>Importing, converting, transforming, integrating and managing urban geographical data.</p></li>
-<li><p>Geocoding and georeferencing geographical data.</p></li>
-<li><p>Describing the basic principles and concepts of geographical data visualisation and thematic mapping design.</p></li>
-<li><p>Explaining vector-based geoprocessing methods using appropriate use cases.</p></li>
-<li><p>Use appropriate geoprocessing and vector-based GIS analysis functions to solve real world urban analysis problems.</p></li>
-<li><p>Explaining raster-based GIS analysis functions using appropriate use cases.</p></li>
-<li><p>Use appropriate cartographic modelling functions to solve real world urban analysis problems.</p></li>
-<li><p>Explaining the concepts of a Planning Support System.</p></li>
-<li><p>Designing GIS enabled Planning Support System to answer urban planning and management related questions.</p></li>
+<li>data compilation, extraction and integration,</li>
+<li>data cleaning, preparation and wrangling,</li>
+<li>GIS analysis (including tabular and graphical analysis), and</li>
+<li>GIS maps design.</li>
 </ul>
+<blockquote class="blockquote">
+<p>Note: <strong>Reproducible</strong> means that readers are able to perform the same analysis and obtain similar results by using the same data sets and by following the step-by-step guide.</p>
+</blockquote>
+<p>The title of the report should be in the form of <em>SMT201_AY2024-25T1_Take-home_Exercise1</em>.</p>
+<blockquote class="blockquote">
+<p>Note: This is an individual exercise. You are required to work on the take home exercise and prepare submission individually.</p>
+</blockquote>
 </section>
-<section id="course-structure" class="level2">
-<h2 class="anchored" data-anchor-id="course-structure">Course structure</h2>
-<section id="basic-modules" class="level3">
-<h3 class="anchored" data-anchor-id="basic-modules">Basic Modules</h3>
-<p>This course comprises ten integrated components as shown below:</p>
-<p><img src="img/image1.png" class="img-fluid"></p>
 </section>
-</section>
-<section id="pre-requisites" class="level2">
-<h2 class="anchored" data-anchor-id="pre-requisites">Pre-requisites</h2>
-<p>There are no pre-requisites for the class and the class is open to all SMT students as well as non-SMT students. However, a basic understanding of the principles of urban management and planning in the context of smart city is required. Students who are new to the discipline of urban management /planning and smart cities are encouraged to do self-learning and research prior to the commencement of the course.</p>
+<section id="grading" class="level2">
+<h2 class="anchored" data-anchor-id="grading">Grading</h2>
 <ul>
-<li><p>Naomi Carmon , and Susan S. Fainstein (2013) <a href="https://ebookcentral-proquest-com.libproxy.smu.edu.sg/lib/smu/detail.action?docID=3442079&amp;query=Urban+Planning">Policy, Planning, and People : Promoting Justice in Urban Development</a>, University of Pennsylvania Press, USA.</p></li>
-<li><p>Houbing Song, et. al (2017) <a href="https://ebookcentral-proquest-com.libproxy.smu.edu.sg/lib/smu/detail.action?docID=4883016&amp;query=Smart+Cities">Smart Cities : Foundations, Principles, and Applications</a>, John Wiley &amp; Sons, NJ. USA.</p></li>
-</ul>
-</section>
-<section id="grading-summary" class="level2">
-<h2 class="anchored" data-anchor-id="grading-summary">Grading Summary</h2>
-<p>The grading distribution of this course are as follows:</p>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th>Component</th>
-<th>Weights</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Class Participation</td>
-<td>5%</td>
-</tr>
-<tr class="even">
-<td>Hands-on Exercise</td>
-<td>10%</td>
-</tr>
-<tr class="odd">
-<td>In-class Exercise</td>
-<td>15%</td>
-</tr>
-<tr class="even">
-<td>Take-home Exercise (15% + 20%)</td>
-<td>35%</td>
-</tr>
-<tr class="odd">
-<td>GIS Project</td>
-<td>35%</td>
-</tr>
-</tbody>
-</table>
-<p>There will be no mid-term test or final examination for this course.</p>
-</section>
-<section id="reference" class="level2">
-<h2 class="anchored" data-anchor-id="reference">Reference</h2>
-<section id="core-readings" class="level3">
-<h3 class="anchored" data-anchor-id="core-readings">Core Readings</h3>
-<ul>
-<li><p>Jochen Albrecht (2007) <a href="https://ebookcentral-proquest-com.libproxy.smu.edu.sg/lib/smu/detail.action?pq-origsite=primo&amp;docID=456755">Key Concepts &amp; Techniques in GIS</a>, SAGE Publication, London, UK.</p></li>
-<li><p>Jonathan Campbell and Michael Shin (2011) <a href="https://open.umn.edu/opentextbooks/textbooks/essentials-of-geographic-information-systems">Essentials of Geographic Information Systems</a>, Saylor Foundation.</p></li>
-<li><p>Maarseveen, Martin van.; Martinez, Javier.; Flacke, Johannes. (2019) <a href="https://www.taylorfrancis.com/books/oa-edit/10.1201/9781315146638/gis-sustainable-urban-planning-management-martin-van-maarseveen-javier-martinez-johannes-flacke">GIS in Sustainable Urban Planning and Management</a>, CRC Press.</p></li>
+<li>Quality of the GIS data model built (including metadata) (20 marks),</li>
+<li>Appropriateness of the GIS methods used (20 marks),</li>
+<li>Quality of GIS maps prepared (20 marks),</li>
+<li>Reproducibility of the GIS processes (20 marks)</li>
+<li>Ability to provide correct interpretation of the analysis results and to recommend appropriate alternatives (20 marks).</li>
 </ul>
 </section>
-<section id="additional-readings" class="level3">
-<h3 class="anchored" data-anchor-id="additional-readings">Additional Readings</h3>
-<ul>
-<li><p>David L. Berlyva (2002) <a href="https://ebookcentral-proquest-com.libproxy.smu.edu.sg/lib/smu/detail.action?docID=171349">Practical GIS Analysis</a>, Taylor and Francis, London, UK.</p></li>
-<li><p>C. Dana Tomlin and C Dana Tomlin (2012) <strong>GIS and Cartographic Modeling</strong>, ESRI Press, Redland, USA.</p></li>
-</ul>
+<section id="submission-date" class="level2">
+<h2 class="anchored" data-anchor-id="submission-date">Submission Date</h2>
+<p>The take-home exercise deliverable must be uploaded on eLearn by the submission deadline stated below.</p>
+<p>Due Date: <strong>16th February 2025, 11:59pm (midnight)</strong>.</p>
 
 
-</section>
-</section>
 </section>
 
 </main> <!-- /main -->

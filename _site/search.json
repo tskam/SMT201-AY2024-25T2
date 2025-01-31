@@ -1328,5 +1328,61 @@
     "title": "Lesson 12: Sharing Geographical Information with WebGIS",
     "section": "What is Next?",
     "text": "What is Next?\n\nFor more information, please visit this link."
+  },
+  {
+    "objectID": "Take-home_Ex01.html",
+    "href": "Take-home_Ex01.html",
+    "title": "Take-home Exercise 1: Urban Applications of Vector-based GIS Analysis",
+    "section": "",
+    "text": "This handout provides the context, task, expectations and grading criteria of Take-home Exercise 1. Students must review and understand them before getting started with the take-home exercise."
+  },
+  {
+    "objectID": "Take-home_Ex01.html#overview",
+    "href": "Take-home_Ex01.html#overview",
+    "title": "Take-home Exercise 1: Urban Applications of Vector-based GIS Analysis",
+    "section": "",
+    "text": "This handout provides the context, task, expectations and grading criteria of Take-home Exercise 1. Students must review and understand them before getting started with the take-home exercise."
+  },
+  {
+    "objectID": "Take-home_Ex01.html#setting-the-scene",
+    "href": "Take-home_Ex01.html#setting-the-scene",
+    "title": "Take-home Exercise 1: Urban Applications of Vector-based GIS Analysis",
+    "section": "Setting the Scene",
+    "text": "Setting the Scene\nEvery fives years, Urban Redevelopment Authority of Singapore will publish the new Land-Use Master Plan (MP). It is the statutory land use plan which guides Singapore’s development in the medium term over the next 10 to 15 years. The latest version was published in 27th Nov 2019 and the digital version is available at data.gov.sg. Currently, URA are in the process of preparing Master Plan 2025 and inviting public participation.\nAs a socially conscious GIS analyst, you have decided to conduct a study to reveal the distribution of new businesses between the Master Plan 2019 period (i.e. 2020-2024). The study aims to provide policy makers as well as general public analytical-centric information for supporting inclusive and participatory planning process."
+  },
+  {
+    "objectID": "Take-home_Ex01.html#task",
+    "href": "Take-home_Ex01.html#task",
+    "title": "Take-home Exercise 1: Urban Applications of Vector-based GIS Analysis",
+    "section": "Task",
+    "text": "Task\nIn this take-home exercise, we are interested to prepare a report of survey focusing on the growth and geographic distribution of urban economy such as manufacturing industry, wholesaling, retailing and professional services during URA Master Plan 2019. We are especially interest to understand the utilisation level of the gazetted commecial landuse of Master Plan 2019 by newly registered businesses between the planning period (2020-2024).\nThe specific tasks of this hands-on exercise are as follow:\n\nDetermine Business land uses allocated by Master Plan 2019 (excluding those already allocated in Master Plan 2014).\nSelect a business type by referring to 2-digit or 3-digit Singapore Standard Industrial Classification (SSIS) 2020\nPrepare a series of thematic maps by using appropriate mapping techniques showing the spatio-temporal patterns of the selected businesses at yearly interval (i.e. 2020, 2021, 2022, 2023 & 2024). Appropriate data visualisation and/or table(s) can be used to complement the maps.\nFor each geovisualisation prepared, write a short report of not more than 150 words describing the spatio-temporal patterns revealed by the geovisualisation.\n\nWith reference to the analysis results above, discuss how these findings can be used to support urban land use planning and management. (Not more than 500 words)"
+  },
+  {
+    "objectID": "Take-home_Ex01.html#data",
+    "href": "Take-home_Ex01.html#data",
+    "title": "Take-home Exercise 1: Urban Applications of Vector-based GIS Analysis",
+    "section": "Data",
+    "text": "Data\nFor the purpose of this study, the following data should be used:\n\nMaster Plan 2014 Land Use,\nMaster Plan 2019 Land Use, and\nACRA Information on Corporate Entities\n\nOther useful GIS data sets can be added if they are necessary."
+  },
+  {
+    "objectID": "Take-home_Ex01.html#take-home-exercise-deliverable",
+    "href": "Take-home_Ex01.html#take-home-exercise-deliverable",
+    "title": "Take-home Exercise 1: Urban Applications of Vector-based GIS Analysis",
+    "section": "Take-home Exercise Deliverable",
+    "text": "Take-home Exercise Deliverable\n\nGIS data repository\nThe GIS repository includes but not limited to geospatial data compiled and derived, QGIS project file and data dictionary. It must be in a single zipped file (i.e. .zip). The geospatial data must be stored in a GeoPackage database format. The data dictionary can be in either MS Word document or edited into the GIS data.The project deliverable must be uploaded onto eLearn.\n\n\nTake-home Exercise Report\nYou are required to edit your take-home exercise report in MS Word format. The take-home exercise report, beside others, should include all the thematic maps prepared and their respective discussion.\nMore importantly, the report must provide a reproducible step-by-step guide on the following process:\n\ndata compilation, extraction and integration,\ndata cleaning, preparation and wrangling,\nGIS analysis (including tabular and graphical analysis), and\nGIS maps design.\n\n\nNote: Reproducible means that readers are able to perform the same analysis and obtain similar results by using the same data sets and by following the step-by-step guide.\n\nThe title of the report should be in the form of SMT201_AY2024-25T1_Take-home_Exercise1.\n\nNote: This is an individual exercise. You are required to work on the take home exercise and prepare submission individually."
+  },
+  {
+    "objectID": "Take-home_Ex01.html#grading",
+    "href": "Take-home_Ex01.html#grading",
+    "title": "Take-home Exercise 1: Urban Applications of Vector-based GIS Analysis",
+    "section": "Grading",
+    "text": "Grading\n\nQuality of the GIS data model built (including metadata) (20 marks),\nAppropriateness of the GIS methods used (20 marks),\nQuality of GIS maps prepared (20 marks),\nReproducibility of the GIS processes (20 marks)\nAbility to provide correct interpretation of the analysis results and to recommend appropriate alternatives (20 marks)."
+  },
+  {
+    "objectID": "Take-home_Ex01.html#submission-date",
+    "href": "Take-home_Ex01.html#submission-date",
+    "title": "Take-home Exercise 1: Urban Applications of Vector-based GIS Analysis",
+    "section": "Submission Date",
+    "text": "Submission Date\nThe take-home exercise deliverable must be uploaded on eLearn by the submission deadline stated below.\nDue Date: 16th February 2025, 11:59pm (midnight)."
   }
 ]
