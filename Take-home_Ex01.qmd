@@ -75,3 +75,12 @@ The title of the report should be in the form of *SMT201_AY2024-25T1_Take-home_E
 The take-home exercise deliverable must be uploaded on eLearn by the submission deadline stated below.
 
 Due Date: **16th February 2025, 11:59pm (midnight)**.
+
+## References
+
+- [Applying GIS in Blue-Green Infrastructure Design in Urban Areas for Better Life Quality and Climate Resilience](https://www.mdpi.com/2071-1050/16/12/5187)
+
+
+
+
+
