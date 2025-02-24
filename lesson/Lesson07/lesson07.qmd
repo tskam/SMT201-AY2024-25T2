@@ -156,7 +156,7 @@ Source: Click on the wiki [link](http://www.innovativegis.com/basis/papers/other
 
 ![](img/image13.jpg)
 
-Reference: Click on this [link](https://buildsecurityin.us-cert.gov/articles/best-practices/requirements-engineering/requirements-prioritization-case-study-using-ahp)
+Reference: Click on this [link](https://insights.sei.cmu.edu/documents/427/2013_019_001_297260.pdf)
 
 ------------------------------------------------------------------------
 
@@ -170,17 +170,17 @@ Reference: Click on this [link](https://buildsecurityin.us-cert.gov/articles/bes
 
 ![](img/image15.jpg)
 
-------------------------------------------------------------------------
+## Data Standardisation
 
-### Bank Branch Site Selection Study
+-   Data standardisation is necessary when the value ranges of the factor layers vary.
+
+![](img/image17.jpg){width="640"}
+
+
+## Real World Application: Bank Branch Site Selection Study
 
 ![](img/image16.jpg)
 
-## GIS-based Predictive Model
-
--   Geospatial hedonic pricing modelling
-
-![](img/image4.jpg){fig-align="center"}
 
 ```{r}
 #| echo: false

@@ -1440,5 +1440,19 @@
     "title": "Take-home Exercise 2: Urban Applications of Raster-based GIS Analysis",
     "section": "Submission Date",
     "text": "Submission Date\nThe take-home exercise deliverable must be uploaded on eLearn by the submission deadline stated below.\nDue Date: 9th March 2025, 11:59pm (Sunday midnight)."
+  },
+  {
+    "objectID": "lesson/Lesson07/lesson07.html#data-standardisation",
+    "href": "lesson/Lesson07/lesson07.html#data-standardisation",
+    "title": "Lesson 7: GIS-based Multi-Criteria Decision Analysis",
+    "section": "Data Standardisation",
+    "text": "Data Standardisation\n\nData standardisation is necessary when the value ranges of the factor layers vary."
+  },
+  {
+    "objectID": "lesson/Lesson07/lesson07.html#real-world-application-bank-branch-site-selection-study",
+    "href": "lesson/Lesson07/lesson07.html#real-world-application-bank-branch-site-selection-study",
+    "title": "Lesson 7: GIS-based Multi-Criteria Decision Analysis",
+    "section": "Real World Application: Bank Branch Site Selection Study",
+    "text": "Real World Application: Bank Branch Site Selection Study"
   }
 ]
