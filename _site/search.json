@@ -1391,5 +1391,54 @@
     "title": "Take-home Exercise 1: Urban Applications of Vector-based GIS Analysis",
     "section": "References",
     "text": "References\n\nApplying GIS in Blue-Green Infrastructure Design in Urban Areas for Better Life Quality and Climate Resilience"
+  },
+  {
+    "objectID": "Take-home_Ex02.html",
+    "href": "Take-home_Ex02.html",
+    "title": "Take-home Exercise 2: Urban Applications of Raster-based GIS Analysis",
+    "section": "",
+    "text": "Note\n\n\n\nThis handout provides the context, task, expectations and grading criteria of Take-home Exercise 2. Students must review and understand them before getting started with the take-home exercise."
+  },
+  {
+    "objectID": "Take-home_Ex02.html#overview",
+    "href": "Take-home_Ex02.html#overview",
+    "title": "Take-home Exercise 2: Urban Applications of Raster-based GIS Analysis",
+    "section": "",
+    "text": "This handout provides the context, task, expectations and grading criteria of Take-home Exercise 2. Students must review and understand them before getting started with the take-home exercise."
+  },
+  {
+    "objectID": "Take-home_Ex02.html#setting-the-scene",
+    "href": "Take-home_Ex02.html#setting-the-scene",
+    "title": "Take-home Exercise 2: Urban Applications of Raster-based GIS Analysis",
+    "section": "Setting the Scene",
+    "text": "Setting the Scene\nUrban planning and business development are essential components in building vibrant, thriving cities. Urban managers carry the crucial responsibility of making decisions that shape the economic future of their communities.\nThese decisions extend far beyond merely deciding where businesses should be located. They require a careful analysis of potential economic impacts, such as job creation, tax revenue, environmental sustainability, and long-term community benefits. In this regard, data plays a pivotal role in helping city managers make informed decisions that maximize positive outcomes for local economies.\nGeospatial data, particularly the location of businesses, enables urban managers to move beyond guesswork, relying on empirical evidence for decision-making. By analyzing the distribution of businesses from previous planning periods, urban planners can identify gaps in land-use planning, such as areas where certain types of businesses are underrepresented. Recognising these gaps empowers planners to revise, refine, and recommend more effective land-use strategies for the upcoming planning period."
+  },
+  {
+    "objectID": "Take-home_Ex02.html#task",
+    "href": "Take-home_Ex02.html#task",
+    "title": "Take-home Exercise 2: Urban Applications of Raster-based GIS Analysis",
+    "section": "Task",
+    "text": "Task\nIn this take-home exercise, you are required to use QGIS to complete the following tasks:\n\nselect one of the business group from SSIC 2020,\n\nC MANUFACTURING\nG WHOLESALE AND RETAIL TRADE: 46 WHOLESALE TRADE\nG WHOLESALE AND RETAIL TRADE: 47 RETAIL TRADE\n\nextract and geocode the selected businesss,\nconvert the data from aspatial to geospatial,\nusing appropriate raster-based GIS analyse methods analyse the spatial patterns of the selected business during the URA Plan 2019 period.\nwith reference to the analysis results, provide landuse planning recommendation for URA Master Plan 2025 consideration."
+  },
+  {
+    "objectID": "Take-home_Ex02.html#take-home-exercise-deliverable",
+    "href": "Take-home_Ex02.html#take-home-exercise-deliverable",
+    "title": "Take-home Exercise 2: Urban Applications of Raster-based GIS Analysis",
+    "section": "Take-home Exercise Deliverable",
+    "text": "Take-home Exercise Deliverable\n\nGIS data repository\nThe GIS repository includes but not limited to geospatial data compiled and derived, QGIS project file and data dictionary. It must be in a single zipped file (i.e. .zip). The geospatial data must be stored in a GeoPackage database format. The data dictionary can be in either MS Word document or edited into the GIS data. The project deliverable must be uploaded onto eLearn. If the file size beyond the permitted space of eLearn, you can use SMU OneDrive to share the repository with me.\n\n\n\n\n\n\nNote\n\n\n\nYou can save the raster data in geotiff format. Please do keep these data in a single folder called geotiff.\n\n\n\n\nTake-home Exercise Report\nYou are required to edit your take-home exercise report in MS Word format. The take-home exercise report, beside others, should include all the thematic maps prepared and their respective discussion.\nMore importantly, the report must provide a reproducible step-by-step guide on the following process:\n\ndata compilation, extraction and integration,\ndata cleaning, preparation and wrangling,\nGIS analysis (including tabular and graphical analysis), and\nGIS maps design.\n\n\n\n\n\n\n\nNote\n\n\n\nReproducible means that readers are able to perform the same analysis and obtain similar results by using the same data sets and by following the step-by-step guide.\n\n\nThe title of the report should be in the form of SMT201_AY2024-25T2_Take-home_Exercise2.\n\n\n\n\n\n\nWarning\n\n\n\nThis is an individual exercise. You are required to work on the take home exercise and prepare submission individually."
+  },
+  {
+    "objectID": "Take-home_Ex02.html#grading",
+    "href": "Take-home_Ex02.html#grading",
+    "title": "Take-home Exercise 2: Urban Applications of Raster-based GIS Analysis",
+    "section": "Grading",
+    "text": "Grading\n\nQuality of the GIS data model built (including metadata) (20 marks),\nAppropriateness of the GIS methods used (20 marks),\nQuality of GIS maps prepared (20 marks),\nReproducibility of the GIS processes (20 marks)\nAbility to provide correct interpretation of the analysis results and to recommend appropriate alternatives (20 marks)."
+  },
+  {
+    "objectID": "Take-home_Ex02.html#submission-date",
+    "href": "Take-home_Ex02.html#submission-date",
+    "title": "Take-home Exercise 2: Urban Applications of Raster-based GIS Analysis",
+    "section": "Submission Date",
+    "text": "Submission Date\nThe take-home exercise deliverable must be uploaded on eLearn by the submission deadline stated below.\nDue Date: 9th March 2025, 11:59pm (Sunday midnight)."
   }
 ]
