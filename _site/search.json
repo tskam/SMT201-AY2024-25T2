@@ -74,14 +74,14 @@
     "href": "GISproject.html#topic",
     "title": "GIS Project",
     "section": "Topic",
-    "text": "Topic\nTBC"
+    "text": "Topic\nApplication of GIS-based Multi-criteria Analytis for wind farm or solar farm suitability assessment"
   },
   {
     "objectID": "GISproject.html#the-data",
     "href": "GISproject.html#the-data",
     "title": "GIS Project",
     "section": "The Data",
-    "text": "The Data\nTBC"
+    "text": "The Data\nThe study area will be Singapore main island. The data sets should include but not limited to the followings:\n\nLandform\n\nslope\naspect\n\nEnvironment\n\ntemperature\nwind speed\n\nEconomy\n\ntransportation\nlanduse\n\nCulture and Society\n\nnatural reserve\nbuilt-up area"
   },
   {
     "objectID": "GISproject.html#scope-of-work",
@@ -95,7 +95,7 @@
     "href": "GISproject.html#project-milestone",
     "title": "GIS Project",
     "section": "Project Milestone",
-    "text": "Project Milestone\n\nFormulation of project team: by week 2 before lesson\nAssemble GIS data: from week 7 onwards\nCreate project website : by week 8\nSubmission of project poster: 9th April 2025, 11:59PM (mid-night).\nTownhall presentation: 14th April 2025 (Monday), at 12:00-2:00pm. Venue: LKSLIB Basement concourse. Students are required to be at the venue latest by 11:30am to setup your project poster.\nSubmission of project artifacts and update project webpage: 20th April 2025 at 11.59pm (mid-night)"
+    "text": "Project Milestone\n\nFormulation of project team: by week 7.\nAssemble GIS data: from week 9 onwards\nCreate project website : by week 8\nSubmission of project poster: 9th April 2025, 11:59PM (mid-night).\nTownhall presentation: 14th April 2025 (Monday), at 12:00-2:00pm. Venue: LKSLIB Basement concourse. Students are required to be at the venue latest by 11:30am to setup your project poster.\nSubmission of project artifacts and update project webpage: 20th April 2025 at 11.59pm (mid-night)"
   },
   {
     "objectID": "GISproject.html#grading",
@@ -144,7 +144,7 @@
     "href": "GISproject.html#reference",
     "title": "GIS Project",
     "section": "Reference",
-    "text": "Reference\n\nNon-academic Publication\nDerna: The Libyan city known for rebellion — and neglect\nDerna dam collapses\nFloods worsened by Dams collapse lead to deaths of thousands in Libya\nLibya flooding: before and after satellite images reveal scale of disaster in Derna\nLibya flood: Satellite images and aerial photographs show destruction\nSee why Libya’s floods were so deadly in maps and videos\nStorm Daniel, Libya, September 2023\n\n\nResearch Publication\nGIS in Urban Disaster Management.\nGeorge D. Bathrellos et. al. (2023) Natural and Technological Hazards in Urban Areas Assessment, Planning and Solutions\nAbdalla, Rifaat Evaluation of spatial analysis application for urban emergency management, SpringerPlus, 2016, Vol.5 (1), p.2081-2081.\nElkhrachy, Ismail Assessment and Management Flash Flood in Najran Wady Using GIS and Remote Sensing, Journal of the Indian Society of Remote Sensing, 2018, Vol.46 (2), p.297-308.\nAlbano, R ; Sole, A ; Adamowski, J ; Mancusi, L () A GIS-based model to estimate flood consequences and the degree of accessibility and operability of strategic emergency response structures in urban areas, Natural Hazards and Earth System Sciences, Vol.14 (11), p.2847-2865.\nKarymbalis, Efthimios et. al. (2021) Integration of GIS-Based Multicriteria Decision Analysis and Analytic Hierarchy Process for Flood-Hazard Assessment in the Megalo Rema River Catchment(EastAttica,Greece), Sustainability, Vol.13 (18), p.10232\nShi, Hongbin et. al. (2023) A Study on the Accessibility of the Emergency Medical Services for Urban Kindergartens and Nursing Homes Based on Urban Pluvial Flooding Scenarios, Sustainability, Vol.15 (13), p.10443\nSi, Yunrui ; Li, Junli ; Si, Youbin (2023) Urban Flood Loss Estimation and Evacuation Design Based on a 500-Year Extreme Flood Event in Syracuse City, Water, Vol.15 (1), p.3\nQianqian Zhou et. al. (2021) A GIS-Based Hydrological Modeling Approach for Rapid Urban Flood Hazard Assessment, Water 2021, 13(11), 1483.\nWei Zhu et. al. (2022) [Urban Flood-Related Remote Sensing: Research Trends, Gaps and Opportunities] (https://www.mdpi.com/2072-4292/14/21/5505), Remote Sensing. 14(21), 5505.\nMarco Chini et. al. (2019) Sentinel-1 In SAR Coherence to Detect Flood water in Urban Areas: Houston and Hurricane Harvey as A Test Case. Remote sensing, Vol.11 (2), p.107.\nZhixia Wu et. al. (2023) Urban Flood Loss Assessment and Index Insurance Compensation Estimation by Integrating Remote Sensing and Rainfall Multi-Source Data: A Case Study of the 2021 Henan Rainstorm. Sustainability, 15(15), 11639.\nOliveira, E.R.; Disperati, L.; Alves, F.L. (2023) MINDED-FBA: An Automatic Remote Sensing Tool for the Estimation of Flooded and Burned Areas. Remote Sensing, 28 pages.\nManuel A. Aguilar et. al. (2016) “Classification of urban areas from GeoEye-1 imagery through texture features based on Histograms of Equivalent Patterns” European Journal of Remote Sensing, Vol. 49, pp. 93-120."
+    "text": "Reference\n\nGIS-Based Multiple-Criteria Decision Analysis\nRegional Scale wind farm and solar farm suitability assessment using GIS-assisted multi-criteria evaluation\nA Regional GIS-Assisted Multi-Criteria Evaluation of Site-Suitability for the Development of Solar Farms"
   },
   {
     "objectID": "about.html",

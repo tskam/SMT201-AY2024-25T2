@@ -19,12 +19,25 @@ The project is to be done in a team. You are required to form a project team of 
 
 ## Topic
 
-TBC
+Application of GIS-based Multi-criteria Analytis for wind farm or solar farm suitability assessment
 
 ## The Data
 
-TBC
+The study area will be Singapore main island.  The data sets should include but not limited to the followings:
 
+- Landform
+    - slope
+    - aspect
+- Environment
+    - temperature
+    - wind speed
+- Economy
+    - transportation
+    - landuse
+- Culture and Society
+    - natural reserve
+    - built-up area
+    
 ## Scope of Work
 
 The project will comprise of, but not limited to the followings steps:
@@ -38,8 +51,8 @@ The project will comprise of, but not limited to the followings steps:
 
 ## Project Milestone
 
--   Formulation of project team: by week 2 before lesson
--   Assemble GIS data: from week 7 onwards
+-   Formulation of project team: by week 7.
+-   Assemble GIS data: from week 9 onwards
 -   Create project website : by week 8
 -   Submission of project poster: **9th April 2025, 11:59PM (mid-night)**.
 -   Townhall presentation: **14th April 2025 (Monday), at 12:00-2:00pm**. Venue: LKSLIB Basement concourse. Students are required to be at the venue latest by 11:30am to setup your project poster.
@@ -209,52 +222,11 @@ Note that the following examples are for references purposes. You are urged to u
 
 ## Peer Learning
 
-
-
 ## Reference
 
-### Non-academic Publication
+- [GIS-Based Multiple-Criteria Decision Analysis](https://www.researchgate.net/publication/227670445_GIS-Based_Multiple-Criteria_Decision_Analysis)
+- [Regional Scale wind farm and solar farm suitability assessment using
+GIS-assisted multi-criteria evaluation](https://www.researchgate.net/publication/273159235_Regional_Scale_wind_farm_and_solar_farm_suitability_assessment_using_GIS-assisted_multi-criteria_evaluation)
+- [A Regional GIS-Assisted Multi-Criteria Evaluation of Site-Suitability for the Development of Solar Farms](https://www.mdpi.com/2073-445X/10/2/217)
 
-[Derna: The Libyan city known for rebellion --- and neglect](https://www.dw.com/en/derna-the-libyan-city-known-for-rebellion-and-neglect/a-66822261)
 
-[Derna dam collapses](https://en.wikipedia.org/wiki/Derna_dam_collapses)
-
-[Floods worsened by Dams collapse lead to deaths of thousands in Libya](https://sandrp.in/2023/09/13/floods-worsened-by-dams-collapse-lead-to-deaths-of-thousands-in-libya/)
-
-[Libya flooding: before and after satellite images reveal scale of disaster in Derna](https://www.theguardian.com/world/2023/sep/13/libya-flooding-before-and-after-satellite-images-northeastern-floods-derna)
-
-[Libya flood: Satellite images and aerial photographs show destruction](https://www.bbc.com/news/world-africa-66807956)
-
-[See why Libya's floods were so deadly in maps and videos](https://www.washingtonpost.com/world/2023/09/12/deadly-libya-flooding-cause/)
-
-[Storm Daniel, Libya, September 2023](https://storymaps.arcgis.com/stories/e451e32a054847469b1c1c731a8e5cff)
-
-### Research Publication
-
-[GIS in Urban Disaster Management](https://www.researchgate.net/publication/282287006_GIS_in_urban_disaster_management).
-
-George D. Bathrellos et. al. (2023) [Natural and Technological Hazards in Urban Areas Assessment, Planning and Solutions](https://www.mdpi.com/books/book/6614)
-
-Abdalla, Rifaat [Evaluation of spatial analysis application for urban emergency management](https://springerplus.springeropen.com/articles/10.1186/s40064-016-3723-y), *SpringerPlus*, 2016, Vol.5 (1), p.2081-2081.
-
-Elkhrachy, Ismail [Assessment and Management Flash Flood in Najran Wady Using GIS and Remote Sensing](https://search.library.smu.edu.sg/discovery/fulldisplay?docid=cdi_proquest_journals_2007703386&context=PC&vid=65SMU_INST:SMU_NUI&lang=en&search_scope=Everything&adaptor=Primo%20Central&tab=Everything&query=any%2Ccontains%2CGIS%20for%20urban%20flood%20emergency%20management&offset=0), *Journal of the Indian Society of Remote Sensing*, 2018, Vol.46 (2), p.297-308.
-
-Albano, R ; Sole, A ; Adamowski, J ; Mancusi, L () [A GIS-based model to estimate flood consequences and the degree of accessibility and operability of strategic emergency response structures in urban areas](https://search.library.smu.edu.sg/view/action/uresolver.do?operation=resolveService&package_service_id=5332606640002601&institutionId=2601&customerId=2600&VE=true), *Natural Hazards and Earth System Sciences*, Vol.14 (11), p.2847-2865.
-
-Karymbalis, Efthimios et. al. (2021) [Integration of GIS-Based Multicriteria Decision Analysis and Analytic Hierarchy Process for Flood-Hazard Assessment in the Megalo Rema River Catchment(EastAttica,Greece)](https://www.mdpi.com/2071-1050/13/18/10232), *Sustainability*, Vol.13 (18), p.10232
-
-Shi, Hongbin et. al. (2023) [A Study on the Accessibility of the Emergency Medical Services for Urban Kindergartens and Nursing Homes Based on Urban Pluvial Flooding Scenarios](https://www.mdpi.com/2071-1050/15/13/10443), *Sustainability*, Vol.15 (13), p.10443
-
-Si, Yunrui ; Li, Junli ; Si, Youbin (2023) [Urban Flood Loss Estimation and Evacuation Design Based on a 500-Year Extreme Flood Event in Syracuse City](https://www.mdpi.com/2073-4441/15/1/3), *Water*, Vol.15 (1), p.3
-
-Qianqian Zhou et. al. (2021) [A GIS-Based Hydrological Modeling Approach for Rapid Urban Flood Hazard Assessment](https://www.mdpi.com/2073-4441/13/11/1483), *Water* 2021, 13(11), 1483.
-
-Wei Zhu et. al. (2022) \[Urban Flood-Related Remote Sensing: Research Trends, Gaps and Opportunities\] (https://www.mdpi.com/2072-4292/14/21/5505), *Remote Sensing*. 14(21), 5505.
-
-Marco Chini et. al. (2019) [Sentinel-1 In SAR Coherence to Detect Flood water in Urban Areas: Houston and Hurricane Harvey as A Test Case](https://www.mdpi.com/2072-4292/11/2/107). *Remote sensing*, Vol.11 (2), p.107.
-
-Zhixia Wu et. al. (2023) [Urban Flood Loss Assessment and Index Insurance Compensation Estimation by Integrating Remote Sensing and Rainfall Multi-Source Data: A Case Study of the 2021 Henan Rainstorm](https://www.mdpi.com/2071-1050/15/15/11639). *Sustainability*, 15(15), 11639.
-
-Oliveira, E.R.; Disperati, L.; Alves, F.L. (2023) [MINDED-FBA: An Automatic Remote Sensing Tool for the Estimation of Flooded and Burned Areas](https://www.mdpi.com/2072-4292/15/3/724). *Remote Sensing*, 28 pages.
-
-Manuel A. Aguilar et. al. (2016) ["Classification of urban areas from GeoEye-1 imagery through texture features based on Histograms of Equivalent Patterns"](https://www.tandfonline.com/doi/abs/10.5721/EuJRS20164906) *European Journal of Remote Sensing*, Vol. 49, pp. 93-120.
