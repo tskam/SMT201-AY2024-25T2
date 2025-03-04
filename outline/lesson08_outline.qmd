@@ -35,7 +35,7 @@ In this lesson, you will learn the basic principles and concepts of digital imag
 -   Hands-on Exercise 8:
 
     -   [Chapter 2: Acquiring Landsat 8 Data](https://qgis4rdpa.netlify.app/hands-on_01)
-    -   [Chapter 3: Acquiring Sentinel-2 Data](https://qgis4rdpa.netlify.app/hands-on_02)
+    -   [Chapter 4: Processing and Visualising Landsat 8 Data](https://qgis4rdpa.netlify.app/hands-on_03)
 
 ## References
 
