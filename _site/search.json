@@ -1454,5 +1454,12 @@
     "title": "Lesson 7: GIS-based Multi-Criteria Decision Analysis",
     "section": "Real World Application: Bank Branch Site Selection Study",
     "text": "Real World Application: Bank Branch Site Selection Study"
+  },
+  {
+    "objectID": "Take-home_Ex02.html#references",
+    "href": "Take-home_Ex02.html#references",
+    "title": "Take-home Exercise 2: Urban Applications of Raster-based GIS Analysis",
+    "section": "References",
+    "text": "References\n\n“Mapping Urban Spatial Structure Based on POI (Point of Interest) Data: A Case Study of the Central City of Lanzhou, China”. Please pay special attention to sub-sections 4.2.2. The Kernel Density Estimation (KDE) and 5.3.1. The Kernel Density Analysis of Industrial Elements."
   }
 ]
