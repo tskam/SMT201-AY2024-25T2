@@ -3,6 +3,8 @@ title: "GIS Project"
 date: "December 31,  2024"
 date-modified: "last-modified"
 format: html
+toc: true
+toc-depth: 4
 execute: 
   freeze: true
 ---
@@ -19,25 +21,32 @@ The project is to be done in a team. You are required to form a project team of 
 
 ## Topic
 
-Application of GIS-based Multi-criteria Analytis for wind farm or solar farm suitability assessment
+### Topic 1: Application of GIS-based Multi-criteria Analytis for wind farm or solar farm suitability assessment
 
-## The Data
+#### The Data
 
-The study area will be Singapore main island.  The data sets should include but not limited to the followings:
+The study area will be Singapore main island. The data sets should include but not limited to the followings:
 
-- Landform
-    - slope
-    - aspect
-- Environment
-    - temperature
-    - wind speed
-- Economy
-    - transportation
-    - landuse
-- Culture and Society
-    - natural reserve
-    - built-up area
-    
+-   Landform
+    -   slope
+    -   aspect
+-   Environment
+    -   temperature
+    -   wind speed
+-   Economy
+    -   transportation
+    -   landuse
+-   Culture and Society
+    -   natural reserve
+    -   built-up area
+
+### Topic 2: Land Cover Change Detection by using High Resolution Temporal Satellite Remote Sensing Data 
+
+#### The Data
+
+- Temporal Satellite Remote Sensing Data of Landsat 8 or Sentinel 2 of a city of ASEAN country. 
+  - The study period will be between 2020-2024, one scene per year.
+
 ## Scope of Work
 
 The project will comprise of, but not limited to the followings steps:
@@ -224,9 +233,14 @@ Note that the following examples are for references purposes. You are urged to u
 
 ## Reference
 
-- [GIS-Based Multiple-Criteria Decision Analysis](https://www.researchgate.net/publication/227670445_GIS-Based_Multiple-Criteria_Decision_Analysis)
-- [Regional Scale wind farm and solar farm suitability assessment using
-GIS-assisted multi-criteria evaluation](https://www.researchgate.net/publication/273159235_Regional_Scale_wind_farm_and_solar_farm_suitability_assessment_using_GIS-assisted_multi-criteria_evaluation)
-- [A Regional GIS-Assisted Multi-Criteria Evaluation of Site-Suitability for the Development of Solar Farms](https://www.mdpi.com/2073-445X/10/2/217)
+### Topic 1
 
+-   [GIS-Based Multiple-Criteria Decision Analysis](https://www.researchgate.net/publication/227670445_GIS-Based_Multiple-Criteria_Decision_Analysis)
+-   [Regional Scale wind farm and solar farm suitability assessment using GIS-assisted multi-criteria evaluation](https://www.researchgate.net/publication/273159235_Regional_Scale_wind_farm_and_solar_farm_suitability_assessment_using_GIS-assisted_multi-criteria_evaluation)
+-   [A Regional GIS-Assisted Multi-Criteria Evaluation of Site-Suitability for the Development of Solar Farms](https://www.mdpi.com/2073-445X/10/2/217)
 
+### Topic 2
+
+- [Land use land cover change detection using multitemporal Landsat imagery in the North of Congo Republic: a case study in Sangha region](https://www.tandfonline.com/doi/full/10.1080/10106049.2024.2425184)
+
+- [Spatiotemporal Change Analysis and Prediction of Future Land Use and Land Cover Changes Using QGIS MOLUSCE Plugin and Remote Sensing Big Data: A Case Study of Linyi,China](https://www.mdpi.com/2073-445X/11/3/419)

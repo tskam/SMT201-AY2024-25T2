@@ -74,7 +74,7 @@
     "href": "GISproject.html#topic",
     "title": "GIS Project",
     "section": "Topic",
-    "text": "Topic\nApplication of GIS-based Multi-criteria Analytis for wind farm or solar farm suitability assessment"
+    "text": "Topic\n\nTopic 1: Application of GIS-based Multi-criteria Analytis for wind farm or solar farm suitability assessment\n\nThe Data\nThe study area will be Singapore main island. The data sets should include but not limited to the followings:\n\nLandform\n\nslope\naspect\n\nEnvironment\n\ntemperature\nwind speed\n\nEconomy\n\ntransportation\nlanduse\n\nCulture and Society\n\nnatural reserve\nbuilt-up area\n\n\n\n\n\nTopic 2: Land Cover Change Detection by using High Resolution Temporal Satellite Remote Sensing Data\n\nThe Data\n\nTemporal Satellite Remote Sensing Data of Landsat 8 or Sentinel 2 of a city of ASEAN country.\n\nThe study period will be between 2020-2024, one scene per year."
   },
   {
     "objectID": "GISproject.html#the-data",
@@ -144,7 +144,7 @@
     "href": "GISproject.html#reference",
     "title": "GIS Project",
     "section": "Reference",
-    "text": "Reference\n\nGIS-Based Multiple-Criteria Decision Analysis\nRegional Scale wind farm and solar farm suitability assessment using GIS-assisted multi-criteria evaluation\nA Regional GIS-Assisted Multi-Criteria Evaluation of Site-Suitability for the Development of Solar Farms"
+    "text": "Reference\n\nTopic 1\n\nGIS-Based Multiple-Criteria Decision Analysis\nRegional Scale wind farm and solar farm suitability assessment using GIS-assisted multi-criteria evaluation\nA Regional GIS-Assisted Multi-Criteria Evaluation of Site-Suitability for the Development of Solar Farms\n\n\n\nTopic 2\n\nLand use land cover change detection using multitemporal Landsat imagery in the North of Congo Republic: a case study in Sangha region\nSpatiotemporal Change Analysis and Prediction of Future Land Use and Land Cover Changes Using QGIS MOLUSCE Plugin and Remote Sensing Big Data: A Case Study of Linyi,China"
   },
   {
     "objectID": "about.html",
