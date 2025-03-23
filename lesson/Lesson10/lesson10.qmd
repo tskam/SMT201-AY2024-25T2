@@ -1,5 +1,5 @@
 ---
-title: "Lesson 10: Urban Network Analysis with GIS"
+title: "Lesson 10: Urban Land Cover Classification and Change Detection with Remotely Sensed Data"
 author: "Dr. Kam Tin Seong<br/>Assoc. Professor of Information Systems"
 institute: "School of Computing and Information Systems,<br/>Singapore Management University"
 date: "last-modified"
@@ -18,344 +18,316 @@ execute:
 
 ## Content
 
--   Why analyse with network?
+-   Urban Land Cover Classification
 
--   Network model
+-   Unsupervised Classification Methods
 
--   Real world network system
+-   Supervised Classification Process
 
--   Complexity of urban road network
+-   Classification Accuracy Metrics
 
--   Shortest path analysis algorithm
-
--   Network analysis methods
-
-## Location question
-
--   How to assign the eldercare centres to the closest polyclinic?
-
-![](img/image1.jpg)
-
-------------------------------------------------------------------------
-
-### GIS answer
-
--   Using buffer analysis
-
-![](img/image2.jpg){fig-align="center"}
-
-------------------------------------------------------------------------
-
-### GIS answer
-
--   Using desire line analysis (mmqgis plugin is needed).
-
-![](img/image3.jpg)
-
-------------------------------------------------------------------------
-
-### Limitation of the GIS answers
-
--   Failed to consider the actual road network.
-
-![](img/image4.jpg)
-
-## A Network Model
-
--   A **link** refers to a linear segment defined by two end points. Also called **edges**.
-
--   A **node** refers to an end point of a link.
-
-![](img/image5.jpg)
-
-------------------------------------------------------------------------
-
-### Two types of networks
+## Urban Land Cover Classification of Satellite Remote Sensing Imagery
 
 ::::: columns
 ::: {.column width="50%"}
--   Geometric
--   Directed flow, away from sources and toward sinks
--   Resources make no travel decisions
--   Topologic
--   Undirected flow
--   Resources make their own travel decisions
+The process of assigning a pixel (or groups of pixels) of remote sensing image to an urban land cover class.
+
+-   **Unsupervised Classification** in which the computer assigns pixels to categories with no instructions from the image analyst.
+
+-   **Supervised Classification** in which the image analyst provides training-site information that the computer uses to assign pixels to categories.
 :::
 
 ::: {.column width="50%"}
-![](img/image6.jpg)
+![](img/image1.jpg)
+:::
+:::::
+
+## Unsupervised Classification
+
+::::: columns
+::: {.column width="50%"}
+-   The goal of unsupervised classification is to automatically segregate pixels of a remote sensing image into groups of similar spectral character.
+
+-   Classification is done using one of several statistical routines generally called "clustering" where classes of pixels are created based on their shared spectral signatures.
+
+-   Clusters are split and /or merged until further clustering doesn't improve the explanation of the variation in the scene.
+:::
+
+::: {.column width="50%"}
+![](img/image2.jpg)
 :::
 :::::
 
 ------------------------------------------------------------------------
 
-### A Transportation Network
+### Unsupervised classification algirithm
 
-This network theme represents city streets and highways. Several theme attributes, such as speed limits, the number of lanes a street has, or which streets are one-way or two-way, can affect the flow of goods and services through a network.
-
-![](img/image7.jpg)
+-   Hierarchical clustering
+-   k-means clustering
+-   ISODATA (iterative Self-Organizing Data Analysis Technique)
+-   fuzzy-clustering
 
 ------------------------------------------------------------------------
 
-### An Utility Network
+### k-means clustering
 
-Utilities can also be network themes. In this example, the diameter of the waterlines, the system's water pressure, and the location of control valves can affect the flow of the water through the network.
+-   Partitioning clustering approach.
 
+-   Each cluster is associated with a centroid (center point).
+
+-   Each point is assigned to the cluster with the closest centroid.
+
+-   Number of clusters, K, must be specified.
+
+-   The basic algorithm is very simple
+
+![](img/image3.jpg){width="438"}
+
+------------------------------------------------------------------------
+
+### How the K-means algorithm works?
+
+The clustering process starts by randomly assigning objects to a number of clusters. The objects are then successively reassigned to other clusters to minimize the within-cluster variation, which is basically the (squared) distance from each observation to the center of the associated cluster. If the reallocation of an object to another cluster decreases the within-cluster variation, this object is reassigned to that cluster.
+
+![](img/image4.jpg){fig-align="center"}
+
+------------------------------------------------------------------------
+
+### ISODATA clustering algorithm
+
+-   The ISODATA algorithm has some further refinements by splitting and merging of clusters (JENSEN, 1996).
+
+    -   Clusters are merged if either the number of members (pixel) in a cluster is less than a certain threshold or if the centers of two clusters are closer than a certain threshold.
+
+    -   Clusters are split into two different clusters if the cluster standard deviation exceeds a predefined value and the number of members (pixels) is twice the threshold for the minimum number of members.
+
+-   The ISODATA algorithm is similar to the k-means algorithm with the distinct difference that the ISODATA algorithm allows for different number of clusters while the k-means assumes that the number of clusters is known a priori.
+
+------------------------------------------------------------------------
+
+### ISODATA Iteration
+
+-   In ISODATA iterations, pixels assigned to clusters with closest spectral mean; mean recalculated; pixels reassigned.
+
+![](img/image6.jpg){fig-align="center"}
+
+-   Continues until maximum iterations or convergence threshold reached.
+
+------------------------------------------------------------------------
+
+### Clustering Parameters
+
+::::: columns
+::: {.column width="50%"}
+-   To perform ISODATA clustering; NTM
+    -   N -- maximum number of clusters to be considered. Since each cluster is the basis for a class, this number becomes the maximum number of classes to be formed. The ISODATA process begins by determining N arbitrary cluster means. Some clusters with too few pixels can be eliminated, leaving less than N clusters.
+    -   T -- a convergence threshold, which is the maximum percentage of pixels whose class values are allowed to be unchanged between iterations.
+    -   M -- maximum number of iterations to be performed
+:::
+
+::: {.column width="50%"}
+-   Number of clusters: 10 to 15 per desired land cover class.
+
+-   Convergence threshold: percentage of pixels whose class values should not change between iterations; generally set to 95%.
+
+-   Maximum number of iterations: ideally, the convergence threshold should be reached. Should set "reasonable" parameters so that convergence is reached before iterations run out.
+:::
+:::::
+
+------------------------------------------------------------------------
+
+### Limitation of k-means and ISODATA clustering
+
+k-means and ISODATA clustering work best for images with clusters that are spherical and that have the same variance. This is often not true for remote sensing images. For example, a cluster with "desert" pixels is compact/circular. A "forest" cluster, however, is usually more or less elongated/oval with a much larger variability compared to the "desert" cluster. While the "desert" cluster is usually very well detected by the k-means algorithm as one distinct cluster, the "forest" cluster is often split up into several smaller cluster. The way the "forest" cluster is split up can vary quite a bit for different starting values and is thus arbitrary.
+
+![](img/image7.jpg){fig-align="center"}
+
+## Supervised Classification
+
+::::: columns
+::: {.column width="50%"}
+Supervised training is closely controlled by the analyst. In this process, you select pixels that represent patterns or land cover features that you recognize, or that you can identify with help from other sources, such as aerial photos, ground truth data, or maps. Knowledge of the data, and of the classes desired, is required before classification.
+
+By identifying patterns, you can instruct the computer system to identify pixels with similar characteristics. If the classification is accurate, the resulting classes represent the categories within the data that you originally identified.
+:::
+
+::: {.column width="50%"}
 ![](img/image8.jpg)
+:::
+:::::
 
 ------------------------------------------------------------------------
 
-### A River Network
+### Statistical Learning: Maximum Likelihood Algorithm
 
-River systems can be represented as a network or a series of networks. Some systems may not connect while other systems may connect naturally or may be connected by canals. The location of locks, river width, river depth, and current can affect the analysis.
+::::: columns
+::: {.column width="50%"}
+Maximum likelihood classification assumes that the statistics for each class in each band are normally distributed and calculates the probability that a given pixel belongs to a specific class. Unless you select a probability threshold, all pixels are classified. Each pixel is assigned to the class that has the highest probability (that is, the maximum likelihood). If the highest probability is smaller than a threshold you specify, the pixel remains unclassified.
+:::
 
-![](img/image9.jpg)
-
-------------------------------------------------------------------------
-
-### A simple transport network model
-
-![](img/image10.jpg)
-
-------------------------------------------------------------------------
-
-### Complexity of Urban Network Topology
-
-Beyond nodes and edges, there are more.....
-
-![](img/image11.jpg)
-
-------------------------------------------------------------------------
-
-### Multilane Expressway
-
-![](img/image12.jpg)
-
-------------------------------------------------------------------------
-
-### Multilane Major Road
-
-![](img/image13.jpg)
-
-------------------------------------------------------------------------
-
-### Two-way Road
-
-![](img/image14.jpg)
-
-------------------------------------------------------------------------
-
-### One-way Road
-
-![](img/image15.jpg)
-
-------------------------------------------------------------------------
-
-### Tunnel
-
-![](img/image16.jpg)
-
-------------------------------------------------------------------------
-
-### A Tale of Two Roads
+::: {.column width="50%"}
+The discriminant function, described by Richards and Jia (2006), is calculated for every pixel as:
 
 ![](img/image17.jpg)
 
-------------------------------------------------------------------------
-
-### Road facilities slow down traffic
-
-Road sign and traffic light inform about restrictions and rules.
-
-![](img/image18.jpg)
-
-------------------------------------------------------------------------
-
-### Road facilities slow down traffic
-
-![](img/image19.jpg)
-
-------------------------------------------------------------------------
-
-### Road conditions are dynamic
-
-![](img/image20.jpg)
-
-------------------------------------------------------------------------
-
-## Poor man network data source
-
-Bulk extract at [Geofabrik](https://download.geofabrik.de/) free download server.
-
-![](img/image21.jpg)
-
-## Shortest Path Analysis
-
-Shortest path analysis finds the path with the minimum cumulative impedance between nodes on a network. The path may connect just two nodes an origin and a destination or have specific stops between the nodes.
-
-![](img/image22.jpg){fig-align="center"}
-
-------------------------------------------------------------------------
-
-### Dijkstra's Shortest Path Algorithm
-
--   The path that will be calculated depends on which other nodes must be visited and in what order.
-
-![](img/image23.jpg)
-
-------------------------------------------------------------------------
-
-### Dijkstra's Shortest Path Algorithm
-
--   A network consisting of seven nodes and 10 lines.
-
-![](img/image24.jpg)
-
-------------------------------------------------------------------------
-
-### Dijkstra's Shortest Path Algorithm
-
--   Nodes adjacent to the origin node are in red.
-
-![](img/image25.jpg)
-
-------------------------------------------------------------------------
-
-### Dijkstra's Shortest Path Algorithm
-
--   Because the line between nodes a and b has the lowest cost (8), node b becomes a reached node.
-
-![](img/image26.jpg)
-
-------------------------------------------------------------------------
-
-### Dijkstra's Shortest Path Algorithm
-
--   After calculating a reached node, the algorithm continues to scan adjacent nodes.
-
-![](img/image27.jpg)
-
-------------------------------------------------------------------------
-
-### Dijkstra's Shortest Path Algorithm
-
--   The least cost path now travels from node a to node b to node f.
-
-![](img/image28.jpg)
-
-------------------------------------------------------------------------
-
-### Dijkstra's Shortest Path Algorithm
-
--   The cost of going from node a to node c to node e is 15, while the cost of going from node a to node d to node e is 16. The algorithm will choose the former, least cost, path.
-
-![](img/image29.jpg)
-
-------------------------------------------------------------------------
-
-### Dijkstra's Shortest Path Algorithm
-
--   All nodes have now been reached.
-
-![](img/image31.jpg){fig-align="center" width="450"}
-
-------------------------------------------------------------------------
-
-### Dijkstra's Shortest Path Algorithm
-
--   The least cost path from node a to node g.
-
-![](img/image32.jpg)
-
-## Fastest Path
-
--   Fastest paths are based on time and you can use any measure of time you choose (seconds, minutes, hours, etc.).
-
-![](img/image33.jpg)
-
-## Travelling salesman problem
-
--   A route can visit many stops in a network. The origin can also be the destination, as the warehouse is in this example delivery route.
-
-![](img/image34.jpg)
-
-------------------------------------------------------------------------
-
-## Beyond network model
-
-Accessibility modelling.
-
-![](img/image35.jpg)
-
-Source: https://developers.route360.net/index.html
-
-------------------------------------------------------------------------
-
-### Network Drive Time: Accessibility
-
-::::: columns
-::: {.column width="50%"}
--   If you know what is near a site, you can make better decisions about how suitable the site is for your business needs.
-:::
-
-::: {.column width="50%"}
-![](img/image36.jpg)
+![](img/image17b.jpg)
 :::
 :::::
 
 ------------------------------------------------------------------------
 
-### Network Service Areas
+### Statistical Learning: Minimum Distance Algorithm
 
 ::::: columns
 ::: {.column width="50%"}
-![](img/image37a.jpg)
+The minimum distance technique uses the mean vectors of each endmember and calculates the Euclidean distance from each unknown pixel to the mean vector for each class. All pixels are classified to the nearest class unless a standard deviation or distance threshold is specified, in which case some pixels may be unclassified if they do not meet the selected criteria.
 :::
 
 ::: {.column width="50%"}
-![](img/image37b.jpg)
+The distance is calculated for every pixel in the image, assigning the class of the spectral signature that is closer, according to the following discriminant function (adapted from Richards and Jia, 2006):
+
+![](img/image18a.jpg) ![](img/image18b.jpg)
 :::
 :::::
 
 ------------------------------------------------------------------------
 
-### Facility location -- network model
-
--   Given a set of clients, finds the facility location that minimises that path length to travel between the facility to each of the clients.
-
-![](img/image38.jpg)
-
-------------------------------------------------------------------------
-
-### Facility location -- planar model
-
--   Given a set of clients, finds the facility location that minimises that path length to travel between the facility to each of the clients.
-
-![](img/image39.jpg)
-
-## QGIS Network Analysis Support
+### Statistical Learning: Spectral Angle Mapping
 
 ::::: columns
 ::: {.column width="50%"}
--   Build in
+The Spectral Angle Mapping calculates the spectral angle between spectral signatures of image pixels and training spectral signatures. The spectral angle θ is defined as (Kruse et al., 1993):
 
-![](img/image40a.jpg){width="419"}
+![](img/image19a.jpg) ![](img/image19b.jpg)
 :::
 
 ::: {.column width="50%"}
--   Plug-in
+Therefore a pixel belongs to the class having the lowest angle, that is:
 
-![](img/image40b.jpg){width="585"}
-
-For more detail, visit this [link](https://root676.github.io/)
+![](img/image20a.jpg){width="550"} ![](img/image20b.jpg){width="480"} ![](img/image20c.jpg){width="500"}
 :::
 :::::
+
+------------------------------------------------------------------------
+
+## Machine Learning: Random Forest
+
+:::::: columns
+:::: {.column width="50%"}
+::: {style="font-size: 0.8em"}
+-   The Random Forest (RF) algorithm (Breimann 2001) is a supervised classification algorithm. It builds upon the concept of decision trees (DT).
+-   The RF relies on many self-learning decision trees (i.e. "Forest"). The idea behind using many decision trees (i.e. an ensemble) is that many base learners can come to one strong and robust decision compared to a single DT.
+-   Different from the manual (expert-based) definition of decision rules, the RF uses self-learning decision trees. These trees automatically define rules at each node based on a training dataset.
+-   RF seeks to minimize the heterogeneity of the two resulting subsets of the data created by the respective rule. Heterogeneity is in this case expressed as the Gini impurity index and the rule creating the least heterogeneous subsets of the data is used for the respective node.
+:::
+::::
+
+::: {.column width="50%"}
+![](img/image21.jpg){width="640"}
+:::
+::::::
+
+------------------------------------------------------------------------
+
+### Accuracy assessment for classifications
+
+The basic principle for all accuracy assessment is to compare estimates with reality, and to quantify the difference between the two.
+
+-   In the context of remote sensing-based land cover classifications, the 'estimates' are the classes mapped for each pixel, and 'reality' is the actual land cover in the areas corresponding to each pixel.
+
+------------------------------------------------------------------------
+
+### The confusion matrix
+
+A confusion matrix (or error matrix) is usually used as the quantitative method of characterising image classification accuracy. It is a table that shows correspondence between the classification result and a reference image. I.e., to create the confusion matrix we need the ground truth data, such as cartographic information, results of manually digitizing an image, field work/ground survey results recorded with a GPS-receiver.
+
+![](img/image9.jpg){fig-align="center"}
+
+------------------------------------------------------------------------
+
+### User, producer, and overall accuracy
+
+::: {style="font-size: 0.8em"}
+-   The user's accuracy column shows false positives, or errors of commission, where pixels are incorrectly classified as a known class when they should have been classified as something different. User's accuracy is also referred to as Type 1 error. The data to compute this error rate is read from the rows of the table. The user's accuracy is calculated by dividing the total number of classified points that agree with the reference data by the total number of classified points for that class. The Total row shows the number of points that should have been identified as a given class, according to the reference data.
+:::
+
+![](img/image10.jpg){fig-align="center"}
+
+------------------------------------------------------------------------
+
+### User, producer, and overall accuracy
+
+::: {style="font-size: 0.8em"}
+-   The producer's accuracy column shows false negatives, or errors of omission. The producer's accuracy indicates how accurately the classification results meet the expectation of the creator. Producer's accuracy is also referred to as Type 2 error. The data to compute this error rate is read in the columns of the table. The producer's accuracy is calculated by dividing the total number of classified points that agree with reference data by the total number of reference points for that class. These values are false-negative values within the classified results. The Total column shows the number of points that were identified as a given class, according to the classified map.
+:::
+
+![](img/image11.jpg){fig-align="center"}
+
+------------------------------------------------------------------------
+
+### User, producer, and overall accuracy
+
+::: {style="font-size: 0.8em"}
+-   The **overall accuracy** answers the following question: 'What proportion of the map is correctly classified?', which can often be interpreted simply as 'how accurate is the map?'. Looking at the values in the diagonal of the confusion matrix in the confusion matrix below, these sum up to 49+40+59=148, out of a total 166 pixels in the validation data set. 148 out of 166 is 89.16%, so based on the validation data we estimate that 89.16% of the map is correctly classified.
+:::
+
+![](img/image12.jpg){fig-align="center"}
+
+------------------------------------------------------------------------
+
+### Kappa
+
+::::: columns
+::: {.column width="50%"}
+KAPPA analysis is a discrete multivariate technique used in accuracy assessments.
+
+-   It yields a Khat statistic (an estimate of KAPPA) that is a measure of agreement or accuracy.
+
+-   The Khat statistic is computed by using the formula below:
+
+![](img/image14.jpg)
+:::
+
+::: {.column width="50%"}
+Rating criteria of Kappa statistics
+
+![](img/image15.jpg){width="589"}
+
+![](img/image15.jpg){width="2" height="1"}
+:::
+:::::
+
+------------------------------------------------------------------------
+
+### F1 Score
+
+::::: columns
+::: {.column width="50%"}
+-   The goal of a good image analysis is, of course, to have a large number of True Presences, and a small number of False Presences and a small number of False Negatives.
+
+-   To quantify how well the image analysis succeeded in this, the value typically calculated is called the F1 score, which is calculated as:
+
+![](img/image16a.jpg){fig-align="center" width="423"}
+:::
+
+::: {.column width="50%"}
+![](img/image16.jpg)
+
+-   The F1 score has the nice property of having values that range from 0 (worst) to 1 (best), which makes it easy to interpret.
+:::
+:::::
+
+## Reference
+
+-   [Land Cover & Land Use](https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/land-cover-land-use)
+
+-   Richards and Jia (2006) **Remote Sensing Digital Image Analysis: An Introduction**, Springer.
 
 ```{r}
 #| echo: false
 #| eval: false
 renderthis::to_pdf(
-  from = "https://smt201-ay2022-23t1.netlify.app/lesson/lesson09/lesson09.html",
-  to = "D://SMT201_AY2022-23T1/02-Lesson/pdf/Lesson09.pdf"
+  from = "https://smt201-ay2023-24t1.netlify.app/lesson/lesson10/lesson10.html",
+  to = "D://SMT201_AY2023-24T1/02-Lesson/pdf/Lesson10.pdf"
 )
 ```

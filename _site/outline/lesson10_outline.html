@@ -2,13 +2,13 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.57">
+<meta name="generator" content="quarto-1.6.42">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="dcterms.date" content="2024-12-31">
 
-<title>Lesson 10: Urban Network Analysis with GIS – SMT201-AY2023-24T1</title>
+<title>Lesson 10: Urban Land Cover Classification and Change Detection with Remotely Sensed Data – SMT201-AY2024-25T2</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -36,10 +36,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-04cf9867bab3eab11afb518865dbf6ef.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -80,7 +80,7 @@ ul.task-list li input[type="checkbox"] {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="../index.html">
-    <span class="navbar-title">SMT201-AY2023-24T1</span>
+    <span class="navbar-title">SMT201-AY2024-25T2</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -147,9 +147,9 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#lesson-slides-and-hands-on-notes" id="toc-lesson-slides-and-hands-on-notes" class="nav-link" data-scroll-target="#lesson-slides-and-hands-on-notes">Lesson Slides and Hands-on Notes</a></li>
   <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a>
   <ul class="collapse">
-  <li><a href="#concepts-and-methods" id="toc-concepts-and-methods" class="nav-link" data-scroll-target="#concepts-and-methods">Concepts and Methods</a></li>
-  <li><a href="#applications" id="toc-applications" class="nav-link" data-scroll-target="#applications">Applications</a></li>
+  <li><a href="#articles" id="toc-articles" class="nav-link" data-scroll-target="#articles">Articles</a></li>
   <li><a href="#qgis-methods" id="toc-qgis-methods" class="nav-link" data-scroll-target="#qgis-methods">QGIS Methods</a></li>
+  <li><a href="#qgis-plugin" id="toc-qgis-plugin" class="nav-link" data-scroll-target="#qgis-plugin">QGIS Plugin</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -159,7 +159,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Lesson 10: Urban Network Analysis with GIS</h1>
+<h1 class="title">Lesson 10: Urban Land Cover Classification and Change Detection with Remotely Sensed Data</h1>
 </div>
 
 
@@ -177,7 +177,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Modified</div>
     <div class="quarto-title-meta-contents">
-      <p class="date-modified">December 31, 2024</p>
+      <p class="date-modified">March 23, 2025</p>
     </div>
   </div>
     
@@ -190,57 +190,74 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="overview" class="level2">
 <h2 class="anchored" data-anchor-id="overview">Overview</h2>
-<p>In this lesson, you will learn the basic concepts of network data model and network analysis methods. You will also gain hands-on experience on using QGIS to build network data models and to perform shortest path analysis.</p>
+<p>In this lesson, you will learn how to applied digital image analysis for urban planning and management including land-use/ landcover (LULC) change detection.</p>
 </section>
 <section id="content" class="level2">
 <h2 class="anchored" data-anchor-id="content">Content</h2>
 <ul>
-<li>Why analyse with network?</li>
-<li>Network model</li>
-<li>Real world network system</li>
-<li>Complexity of urban road network</li>
-<li>Shortest path analysis algorithm</li>
-<li>Delineating network service area</li>
+<li>Multi-spectral Classification for Urban Land Use/Land Cover (LULC) Mapping
+<ul>
+<li>Unsupervised classification</li>
+<li>Supervised classification</li>
+<li><a href="https://gisgeography.com/obia-object-based-image-analysis-geobia/">OBIA – Object-Based Image Analysis(GEOBIA)</a></li>
+</ul></li>
+<li>Urban LULC Change Detection</li>
+<li>Urban Features Extraction techniques</li>
 </ul>
 </section>
 <section id="lesson-slides-and-hands-on-notes" class="level2">
 <h2 class="anchored" data-anchor-id="lesson-slides-and-hands-on-notes">Lesson Slides and Hands-on Notes</h2>
 <ul>
-<li><p>Lesson slides in <a href="../lesson/Lesson10/Lesson10.html">html</a>.</p></li>
-<li><p>Hands-on Exercises:</p>
-<ul>
-<li><p><a href="https://gis4urbplan.netlify.app/hands-on_ex09">Shortest Path Analysis: QGIS methods</a></p></li>
-<li><p><a href="https://gis4urbplan.netlify.app/hands-on_ex11">Delineating Service Area Using Network Distance Approach</a></p></li>
-</ul></li>
+<li><p>Lesson slides in <a href="../lesson/Lesson10/Lesson10.html">html</a> format.</p></li>
+<li><p>Hands-on Exercise 10 in <a href="https://qgis4rdpa.netlify.app/hands-on_04">html</a> format.</p></li>
 </ul>
 </section>
 <section id="references" class="level2">
 <h2 class="anchored" data-anchor-id="references">References</h2>
-<section id="concepts-and-methods" class="level3">
-<h3 class="anchored" data-anchor-id="concepts-and-methods">Concepts and Methods</h3>
+<section id="articles" class="level3">
+<h3 class="anchored" data-anchor-id="articles">Articles</h3>
 <ul>
-<li><p>Manfred M. Fischer (2003) <a href="https://www.researchgate.net/publication/23730944_GIS_and_network_analysis">“<em>GIS AND NETWORK ANALYSIS</em>”</a> in <strong>Handbook 5 Transport Geography and Spatial Systems</strong>. Hensher D., Button K., Haynes K. and Stopher P. (eds.); Pergamon</p></li>
-<li><p><a href="https://gisgeography.com/network-analysis/">5 Types of Network Analysis in GIS</a></p></li>
-<li><p>Chun, Y, and Kim, H. (2018). <a href="https://gistbok.ucgis.org/bok-topics/2021-quarter-01/networks-defined"><em>Networks Defined</em></a>. <strong>The Geographic Information Science &amp; Technology Body of Knowledge (4th Quarter 2018 Edition)</strong>, John P. Wilson (Ed.).</p></li>
+<li><p>Sandipta Das . Dasharatha P Angadi (2022) <a href="https://link-springer-com.libproxy.smu.edu.sg/content/pdf/10.1007/s10708-020-10359-1.pdf">“<em>Land use land cover change detection and monitoring of urban growth using remote sensing and GIS techniques: a micro-level study</em>”</a> <strong>GeoJournal</strong>, Vol. 87, pp.&nbsp;2101–2123.</p></li>
+<li><p>Jane Ferah Gondwe, Sun Lin, Rodger Millar Munthali, <a href="https://www.hindawi.com/journals/ddns/2021/8011565/">“<em>Analysis of Land Use and Land Cover Changes in Urban Areas Using Remote Sensing: Case of Blantyre City</em>”</a>, <strong>Discrete Dynamics in Nature and Society</strong>, vol.&nbsp;2021, Article ID 8011565, 17 pages, 2021. https://doi.org/10.1155/2021/8011565</p></li>
+<li><p>Geymen, Abdurrahman ; Baz, Ibrahim (2007) <a href="https://link-springer-com.libproxy.smu.edu.sg/article/10.1007/s10661-007-9699-x"><em>Monitoring urban growth and detecting</em> land-cover changes on the Istanbul metropolitan area</a>, <strong>Environmental Monitoring and Assessment</strong>, Vol.136 (1-3), p.449-459.</p></li>
+<li><p>Yin, Jie et. al.&nbsp;(2010) <a href="https://link-springer-com.libproxy.smu.edu.sg/article/10.1007/s10661-010-1660-8"><em>Monitoring urban expansion and land use/land cover changes of Shanghai metropolitan area during the transitional economy (1979–2009) in China</em></a>, <strong>Environmental Monitoring and Assessment</strong>, Vol.177 (1-4), p.609-621.</p></li>
+<li><p>Praveen Kumar Mallupattu* and Jayarama Reddy Sreenivasula Reddy (2013) <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3679719/"><em>Analysis of Land Use/Land Cover Changes Using Remote Sensing Data and GIS at an Urban Area, Tirupati, India</em></a>, <strong>The Scientific World Journal</strong> (online)</p></li>
+<li><p>Ali Alzahrani and Awos Kanan (2022) “<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9262539/"><em>Machine Learning Approaches for Developing Land Cover Mapping</em></a>” <strong>Applied Bionics and Biomechanics</strong>, Volume 2022, 8 pages.</p></li>
 </ul>
-</section>
-<section id="applications" class="level3">
-<h3 class="anchored" data-anchor-id="applications">Applications</h3>
-<p>Lee, Jin ; Lubienski, Christopher (2017) <a href="https://journals-sagepub-com.libproxy.smu.edu.sg/doi/full/10.1177/0013124516630601">“The Impact of School Closures on Equity of Access in Chicago”</a>, <em>Education and Urban Society</em>, Vol.49 (1), p.53-80.</p>
-<p>Jan Burdziej (2017) <a href="https://www.researchgate.net/publication/330850358_Using_hexagonal_grids_and_network_analysis_for_spatial_accessibility_assessment_in_urban_environments_-_A_case_study_of_public_amenities_in_Torun">“Using hexagonal grids and network analysis for spatial accessibility assessment in urban environments – a case study of public amenities in Toruń”</a>, <em>MISCELLANEA GEOGRAPHICA – REGIONAL STUDIES ON DEVELOPMENT</em>, Vol. 23, No.&nbsp;2.</p>
-<p>Rizwan Shahid, et al.&nbsp;(2009) <a href="https://bmchealthservres.biomedcentral.com/articles/10.1186/1472-6963-9-200">“Comparison of distance measures in spatial analytical modeling for health service planning”</a>, <em>BMC Health Services Research</em>, p1-14.</p>
-<p>Balasubramani, K., Gomathi, M., &amp; Prasad, S. (2016) <a href="https://www.researchgate.net/publication/319644901_GIS-BASED_SERVICE_AREA_ANALYSIS_FOR_OPTIMAL_PLANNING_STRATEGIES_A_CASE_STUDY_OF_FIRE_SERVICE_STATIONS_IN_MADURAI_CITY">“GIS-based Service Area Analysis for Optimal Planning Strategies: A Case Study of Fire Service Stations in Madurai City”</a></p>
 </section>
 <section id="qgis-methods" class="level3">
 <h3 class="anchored" data-anchor-id="qgis-methods">QGIS Methods</h3>
 <ul>
-<li><p><a href="https://www.giscourse.com/qgis-network-analysis-capabilities/">QGIS Network Analysis Capabilities</a></p></li>
-<li><p><a href="https://docs.qgis.org/3.22/en/docs/training_manual/vector_analysis/network_analysis.html">6.3. Lesson: Network Analysis</a> of QGIS Training Manual.</p></li>
-<li><p><a href="https://root676.github.io/">About QNEAT3</a></p></li>
-<li><p>Alba KUCUKALI, et. al.&nbsp;(2022) <a href="https://www.researchgate.net/publication/362883338_Evaluating_the_pedestrian_accessibility_to_public_services_using_open-source_geospatial_data_and_QGIS_software">“Evaluating the pedestrian accessibility to public services using open-source geospatial data and QGIS software”</a>, <em>Nova Geodesia</em> 2(2):42.</p></li>
-<li><p>UNESCO (2022) <a href="https://unesdoc.unesco.org/ark:/48223/pf0000381654/PDF/381654eng.pdf.multi">Isochrone-based catchment areas for education</a>, <strong>IIEP Technical Note</strong>.</p></li>
-<li><p>Linden, Philip (2021)<a href="https://www.diva-portal.org/smash/get/diva2:1572503/FULLTEXT01.pdf"><strong>Improving accessibility to the bus service</strong></a>. Master Thesis, UMEA Universitet.</p></li>
-<li><p>QGIS Tutorials and Tips, <a href="https://www.qgistutorials.com/en/docs/3/service_area_analysis.html">Service Area Analysis using Openrouteservice(QGIS3)</a>.</p></li>
+<li><p><a href="https://www.youtube.com/watch?v=4XKgVwrztXY">Landcover change detection using QGIS. Land use landcover change detection</a></p></li>
+<li><p><a href="https://www.un-spider.org/advisory-support/recommended-practices/recommended-practice-land-cover-change/step-by-step">Step-by-Step: Land Cover Change Detection through Supervised Classification</a>.</p></li>
+<li><p><a href="https://www.youtube.com/watch?v=Ceyhm3DlZNY">Land Cover Classification using the Semi-Automatic Classification Plugin version 7</a></p></li>
+<li><p><a href="https://www.youtube.com/watch?v=kRPNjNvrLPU">Unsupervised Classification using the Semi-Automatic Classification Plugin version 7</a></p></li>
+<li><p><a href="https://www.youtube.com/watch?v=FtHsGlLiNaw">Random Forest Classification using the Semi-Automatic Classification Plugin for QGIS</a></p></li>
+<li><p><a href="https://www.youtube.com/watch?v=ts5VXnmoIiY">Image Conversion to Reflectance using the Semi-Automatic Classification Plugin version 7</a></p></li>
+<li><p><a href="https://www.youtube.com/watch?v=QinnaV9On3k&amp;t=14s">SCP Tips: Import ROIs from shapefile</a></p></li>
+<li><p><a href="https://www.youtube.com/watch?v=So04gNzDC9Y&amp;list=PL7mCX6pQ2k2MeXOKoqO4sfV-6_tHDfhYh&amp;index=5">SCP Tips: ROI Pointer</a></p></li>
+<li><p><a href="https://www.youtube.com/watch?v=fX2UpOwoYLk">Object-based Image classification in QGIS || OBIA !! || A complete Tutorial</a></p></li>
+<li><p><a href="https://www.youtube.com/watch?v=RDRwPEujX04">Accuracy Assesment In Quantum GIS || A complete Tutorial</a></p></li>
+<li><p><a href="https://www.youtube.com/watch?v=OGX8oVgS-QE">Calculating Land surface temperature using Landsat 8 Imagery || QGIS Tutorial</a></p></li>
+</ul>
+</section>
+<section id="qgis-plugin" class="level3">
+<h3 class="anchored" data-anchor-id="qgis-plugin">QGIS Plugin</h3>
+<ul>
+<li><a href="https://fromgistors.blogspot.com/p/semi-automatic-classification-plugin.html">Semi-Automatic Classification Plugin (SCP) for QGIS</a></li>
+<li><a href="https://www.orfeo-toolbox.org/CookBook/index.html">Orfeo toolbox Plugin for QGIS</a></li>
+<li><a href="http://wiki.awf.forst.uni-goettingen.de/wiki/index.php/OTB_Plugin_installation">OTB Plugin installation</a></li>
+<li><a href="https://www.youtube.com/watch?v=fX2UpOwoYLk">Object-based Image classification in QGIS</a>. This video tutorial demonstrates the use of OTB to perform Object-based Image classification (OBIA).</li>
+<li><a href="https://github.com/salomoneinstein/QuickStepGeobia">GEOBIA</a></li>
+<li><a href="https://www.youtube.com/watch?v=oW7l4vUlr3A">GEOBIA - Geographic Object-Based Image Analysis</a>. This video tutorial tutorial demonstrates the use GEOBIA QGIS plugin to perform Geographic Object-Based Image Analysis (GEOBIA).</li>
+<li><a href="https://github.com/nkarasiak/dzetsaka">dzetsaka: Classification tool</a> supports Random Forest, KNN and SVM for supervised classification of multi-spectral satellite data.</li>
+<li><a href="https://mlp-image-classifier.readthedocs.io/en/latest/index.html">Neural Network MLPClassifier</a> provides a supervised classification method for multi-band passive optical remote sensing data based on the Neural Network MLPClassifier by scikit-learn.</li>
+<li><a href="https://github.com/GEOSYS/qgis-plugin">GEOSYS Plugin</a></li>
+<li><a href="https://github.com/SMByC/PCA4CD">PCA4CD - PCA for change detection</a></li>
+<li><a href="https://github.com/deepbands/buildseg">buildseg: QGIS plugin for building extraction</a></li>
+<li><a href="https://github.com/ikotarid/Terminus">Terminus</a></li>
+<li><a href="https://treedensitycalculator.readthedocs.io/en/latest/#">Tree Density Calculator</a></li>
+<li><a href="https://github.com/PrathamGitHub/NITK_RS-GIS_17">RS&amp;GIS</a></li>
 </ul>
 
 
@@ -330,8 +347,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
   clipboard.on('success', onCopySuccess);
   if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-    // For code content inside modals, clipBoardJS needs to be initialized with a container option
-    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
     const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
       text: getTextToCopy,
       container: window.document.getElementById('quarto-embedded-source-code-modal')
@@ -442,7 +457,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
-      // TODO in 1.5, we should make sure this works without a callout special case
       if (note.classList.contains("callout")) {
         return note.outerHTML;
       } else {

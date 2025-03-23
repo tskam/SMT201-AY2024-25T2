@@ -515,20 +515,15 @@ Notice that vegetation appears in shades of red, urban areas are green-blue, and
 ### Articles
 
 -   Alexander Vida (2021) ["Fundamentals of Remote Sensing"](https://storymaps.arcgis.com/stories/f9f8002d55214b5bba5193777fe1c7f0)
-
 -   [How to Interpret Common False Color Images](https://earthobservatory.nasa.gov/features/FalseColor/page6.php)
-
 -   [Why is that Forest Red and that Cloud Blue? How to Interpret a False-Color Satellite Image](https://earthobservatory.nasa.gov/features/FalseColor)
-
 -   [Space-based Earth observations for societal benefit](https://public.wmo.int/en/bulletin/space-based-earth-observations-societal-benefit)
-
 -   [Data for All: Using Satellite Observations for Social Good](https://eos.org/opinions/data-for-all-using-satellite-observations-for-social-good)
-
 -   [GeoEye-1 Satellite Sensor](https://www.satimagingcorp.com/satellite-sensors/geoeye-1/)
-
 -   [Landsat and EROS Center](https://www.usgs.gov/landsat-missions)
-
+-   [Landsat 8 Bands and Band Combinations](https://gisgeography.com/landsat-8-bands-combinations/)
 -   [Sentinel Online](https://sentinels.copernicus.eu/web/sentinel/home)
+-   [Sentinel 2 Bands and Combinations](https://gisgeography.com/sentinel-2-bands-combinations/)
 
 ```{r}
 #| echo: false

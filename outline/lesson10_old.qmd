@@ -1,0 +1,71 @@
+---
+title: "Lesson 10: Urban Network Analysis with GIS"
+date: "December 31, 2024"
+date-modified: "last-modified"
+format: html
+execute: 
+  freeze: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Overview
+
+In this lesson, you will learn the basic concepts of network data model and network analysis methods. You will also gain hands-on experience on using QGIS to build network data models and to perform shortest path analysis.
+
+## Content
+
+-   Why analyse with network?
+-   Network model
+-   Real world network system
+-   Complexity of urban road network
+-   Shortest path analysis algorithm
+-   Delineating network service area
+
+## Lesson Slides and Hands-on Notes
+
+-   Lesson slides in [html](../lesson/Lesson10/Lesson10.html).
+
+-   Hands-on Exercises:
+
+    -   [Shortest Path Analysis: QGIS methods](https://gis4urbplan.netlify.app/hands-on_ex09)
+
+    -   [Delineating Service Area Using Network Distance Approach](https://gis4urbplan.netlify.app/hands-on_ex11)
+
+## References
+
+### Concepts and Methods
+
+-   Manfred M. Fischer (2003) ["*GIS AND NETWORK ANALYSIS*"](https://www.researchgate.net/publication/23730944_GIS_and_network_analysis) in **Handbook 5 Transport Geography and Spatial Systems**. Hensher D., Button K., Haynes K. and Stopher P. (eds.); Pergamon
+
+-   [5 Types of Network Analysis in GIS](https://gisgeography.com/network-analysis/)
+
+-   Chun, Y, and Kim, H. (2018). [*Networks Defined*](https://gistbok.ucgis.org/bok-topics/2021-quarter-01/networks-defined). **The Geographic Information Science & Technology Body of Knowledge (4th Quarter 2018 Edition)**, John P. Wilson (Ed.).
+
+### Applications
+
+Lee, Jin ; Lubienski, Christopher (2017) ["The Impact of School Closures on Equity of Access in Chicago"](https://journals-sagepub-com.libproxy.smu.edu.sg/doi/full/10.1177/0013124516630601), *Education and Urban Society*, Vol.49 (1), p.53-80.
+
+Jan Burdziej (2017) ["Using hexagonal grids and network analysis for spatial accessibility assessment in urban environments -- a case study of public amenities in Toruń"](https://www.researchgate.net/publication/330850358_Using_hexagonal_grids_and_network_analysis_for_spatial_accessibility_assessment_in_urban_environments_-_A_case_study_of_public_amenities_in_Torun), *MISCELLANEA GEOGRAPHICA -- REGIONAL STUDIES ON DEVELOPMENT*, Vol. 23, No. 2.
+
+Rizwan Shahid, et al. (2009) ["Comparison of distance measures in spatial analytical modeling for health service planning"](https://bmchealthservres.biomedcentral.com/articles/10.1186/1472-6963-9-200), *BMC Health Services Research*, p1-14.
+
+Balasubramani, K., Gomathi, M., & Prasad, S. (2016) ["GIS-based Service Area Analysis for Optimal Planning Strategies: A Case Study of Fire Service Stations in Madurai City"](https://www.researchgate.net/publication/319644901_GIS-BASED_SERVICE_AREA_ANALYSIS_FOR_OPTIMAL_PLANNING_STRATEGIES_A_CASE_STUDY_OF_FIRE_SERVICE_STATIONS_IN_MADURAI_CITY)
+
+### QGIS Methods
+
+-   [QGIS Network Analysis Capabilities](https://www.giscourse.com/qgis-network-analysis-capabilities/)
+
+-   [6.3. Lesson: Network Analysis](https://docs.qgis.org/3.22/en/docs/training_manual/vector_analysis/network_analysis.html) of QGIS Training Manual.
+
+-   [About QNEAT3](https://root676.github.io/)
+
+-   Alba KUCUKALI, et. al. (2022) ["Evaluating the pedestrian accessibility to public services using open-source geospatial data and QGIS software"](https://www.researchgate.net/publication/362883338_Evaluating_the_pedestrian_accessibility_to_public_services_using_open-source_geospatial_data_and_QGIS_software), *Nova Geodesia* 2(2):42.
+
+-   UNESCO (2022) [Isochrone-based catchment areas for education](https://unesdoc.unesco.org/ark:/48223/pf0000381654/PDF/381654eng.pdf.multi), **IIEP Technical Note**.
+
+-   Linden, Philip (2021)[**Improving accessibility to the bus service**](https://www.diva-portal.org/smash/get/diva2:1572503/FULLTEXT01.pdf). Master Thesis, UMEA Universitet.
+
+-   QGIS Tutorials and Tips, [Service Area Analysis using Openrouteservice(QGIS3)](https://www.qgistutorials.com/en/docs/3/service_area_analysis.html).

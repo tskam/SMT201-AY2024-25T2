@@ -158,7 +158,7 @@
     "href": "lesson.html",
     "title": "Weekly Lesson Plan",
     "section": "",
-    "text": "Week\nDate\nTopic\nRemarks\n\n\n\n\n1\n13/1/2025\nLesson 1: Introduction to GIS for Urban Planning\n\n\n\n2\n20/1/2025\nLesson 2: The Evil is in The Data\n\n\n\n3\n27/1/2025\nLesson 3: Mapping and Visualising Urban World with GIS\n\n\n\n4\n3/2/2025\nLesson 4: Vector-based GeoProcessing and GIS Analysis\n\n\n\n5\n10/2/2025\nLesson 5: Urban Applications of Vector-based GIS Analysis\n\n\n\n6\n17/2/2025\nLesson 6: The Science of Mapthematics\n\n\n\n7\n24/2/2025\nLesson 7: GIS-based Multi-Criteria Decision Analysis\n\n\n\n8\n3/3/2025\nMid-term break\n\n\n\n9\n10/3/2025\nLesson 8: Introduction to Digital Image Processing and Analysis\n\n\n\n10\n17/3/2025\nLesson 9: Applied Image Analysis for the Urban Environment\n\n\n\n11\n24/3/2024\nLesson 10: Urban Network Analysis with GIS\n\n\n\n12\n5/4/2025\nLesson 11: Geographic Accessibility Analysis with GIS\n\n\n\n13\n7/4/2025\nLesson 12: Sharing Geographical Information\n\n\n\n14\n14/4/2025\nTownhall Presentation"
+    "text": "Week\nDate\nTopic\nRemarks\n\n\n\n\n1\n13/1/2025\nLesson 1: Introduction to GIS for Urban Planning\n\n\n\n2\n20/1/2025\nLesson 2: The Evil is in The Data\n\n\n\n3\n27/1/2025\nLesson 3: Mapping and Visualising Urban World with GIS\n\n\n\n4\n3/2/2025\nLesson 4: Vector-based GeoProcessing and GIS Analysis\n\n\n\n5\n10/2/2025\nLesson 5: Urban Applications of Vector-based GIS Analysis\n\n\n\n6\n17/2/2025\nLesson 6: The Science of Mapthematics\n\n\n\n7\n24/2/2025\nLesson 7: GIS-based Multi-Criteria Decision Analysis\n\n\n\n8\n3/3/2025\nMid-term break\n\n\n\n9\n10/3/2025\nLesson 8: Introduction to Digital Image Processing and Analysis\n\n\n\n10\n17/3/2025\nLesson 9: Building GIS Project Website with Quarto\n\n\n\n11\n24/3/2024\nLesson 10: Urban Land Cover Classification and Change Detection with Remotely Sensed Data\n\n\n\n12\n5/4/2025\nLesson 11: Urban Heat Island Analysis with Remote Sensing and GIS\n\n\n\n13\n7/4/2025\nLesson 12: Sharing Geographical Information\n\n\n\n14\n14/4/2025\nTownhall Presentation"
   },
   {
     "objectID": "outline/lesson01_outline.html",
@@ -247,37 +247,37 @@
   {
     "objectID": "outline/lesson10_outline.html",
     "href": "outline/lesson10_outline.html",
-    "title": "Lesson 10: Urban Network Analysis with GIS",
+    "title": "Lesson 10: Urban Land Cover Classification and Change Detection with Remotely Sensed Data",
     "section": "",
-    "text": "In this lesson, you will learn the basic concepts of network data model and network analysis methods. You will also gain hands-on experience on using QGIS to build network data models and to perform shortest path analysis."
+    "text": "In this lesson, you will learn how to applied digital image analysis for urban planning and management including land-use/ landcover (LULC) change detection."
   },
   {
     "objectID": "outline/lesson10_outline.html#overview",
     "href": "outline/lesson10_outline.html#overview",
-    "title": "Lesson 10: Urban Network Analysis with GIS",
+    "title": "Lesson 10: Urban Land Cover Classification and Change Detection with Remotely Sensed Data",
     "section": "",
-    "text": "In this lesson, you will learn the basic concepts of network data model and network analysis methods. You will also gain hands-on experience on using QGIS to build network data models and to perform shortest path analysis."
+    "text": "In this lesson, you will learn how to applied digital image analysis for urban planning and management including land-use/ landcover (LULC) change detection."
   },
   {
     "objectID": "outline/lesson10_outline.html#content",
     "href": "outline/lesson10_outline.html#content",
-    "title": "Lesson 10: Urban Network Analysis with GIS",
+    "title": "Lesson 10: Urban Land Cover Classification and Change Detection with Remotely Sensed Data",
     "section": "Content",
-    "text": "Content\n\nWhy analyse with network?\nNetwork model\nReal world network system\nComplexity of urban road network\nShortest path analysis algorithm\nDelineating network service area"
+    "text": "Content\n\nMulti-spectral Classification for Urban Land Use/Land Cover (LULC) Mapping\n\nUnsupervised classification\nSupervised classification\nOBIA – Object-Based Image Analysis(GEOBIA)\n\nUrban LULC Change Detection\nUrban Features Extraction techniques"
   },
   {
     "objectID": "outline/lesson10_outline.html#lesson-slides-and-hands-on-notes",
     "href": "outline/lesson10_outline.html#lesson-slides-and-hands-on-notes",
-    "title": "Lesson 10: Urban Network Analysis with GIS",
+    "title": "Lesson 10: Urban Land Cover Classification and Change Detection with Remotely Sensed Data",
     "section": "Lesson Slides and Hands-on Notes",
-    "text": "Lesson Slides and Hands-on Notes\n\nLesson slides in html.\nHands-on Exercises:\n\nShortest Path Analysis: QGIS methods\nDelineating Service Area Using Network Distance Approach"
+    "text": "Lesson Slides and Hands-on Notes\n\nLesson slides in html format.\nHands-on Exercise 10 in html format."
   },
   {
     "objectID": "outline/lesson10_outline.html#references",
     "href": "outline/lesson10_outline.html#references",
-    "title": "Lesson 10: Urban Network Analysis with GIS",
+    "title": "Lesson 10: Urban Land Cover Classification and Change Detection with Remotely Sensed Data",
     "section": "References",
-    "text": "References\n\nConcepts and Methods\n\nManfred M. Fischer (2003) “GIS AND NETWORK ANALYSIS” in Handbook 5 Transport Geography and Spatial Systems. Hensher D., Button K., Haynes K. and Stopher P. (eds.); Pergamon\n5 Types of Network Analysis in GIS\nChun, Y, and Kim, H. (2018). Networks Defined. The Geographic Information Science & Technology Body of Knowledge (4th Quarter 2018 Edition), John P. Wilson (Ed.).\n\n\n\nApplications\nLee, Jin ; Lubienski, Christopher (2017) “The Impact of School Closures on Equity of Access in Chicago”, Education and Urban Society, Vol.49 (1), p.53-80.\nJan Burdziej (2017) “Using hexagonal grids and network analysis for spatial accessibility assessment in urban environments – a case study of public amenities in Toruń”, MISCELLANEA GEOGRAPHICA – REGIONAL STUDIES ON DEVELOPMENT, Vol. 23, No. 2.\nRizwan Shahid, et al. (2009) “Comparison of distance measures in spatial analytical modeling for health service planning”, BMC Health Services Research, p1-14.\nBalasubramani, K., Gomathi, M., & Prasad, S. (2016) “GIS-based Service Area Analysis for Optimal Planning Strategies: A Case Study of Fire Service Stations in Madurai City”\n\n\nQGIS Methods\n\nQGIS Network Analysis Capabilities\n6.3. Lesson: Network Analysis of QGIS Training Manual.\nAbout QNEAT3\nAlba KUCUKALI, et. al. (2022) “Evaluating the pedestrian accessibility to public services using open-source geospatial data and QGIS software”, Nova Geodesia 2(2):42.\nUNESCO (2022) Isochrone-based catchment areas for education, IIEP Technical Note.\nLinden, Philip (2021)Improving accessibility to the bus service. Master Thesis, UMEA Universitet.\nQGIS Tutorials and Tips, Service Area Analysis using Openrouteservice(QGIS3)."
+    "text": "References\n\nArticles\n\nSandipta Das . Dasharatha P Angadi (2022) “Land use land cover change detection and monitoring of urban growth using remote sensing and GIS techniques: a micro-level study” GeoJournal, Vol. 87, pp. 2101–2123.\nJane Ferah Gondwe, Sun Lin, Rodger Millar Munthali, “Analysis of Land Use and Land Cover Changes in Urban Areas Using Remote Sensing: Case of Blantyre City”, Discrete Dynamics in Nature and Society, vol. 2021, Article ID 8011565, 17 pages, 2021. https://doi.org/10.1155/2021/8011565\nGeymen, Abdurrahman ; Baz, Ibrahim (2007) Monitoring urban growth and detecting land-cover changes on the Istanbul metropolitan area, Environmental Monitoring and Assessment, Vol.136 (1-3), p.449-459.\nYin, Jie et. al. (2010) Monitoring urban expansion and land use/land cover changes of Shanghai metropolitan area during the transitional economy (1979–2009) in China, Environmental Monitoring and Assessment, Vol.177 (1-4), p.609-621.\nPraveen Kumar Mallupattu* and Jayarama Reddy Sreenivasula Reddy (2013) Analysis of Land Use/Land Cover Changes Using Remote Sensing Data and GIS at an Urban Area, Tirupati, India, The Scientific World Journal (online)\nAli Alzahrani and Awos Kanan (2022) “Machine Learning Approaches for Developing Land Cover Mapping” Applied Bionics and Biomechanics, Volume 2022, 8 pages.\n\n\n\nQGIS Methods\n\nLandcover change detection using QGIS. Land use landcover change detection\nStep-by-Step: Land Cover Change Detection through Supervised Classification.\nLand Cover Classification using the Semi-Automatic Classification Plugin version 7\nUnsupervised Classification using the Semi-Automatic Classification Plugin version 7\nRandom Forest Classification using the Semi-Automatic Classification Plugin for QGIS\nImage Conversion to Reflectance using the Semi-Automatic Classification Plugin version 7\nSCP Tips: Import ROIs from shapefile\nSCP Tips: ROI Pointer\nObject-based Image classification in QGIS || OBIA !! || A complete Tutorial\nAccuracy Assesment In Quantum GIS || A complete Tutorial\nCalculating Land surface temperature using Landsat 8 Imagery || QGIS Tutorial\n\n\n\nQGIS Plugin\n\nSemi-Automatic Classification Plugin (SCP) for QGIS\nOrfeo toolbox Plugin for QGIS\nOTB Plugin installation\nObject-based Image classification in QGIS. This video tutorial demonstrates the use of OTB to perform Object-based Image classification (OBIA).\nGEOBIA\nGEOBIA - Geographic Object-Based Image Analysis. This video tutorial tutorial demonstrates the use GEOBIA QGIS plugin to perform Geographic Object-Based Image Analysis (GEOBIA).\ndzetsaka: Classification tool supports Random Forest, KNN and SVM for supervised classification of multi-spectral satellite data.\nNeural Network MLPClassifier provides a supervised classification method for multi-band passive optical remote sensing data based on the Neural Network MLPClassifier by scikit-learn.\nGEOSYS Plugin\nPCA4CD - PCA for change detection\nbuildseg: QGIS plugin for building extraction\nTerminus\nTree Density Calculator\nRS&GIS"
   },
   {
     "objectID": "outline/lesson08_outline.html",
@@ -1171,9 +1171,9 @@
   {
     "objectID": "lesson/Lesson10/lesson10.html#content",
     "href": "lesson/Lesson10/lesson10.html#content",
-    "title": "Lesson 10: Urban Network Analysis with GIS",
+    "title": "Lesson 10: Urban Land Cover Classification and Change Detection with Remotely Sensed Data",
     "section": "Content",
-    "text": "Content\n\nWhy analyse with network?\nNetwork model\nReal world network system\nComplexity of urban road network\nShortest path analysis algorithm\nNetwork analysis methods"
+    "text": "Content\n\nUrban Land Cover Classification\nUnsupervised Classification Methods\nSupervised Classification Process\nClassification Accuracy Metrics"
   },
   {
     "objectID": "lesson/Lesson10/lesson10.html#location-question",
@@ -1461,5 +1461,145 @@
     "title": "Take-home Exercise 2: Urban Applications of Raster-based GIS Analysis",
     "section": "References",
     "text": "References\n\n“Mapping Urban Spatial Structure Based on POI (Point of Interest) Data: A Case Study of the Central City of Lanzhou, China”. Please pay special attention to sub-sections 4.2.2. The Kernel Density Estimation (KDE) and 5.3.1. The Kernel Density Analysis of Industrial Elements."
+  },
+  {
+    "objectID": "lesson/Lesson10/lesson10.html#urban-land-cover-classification-of-satellite-remote-sensing-imagery",
+    "href": "lesson/Lesson10/lesson10.html#urban-land-cover-classification-of-satellite-remote-sensing-imagery",
+    "title": "Lesson 10: Urban Land Cover Classification and Change Detection with Remotely Sensed Data",
+    "section": "Urban Land Cover Classification of Satellite Remote Sensing Imagery",
+    "text": "Urban Land Cover Classification of Satellite Remote Sensing Imagery\n\n\nThe process of assigning a pixel (or groups of pixels) of remote sensing image to an urban land cover class.\n\nUnsupervised Classification in which the computer assigns pixels to categories with no instructions from the image analyst.\nSupervised Classification in which the image analyst provides training-site information that the computer uses to assign pixels to categories."
+  },
+  {
+    "objectID": "lesson/Lesson10/lesson10.html#unsupervised-classification",
+    "href": "lesson/Lesson10/lesson10.html#unsupervised-classification",
+    "title": "Lesson 10: Urban Land Cover Classification and Change Detection with Remotely Sensed Data",
+    "section": "Unsupervised Classification",
+    "text": "Unsupervised Classification\n\n\n\nThe goal of unsupervised classification is to automatically segregate pixels of a remote sensing image into groups of similar spectral character.\nClassification is done using one of several statistical routines generally called “clustering” where classes of pixels are created based on their shared spectral signatures.\nClusters are split and /or merged until further clustering doesn’t improve the explanation of the variation in the scene."
+  },
+  {
+    "objectID": "lesson/Lesson10/lesson10.html#supervised-classification",
+    "href": "lesson/Lesson10/lesson10.html#supervised-classification",
+    "title": "Lesson 10: Urban Land Cover Classification and Change Detection with Remotely Sensed Data",
+    "section": "Supervised Classification",
+    "text": "Supervised Classification\n\n\nSupervised training is closely controlled by the analyst. In this process, you select pixels that represent patterns or land cover features that you recognize, or that you can identify with help from other sources, such as aerial photos, ground truth data, or maps. Knowledge of the data, and of the classes desired, is required before classification.\nBy identifying patterns, you can instruct the computer system to identify pixels with similar characteristics. If the classification is accurate, the resulting classes represent the categories within the data that you originally identified."
+  },
+  {
+    "objectID": "lesson/Lesson10/lesson10.html#machine-learning-random-forest",
+    "href": "lesson/Lesson10/lesson10.html#machine-learning-random-forest",
+    "title": "Lesson 10: Urban Land Cover Classification and Change Detection with Remotely Sensed Data",
+    "section": "Machine Learning: Random Forest",
+    "text": "Machine Learning: Random Forest\n\n\n\n\nThe Random Forest (RF) algorithm (Breimann 2001) is a supervised classification algorithm. It builds upon the concept of decision trees (DT).\nThe RF relies on many self-learning decision trees (i.e. “Forest”). The idea behind using many decision trees (i.e. an ensemble) is that many base learners can come to one strong and robust decision compared to a single DT.\nDifferent from the manual (expert-based) definition of decision rules, the RF uses self-learning decision trees. These trees automatically define rules at each node based on a training dataset.\nRF seeks to minimize the heterogeneity of the two resulting subsets of the data created by the respective rule. Heterogeneity is in this case expressed as the Gini impurity index and the rule creating the least heterogeneous subsets of the data is used for the respective node."
+  },
+  {
+    "objectID": "lesson/Lesson10/lesson10.html#reference",
+    "href": "lesson/Lesson10/lesson10.html#reference",
+    "title": "Lesson 10: Urban Land Cover Classification and Change Detection with Remotely Sensed Data",
+    "section": "Reference",
+    "text": "Reference\n\nLand Cover & Land Use\nRichards and Jia (2006) Remote Sensing Digital Image Analysis: An Introduction, Springer."
+  },
+  {
+    "objectID": "outline/lesson10_old.html",
+    "href": "outline/lesson10_old.html",
+    "title": "Lesson 10: Urban Network Analysis with GIS",
+    "section": "",
+    "text": "In this lesson, you will learn the basic concepts of network data model and network analysis methods. You will also gain hands-on experience on using QGIS to build network data models and to perform shortest path analysis."
+  },
+  {
+    "objectID": "outline/lesson10_old.html#overview",
+    "href": "outline/lesson10_old.html#overview",
+    "title": "Lesson 10: Urban Network Analysis with GIS",
+    "section": "",
+    "text": "In this lesson, you will learn the basic concepts of network data model and network analysis methods. You will also gain hands-on experience on using QGIS to build network data models and to perform shortest path analysis."
+  },
+  {
+    "objectID": "outline/lesson10_old.html#content",
+    "href": "outline/lesson10_old.html#content",
+    "title": "Lesson 10: Urban Network Analysis with GIS",
+    "section": "Content",
+    "text": "Content\n\nWhy analyse with network?\nNetwork model\nReal world network system\nComplexity of urban road network\nShortest path analysis algorithm\nDelineating network service area"
+  },
+  {
+    "objectID": "outline/lesson10_old.html#lesson-slides-and-hands-on-notes",
+    "href": "outline/lesson10_old.html#lesson-slides-and-hands-on-notes",
+    "title": "Lesson 10: Urban Network Analysis with GIS",
+    "section": "Lesson Slides and Hands-on Notes",
+    "text": "Lesson Slides and Hands-on Notes\n\nLesson slides in html.\nHands-on Exercises:\n\nShortest Path Analysis: QGIS methods\nDelineating Service Area Using Network Distance Approach"
+  },
+  {
+    "objectID": "outline/lesson10_old.html#references",
+    "href": "outline/lesson10_old.html#references",
+    "title": "Lesson 10: Urban Network Analysis with GIS",
+    "section": "References",
+    "text": "References\n\nConcepts and Methods\n\nManfred M. Fischer (2003) “GIS AND NETWORK ANALYSIS” in Handbook 5 Transport Geography and Spatial Systems. Hensher D., Button K., Haynes K. and Stopher P. (eds.); Pergamon\n5 Types of Network Analysis in GIS\nChun, Y, and Kim, H. (2018). Networks Defined. The Geographic Information Science & Technology Body of Knowledge (4th Quarter 2018 Edition), John P. Wilson (Ed.).\n\n\n\nApplications\nLee, Jin ; Lubienski, Christopher (2017) “The Impact of School Closures on Equity of Access in Chicago”, Education and Urban Society, Vol.49 (1), p.53-80.\nJan Burdziej (2017) “Using hexagonal grids and network analysis for spatial accessibility assessment in urban environments – a case study of public amenities in Toruń”, MISCELLANEA GEOGRAPHICA – REGIONAL STUDIES ON DEVELOPMENT, Vol. 23, No. 2.\nRizwan Shahid, et al. (2009) “Comparison of distance measures in spatial analytical modeling for health service planning”, BMC Health Services Research, p1-14.\nBalasubramani, K., Gomathi, M., & Prasad, S. (2016) “GIS-based Service Area Analysis for Optimal Planning Strategies: A Case Study of Fire Service Stations in Madurai City”\n\n\nQGIS Methods\n\nQGIS Network Analysis Capabilities\n6.3. Lesson: Network Analysis of QGIS Training Manual.\nAbout QNEAT3\nAlba KUCUKALI, et. al. (2022) “Evaluating the pedestrian accessibility to public services using open-source geospatial data and QGIS software”, Nova Geodesia 2(2):42.\nUNESCO (2022) Isochrone-based catchment areas for education, IIEP Technical Note.\nLinden, Philip (2021)Improving accessibility to the bus service. Master Thesis, UMEA Universitet.\nQGIS Tutorials and Tips, Service Area Analysis using Openrouteservice(QGIS3)."
+  },
+  {
+    "objectID": "lesson/Lesson10a/lesson10.html",
+    "href": "lesson/Lesson10a/lesson10.html",
+    "title": "Lesson 10: Urban Network Analysis with GIS",
+    "section": "",
+    "text": "Why analyse with network?\nNetwork model\nReal world network system\nComplexity of urban road network\nShortest path analysis algorithm\nNetwork analysis methods"
+  },
+  {
+    "objectID": "lesson/Lesson10a/lesson10.html#content",
+    "href": "lesson/Lesson10a/lesson10.html#content",
+    "title": "Lesson 10: Urban Network Analysis with GIS",
+    "section": "",
+    "text": "Why analyse with network?\nNetwork model\nReal world network system\nComplexity of urban road network\nShortest path analysis algorithm\nNetwork analysis methods"
+  },
+  {
+    "objectID": "lesson/Lesson10a/lesson10.html#location-question",
+    "href": "lesson/Lesson10a/lesson10.html#location-question",
+    "title": "Lesson 10: Urban Network Analysis with GIS",
+    "section": "Location question",
+    "text": "Location question\n\nHow to assign the eldercare centres to the closest polyclinic?\n\n\n\n\nGIS answer\n\nUsing buffer analysis\n\n\n\n\n\n\n\n\n\nGIS answer\n\nUsing desire line analysis (mmqgis plugin is needed).\n\n\n\n\n\nLimitation of the GIS answers\n\nFailed to consider the actual road network."
+  },
+  {
+    "objectID": "lesson/Lesson10a/lesson10.html#a-network-model",
+    "href": "lesson/Lesson10a/lesson10.html#a-network-model",
+    "title": "Lesson 10: Urban Network Analysis with GIS",
+    "section": "A Network Model",
+    "text": "A Network Model\n\nA link refers to a linear segment defined by two end points. Also called edges.\nA node refers to an end point of a link.\n\n\n\n\nTwo types of networks\n\n\n\nGeometric\nDirected flow, away from sources and toward sinks\nResources make no travel decisions\nTopologic\nUndirected flow\nResources make their own travel decisions\n\n\n\n\n\n\n\n\nA Transportation Network\nThis network theme represents city streets and highways. Several theme attributes, such as speed limits, the number of lanes a street has, or which streets are one-way or two-way, can affect the flow of goods and services through a network.\n\n\n\n\nAn Utility Network\nUtilities can also be network themes. In this example, the diameter of the waterlines, the system’s water pressure, and the location of control valves can affect the flow of the water through the network.\n\n\n\n\nA River Network\nRiver systems can be represented as a network or a series of networks. Some systems may not connect while other systems may connect naturally or may be connected by canals. The location of locks, river width, river depth, and current can affect the analysis.\n\n\n\n\nA simple transport network model\n\n\n\n\nComplexity of Urban Network Topology\nBeyond nodes and edges, there are more…..\n\n\n\n\nMultilane Expressway\n\n\n\n\nMultilane Major Road\n\n\n\n\nTwo-way Road\n\n\n\n\nOne-way Road\n\n\n\n\nTunnel\n\n\n\n\nA Tale of Two Roads\n\n\n\n\nRoad facilities slow down traffic\nRoad sign and traffic light inform about restrictions and rules.\n\n\n\n\nRoad facilities slow down traffic\n\n\n\n\nRoad conditions are dynamic"
+  },
+  {
+    "objectID": "lesson/Lesson10a/lesson10.html#poor-man-network-data-source",
+    "href": "lesson/Lesson10a/lesson10.html#poor-man-network-data-source",
+    "title": "Lesson 10: Urban Network Analysis with GIS",
+    "section": "Poor man network data source",
+    "text": "Poor man network data source\nBulk extract at Geofabrik free download server."
+  },
+  {
+    "objectID": "lesson/Lesson10a/lesson10.html#shortest-path-analysis",
+    "href": "lesson/Lesson10a/lesson10.html#shortest-path-analysis",
+    "title": "Lesson 10: Urban Network Analysis with GIS",
+    "section": "Shortest Path Analysis",
+    "text": "Shortest Path Analysis\nShortest path analysis finds the path with the minimum cumulative impedance between nodes on a network. The path may connect just two nodes an origin and a destination or have specific stops between the nodes.\n\n\n\n\n\n\n\nDijkstra’s Shortest Path Algorithm\n\nThe path that will be calculated depends on which other nodes must be visited and in what order.\n\n\n\n\n\nDijkstra’s Shortest Path Algorithm\n\nA network consisting of seven nodes and 10 lines.\n\n\n\n\n\nDijkstra’s Shortest Path Algorithm\n\nNodes adjacent to the origin node are in red.\n\n\n\n\n\nDijkstra’s Shortest Path Algorithm\n\nBecause the line between nodes a and b has the lowest cost (8), node b becomes a reached node.\n\n\n\n\n\nDijkstra’s Shortest Path Algorithm\n\nAfter calculating a reached node, the algorithm continues to scan adjacent nodes.\n\n\n\n\n\nDijkstra’s Shortest Path Algorithm\n\nThe least cost path now travels from node a to node b to node f.\n\n\n\n\n\nDijkstra’s Shortest Path Algorithm\n\nThe cost of going from node a to node c to node e is 15, while the cost of going from node a to node d to node e is 16. The algorithm will choose the former, least cost, path.\n\n\n\n\n\nDijkstra’s Shortest Path Algorithm\n\nAll nodes have now been reached.\n\n\n\n\n\n\n\n\n\nDijkstra’s Shortest Path Algorithm\n\nThe least cost path from node a to node g."
+  },
+  {
+    "objectID": "lesson/Lesson10a/lesson10.html#fastest-path",
+    "href": "lesson/Lesson10a/lesson10.html#fastest-path",
+    "title": "Lesson 10: Urban Network Analysis with GIS",
+    "section": "Fastest Path",
+    "text": "Fastest Path\n\nFastest paths are based on time and you can use any measure of time you choose (seconds, minutes, hours, etc.)."
+  },
+  {
+    "objectID": "lesson/Lesson10a/lesson10.html#travelling-salesman-problem",
+    "href": "lesson/Lesson10a/lesson10.html#travelling-salesman-problem",
+    "title": "Lesson 10: Urban Network Analysis with GIS",
+    "section": "Travelling salesman problem",
+    "text": "Travelling salesman problem\n\nA route can visit many stops in a network. The origin can also be the destination, as the warehouse is in this example delivery route."
+  },
+  {
+    "objectID": "lesson/Lesson10a/lesson10.html#beyond-network-model",
+    "href": "lesson/Lesson10a/lesson10.html#beyond-network-model",
+    "title": "Lesson 10: Urban Network Analysis with GIS",
+    "section": "Beyond network model",
+    "text": "Beyond network model\nAccessibility modelling.\n\nSource: https://developers.route360.net/index.html\n\n\nNetwork Drive Time: Accessibility\n\n\n\nIf you know what is near a site, you can make better decisions about how suitable the site is for your business needs.\n\n\n\n\n\n\n\n\nNetwork Service Areas\n\n\n\n\n\n\n\n\n\n\nFacility location – network model\n\nGiven a set of clients, finds the facility location that minimises that path length to travel between the facility to each of the clients.\n\n\n\n\n\nFacility location – planar model\n\nGiven a set of clients, finds the facility location that minimises that path length to travel between the facility to each of the clients."
+  },
+  {
+    "objectID": "lesson/Lesson10a/lesson10.html#qgis-network-analysis-support",
+    "href": "lesson/Lesson10a/lesson10.html#qgis-network-analysis-support",
+    "title": "Lesson 10: Urban Network Analysis with GIS",
+    "section": "QGIS Network Analysis Support",
+    "text": "QGIS Network Analysis Support\n\n\n\nBuild in\n\n\n\n\nPlug-in\n\n\nFor more detail, visit this link"
   }
 ]

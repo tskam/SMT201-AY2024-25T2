@@ -1,0 +1,361 @@
+---
+title: "Lesson 10: Urban Network Analysis with GIS"
+author: "Dr. Kam Tin Seong<br/>Assoc. Professor of Information Systems"
+institute: "School of Computing and Information Systems,<br/>Singapore Management University"
+date: "last-modified"
+date-modified: "last-modified" 
+format: 
+  revealjs:
+    width: 1600
+    height: 900
+    show-notes: false
+    slide-number: true
+    show-slide-number: 'all'
+editor: visual
+execute: 
+  freeze: true
+---
+
+## Content
+
+-   Why analyse with network?
+
+-   Network model
+
+-   Real world network system
+
+-   Complexity of urban road network
+
+-   Shortest path analysis algorithm
+
+-   Network analysis methods
+
+## Location question
+
+-   How to assign the eldercare centres to the closest polyclinic?
+
+![](img/image1.jpg)
+
+------------------------------------------------------------------------
+
+### GIS answer
+
+-   Using buffer analysis
+
+![](img/image2.jpg){fig-align="center"}
+
+------------------------------------------------------------------------
+
+### GIS answer
+
+-   Using desire line analysis (mmqgis plugin is needed).
+
+![](img/image3.jpg)
+
+------------------------------------------------------------------------
+
+### Limitation of the GIS answers
+
+-   Failed to consider the actual road network.
+
+![](img/image4.jpg)
+
+## A Network Model
+
+-   A **link** refers to a linear segment defined by two end points. Also called **edges**.
+
+-   A **node** refers to an end point of a link.
+
+![](img/image5.jpg)
+
+------------------------------------------------------------------------
+
+### Two types of networks
+
+::::: columns
+::: {.column width="50%"}
+-   Geometric
+-   Directed flow, away from sources and toward sinks
+-   Resources make no travel decisions
+-   Topologic
+-   Undirected flow
+-   Resources make their own travel decisions
+:::
+
+::: {.column width="50%"}
+![](img/image6.jpg)
+:::
+:::::
+
+------------------------------------------------------------------------
+
+### A Transportation Network
+
+This network theme represents city streets and highways. Several theme attributes, such as speed limits, the number of lanes a street has, or which streets are one-way or two-way, can affect the flow of goods and services through a network.
+
+![](img/image7.jpg)
+
+------------------------------------------------------------------------
+
+### An Utility Network
+
+Utilities can also be network themes. In this example, the diameter of the waterlines, the system's water pressure, and the location of control valves can affect the flow of the water through the network.
+
+![](img/image8.jpg)
+
+------------------------------------------------------------------------
+
+### A River Network
+
+River systems can be represented as a network or a series of networks. Some systems may not connect while other systems may connect naturally or may be connected by canals. The location of locks, river width, river depth, and current can affect the analysis.
+
+![](img/image9.jpg)
+
+------------------------------------------------------------------------
+
+### A simple transport network model
+
+![](img/image10.jpg)
+
+------------------------------------------------------------------------
+
+### Complexity of Urban Network Topology
+
+Beyond nodes and edges, there are more.....
+
+![](img/image11.jpg)
+
+------------------------------------------------------------------------
+
+### Multilane Expressway
+
+![](img/image12.jpg)
+
+------------------------------------------------------------------------
+
+### Multilane Major Road
+
+![](img/image13.jpg)
+
+------------------------------------------------------------------------
+
+### Two-way Road
+
+![](img/image14.jpg)
+
+------------------------------------------------------------------------
+
+### One-way Road
+
+![](img/image15.jpg)
+
+------------------------------------------------------------------------
+
+### Tunnel
+
+![](img/image16.jpg)
+
+------------------------------------------------------------------------
+
+### A Tale of Two Roads
+
+![](img/image17.jpg)
+
+------------------------------------------------------------------------
+
+### Road facilities slow down traffic
+
+Road sign and traffic light inform about restrictions and rules.
+
+![](img/image18.jpg)
+
+------------------------------------------------------------------------
+
+### Road facilities slow down traffic
+
+![](img/image19.jpg)
+
+------------------------------------------------------------------------
+
+### Road conditions are dynamic
+
+![](img/image20.jpg)
+
+------------------------------------------------------------------------
+
+## Poor man network data source
+
+Bulk extract at [Geofabrik](https://download.geofabrik.de/) free download server.
+
+![](img/image21.jpg)
+
+## Shortest Path Analysis
+
+Shortest path analysis finds the path with the minimum cumulative impedance between nodes on a network. The path may connect just two nodes an origin and a destination or have specific stops between the nodes.
+
+![](img/image22.jpg){fig-align="center"}
+
+------------------------------------------------------------------------
+
+### Dijkstra's Shortest Path Algorithm
+
+-   The path that will be calculated depends on which other nodes must be visited and in what order.
+
+![](img/image23.jpg)
+
+------------------------------------------------------------------------
+
+### Dijkstra's Shortest Path Algorithm
+
+-   A network consisting of seven nodes and 10 lines.
+
+![](img/image24.jpg)
+
+------------------------------------------------------------------------
+
+### Dijkstra's Shortest Path Algorithm
+
+-   Nodes adjacent to the origin node are in red.
+
+![](img/image25.jpg)
+
+------------------------------------------------------------------------
+
+### Dijkstra's Shortest Path Algorithm
+
+-   Because the line between nodes a and b has the lowest cost (8), node b becomes a reached node.
+
+![](img/image26.jpg)
+
+------------------------------------------------------------------------
+
+### Dijkstra's Shortest Path Algorithm
+
+-   After calculating a reached node, the algorithm continues to scan adjacent nodes.
+
+![](img/image27.jpg)
+
+------------------------------------------------------------------------
+
+### Dijkstra's Shortest Path Algorithm
+
+-   The least cost path now travels from node a to node b to node f.
+
+![](img/image28.jpg)
+
+------------------------------------------------------------------------
+
+### Dijkstra's Shortest Path Algorithm
+
+-   The cost of going from node a to node c to node e is 15, while the cost of going from node a to node d to node e is 16. The algorithm will choose the former, least cost, path.
+
+![](img/image29.jpg)
+
+------------------------------------------------------------------------
+
+### Dijkstra's Shortest Path Algorithm
+
+-   All nodes have now been reached.
+
+![](img/image31.jpg){fig-align="center" width="450"}
+
+------------------------------------------------------------------------
+
+### Dijkstra's Shortest Path Algorithm
+
+-   The least cost path from node a to node g.
+
+![](img/image32.jpg)
+
+## Fastest Path
+
+-   Fastest paths are based on time and you can use any measure of time you choose (seconds, minutes, hours, etc.).
+
+![](img/image33.jpg)
+
+## Travelling salesman problem
+
+-   A route can visit many stops in a network. The origin can also be the destination, as the warehouse is in this example delivery route.
+
+![](img/image34.jpg)
+
+------------------------------------------------------------------------
+
+## Beyond network model
+
+Accessibility modelling.
+
+![](img/image35.jpg)
+
+Source: https://developers.route360.net/index.html
+
+------------------------------------------------------------------------
+
+### Network Drive Time: Accessibility
+
+::::: columns
+::: {.column width="50%"}
+-   If you know what is near a site, you can make better decisions about how suitable the site is for your business needs.
+:::
+
+::: {.column width="50%"}
+![](img/image36.jpg)
+:::
+:::::
+
+------------------------------------------------------------------------
+
+### Network Service Areas
+
+::::: columns
+::: {.column width="50%"}
+![](img/image37a.jpg)
+:::
+
+::: {.column width="50%"}
+![](img/image37b.jpg)
+:::
+:::::
+
+------------------------------------------------------------------------
+
+### Facility location -- network model
+
+-   Given a set of clients, finds the facility location that minimises that path length to travel between the facility to each of the clients.
+
+![](img/image38.jpg)
+
+------------------------------------------------------------------------
+
+### Facility location -- planar model
+
+-   Given a set of clients, finds the facility location that minimises that path length to travel between the facility to each of the clients.
+
+![](img/image39.jpg)
+
+## QGIS Network Analysis Support
+
+::::: columns
+::: {.column width="50%"}
+-   Build in
+
+![](img/image40a.jpg){width="419"}
+:::
+
+::: {.column width="50%"}
+-   Plug-in
+
+![](img/image40b.jpg){width="585"}
+
+For more detail, visit this [link](https://root676.github.io/)
+:::
+:::::
+
+```{r}
+#| echo: false
+#| eval: false
+renderthis::to_pdf(
+  from = "https://smt201-ay2022-23t1.netlify.app/lesson/lesson09/lesson09.html",
+  to = "D://SMT201_AY2022-23T1/02-Lesson/pdf/Lesson09.pdf"
+)
+```
