@@ -1,5 +1,5 @@
 ---
-title: "Lesson 10: Urban Land Cover Classification and Change Detection with Remotely Sensed Data"
+title: "Lesson 10: Urban Land Cover Classification with Remotely Sensed Data"
 date: "December 31, 2024"
 date-modified: "last-modified"
 format: html
@@ -13,7 +13,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## Overview
 
-In this lesson, you will learn how to applied digital image analysis for urban planning and management including land-use/ landcover (LULC) change detection.
+In this lesson, you will learn how to perform land cover classification by using remotely sensed data and digital image analysis methods.
 
 ## Content
 

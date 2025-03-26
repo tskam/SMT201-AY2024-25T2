@@ -158,7 +158,7 @@
     "href": "lesson.html",
     "title": "Weekly Lesson Plan",
     "section": "",
-    "text": "Week\nDate\nTopic\nRemarks\n\n\n\n\n1\n13/1/2025\nLesson 1: Introduction to GIS for Urban Planning\n\n\n\n2\n20/1/2025\nLesson 2: The Evil is in The Data\n\n\n\n3\n27/1/2025\nLesson 3: Mapping and Visualising Urban World with GIS\n\n\n\n4\n3/2/2025\nLesson 4: Vector-based GeoProcessing and GIS Analysis\n\n\n\n5\n10/2/2025\nLesson 5: Urban Applications of Vector-based GIS Analysis\n\n\n\n6\n17/2/2025\nLesson 6: The Science of Mapthematics\n\n\n\n7\n24/2/2025\nLesson 7: GIS-based Multi-Criteria Decision Analysis\n\n\n\n8\n3/3/2025\nMid-term break\n\n\n\n9\n10/3/2025\nLesson 8: Introduction to Digital Image Processing and Analysis\n\n\n\n10\n17/3/2025\nLesson 9: Building GIS Project Website with Quarto\n\n\n\n11\n24/3/2024\nLesson 10: Urban Land Cover Classification and Change Detection with Remotely Sensed Data\n\n\n\n12\n5/4/2025\nLesson 11: Urban Heat Island Analysis with Remote Sensing and GIS\n\n\n\n13\n7/4/2025\nLesson 12: Sharing Geographical Information\n\n\n\n14\n14/4/2025\nTownhall Presentation"
+    "text": "Week\nDate\nTopic\nRemarks\n\n\n\n\n1\n13/1/2025\nLesson 1: Introduction to GIS for Urban Planning\n\n\n\n2\n20/1/2025\nLesson 2: The Evil is in The Data\n\n\n\n3\n27/1/2025\nLesson 3: Mapping and Visualising Urban World with GIS\n\n\n\n4\n3/2/2025\nLesson 4: Vector-based GeoProcessing and GIS Analysis\n\n\n\n5\n10/2/2025\nLesson 5: Urban Applications of Vector-based GIS Analysis\n\n\n\n6\n17/2/2025\nLesson 6: The Science of Mapthematics\n\n\n\n7\n24/2/2025\nLesson 7: GIS-based Multi-Criteria Decision Analysis\n\n\n\n8\n3/3/2025\nMid-term break\n\n\n\n9\n10/3/2025\nLesson 8: Introduction to Digital Image Processing and Analysis\n\n\n\n10\n17/3/2025\nLesson 9: Building GIS Project Website with Quarto\n\n\n\n11\n24/3/2024\nLesson 10: Urban Land Cover Classification with Remotely Sensed Data\n\n\n\n12\n5/4/2025\nLesson 11: Urban Heat Island Analysis with Remote Sensing and GIS\n\n\n\n13\n7/4/2025\nLesson 12: Sharing Geographical Information\n\n\n\n14\n14/4/2025\nTownhall Presentation"
   },
   {
     "objectID": "outline/lesson01_outline.html",
@@ -247,35 +247,35 @@
   {
     "objectID": "outline/lesson10_outline.html",
     "href": "outline/lesson10_outline.html",
-    "title": "Lesson 10: Urban Land Cover Classification and Change Detection with Remotely Sensed Data",
+    "title": "Lesson 10: Urban Land Cover Classification with Remotely Sensed Data",
     "section": "",
-    "text": "In this lesson, you will learn how to applied digital image analysis for urban planning and management including land-use/ landcover (LULC) change detection."
+    "text": "In this lesson, you will learn how to perform land cover classification by using remotely sensed data and digital image analysis methods."
   },
   {
     "objectID": "outline/lesson10_outline.html#overview",
     "href": "outline/lesson10_outline.html#overview",
-    "title": "Lesson 10: Urban Land Cover Classification and Change Detection with Remotely Sensed Data",
+    "title": "Lesson 10: Urban Land Cover Classification with Remotely Sensed Data",
     "section": "",
-    "text": "In this lesson, you will learn how to applied digital image analysis for urban planning and management including land-use/ landcover (LULC) change detection."
+    "text": "In this lesson, you will learn how to perform land cover classification by using remotely sensed data and digital image analysis methods."
   },
   {
     "objectID": "outline/lesson10_outline.html#content",
     "href": "outline/lesson10_outline.html#content",
-    "title": "Lesson 10: Urban Land Cover Classification and Change Detection with Remotely Sensed Data",
+    "title": "Lesson 10: Urban Land Cover Classification with Remotely Sensed Data",
     "section": "Content",
     "text": "Content\n\nMulti-spectral Classification for Urban Land Use/Land Cover (LULC) Mapping\n\nUnsupervised classification\nSupervised classification\nOBIA – Object-Based Image Analysis(GEOBIA)\n\nUrban LULC Change Detection\nUrban Features Extraction techniques"
   },
   {
     "objectID": "outline/lesson10_outline.html#lesson-slides-and-hands-on-notes",
     "href": "outline/lesson10_outline.html#lesson-slides-and-hands-on-notes",
-    "title": "Lesson 10: Urban Land Cover Classification and Change Detection with Remotely Sensed Data",
+    "title": "Lesson 10: Urban Land Cover Classification with Remotely Sensed Data",
     "section": "Lesson Slides and Hands-on Notes",
     "text": "Lesson Slides and Hands-on Notes\n\nLesson slides in html format.\nHands-on Exercise 10 in html format."
   },
   {
     "objectID": "outline/lesson10_outline.html#references",
     "href": "outline/lesson10_outline.html#references",
-    "title": "Lesson 10: Urban Land Cover Classification and Change Detection with Remotely Sensed Data",
+    "title": "Lesson 10: Urban Land Cover Classification with Remotely Sensed Data",
     "section": "References",
     "text": "References\n\nArticles\n\nSandipta Das . Dasharatha P Angadi (2022) “Land use land cover change detection and monitoring of urban growth using remote sensing and GIS techniques: a micro-level study” GeoJournal, Vol. 87, pp. 2101–2123.\nJane Ferah Gondwe, Sun Lin, Rodger Millar Munthali, “Analysis of Land Use and Land Cover Changes in Urban Areas Using Remote Sensing: Case of Blantyre City”, Discrete Dynamics in Nature and Society, vol. 2021, Article ID 8011565, 17 pages, 2021. https://doi.org/10.1155/2021/8011565\nGeymen, Abdurrahman ; Baz, Ibrahim (2007) Monitoring urban growth and detecting land-cover changes on the Istanbul metropolitan area, Environmental Monitoring and Assessment, Vol.136 (1-3), p.449-459.\nYin, Jie et. al. (2010) Monitoring urban expansion and land use/land cover changes of Shanghai metropolitan area during the transitional economy (1979–2009) in China, Environmental Monitoring and Assessment, Vol.177 (1-4), p.609-621.\nPraveen Kumar Mallupattu* and Jayarama Reddy Sreenivasula Reddy (2013) Analysis of Land Use/Land Cover Changes Using Remote Sensing Data and GIS at an Urban Area, Tirupati, India, The Scientific World Journal (online)\nAli Alzahrani and Awos Kanan (2022) “Machine Learning Approaches for Developing Land Cover Mapping” Applied Bionics and Biomechanics, Volume 2022, 8 pages.\n\n\n\nQGIS Methods\n\nLandcover change detection using QGIS. Land use landcover change detection\nStep-by-Step: Land Cover Change Detection through Supervised Classification.\nLand Cover Classification using the Semi-Automatic Classification Plugin version 7\nUnsupervised Classification using the Semi-Automatic Classification Plugin version 7\nRandom Forest Classification using the Semi-Automatic Classification Plugin for QGIS\nImage Conversion to Reflectance using the Semi-Automatic Classification Plugin version 7\nSCP Tips: Import ROIs from shapefile\nSCP Tips: ROI Pointer\nObject-based Image classification in QGIS || OBIA !! || A complete Tutorial\nAccuracy Assesment In Quantum GIS || A complete Tutorial\nCalculating Land surface temperature using Landsat 8 Imagery || QGIS Tutorial\n\n\n\nQGIS Plugin\n\nSemi-Automatic Classification Plugin (SCP) for QGIS\nOrfeo toolbox Plugin for QGIS\nOTB Plugin installation\nObject-based Image classification in QGIS. This video tutorial demonstrates the use of OTB to perform Object-based Image classification (OBIA).\nGEOBIA\nGEOBIA - Geographic Object-Based Image Analysis. This video tutorial tutorial demonstrates the use GEOBIA QGIS plugin to perform Geographic Object-Based Image Analysis (GEOBIA).\ndzetsaka: Classification tool supports Random Forest, KNN and SVM for supervised classification of multi-spectral satellite data.\nNeural Network MLPClassifier provides a supervised classification method for multi-band passive optical remote sensing data based on the Neural Network MLPClassifier by scikit-learn.\nGEOSYS Plugin\nPCA4CD - PCA for change detection\nbuildseg: QGIS plugin for building extraction\nTerminus\nTree Density Calculator\nRS&GIS"
   },
@@ -660,37 +660,37 @@
   {
     "objectID": "outline/lesson11_outline.html",
     "href": "outline/lesson11_outline.html",
-    "title": "Lesson 11: Geographic Accessibility Analysis with GIS",
+    "title": "Lesson 11: Urban Land Cover Change Detection with Remotely Sensed Data",
     "section": "",
-    "text": "Accessibility is the measure of the capacity of a location to be reached from, or to be reached by, different locations. It is a key element in urban planning and management since it is a direct expression of mobility either in terms of people, freight, or information within a city or between cities. In this lesson, you will learn the basic concepts of Geography of Accessibility. You will also gain hands-on experience on using both build in and plug-in network analysis functions of QGIS to derive accessibility indexes."
+    "text": "In this lesson, you will learn how to perform land cover change detection by using remotely sensed data and digital image analysis methods."
   },
   {
     "objectID": "outline/lesson11_outline.html#overview",
     "href": "outline/lesson11_outline.html#overview",
-    "title": "Lesson 11: Geographic Accessibility Analysis with GIS",
+    "title": "Lesson 11: Urban Land Cover Change Detection with Remotely Sensed Data",
     "section": "",
-    "text": "Accessibility is the measure of the capacity of a location to be reached from, or to be reached by, different locations. It is a key element in urban planning and management since it is a direct expression of mobility either in terms of people, freight, or information within a city or between cities. In this lesson, you will learn the basic concepts of Geography of Accessibility. You will also gain hands-on experience on using both build in and plug-in network analysis functions of QGIS to derive accessibility indexes."
+    "text": "In this lesson, you will learn how to perform land cover change detection by using remotely sensed data and digital image analysis methods."
   },
   {
     "objectID": "outline/lesson11_outline.html#content",
     "href": "outline/lesson11_outline.html#content",
-    "title": "Lesson 11: Geographic Accessibility Analysis with GIS",
+    "title": "Lesson 11: Urban Land Cover Change Detection with Remotely Sensed Data",
     "section": "Content",
-    "text": "Content\n\nWhy analyse with network?\nDeriving hexagon layer,\nExtracting, clean and process network data from roads layer of OSM data, and\nPerforming network accessibility by using network analysis tools of QNEAT plug-in."
+    "text": "Content\n\nLand Cover Change Detection in the Context of Urban Planning\nUrban Land Cover Change Detection Techniques\n\nPre-classification\nPost-classification\nChange Vector Analysis\nTime Series Analysis"
   },
   {
     "objectID": "outline/lesson11_outline.html#lesson-slides-and-hands-on-notes",
     "href": "outline/lesson11_outline.html#lesson-slides-and-hands-on-notes",
-    "title": "Lesson 11: Geographic Accessibility Analysis with GIS",
+    "title": "Lesson 11: Urban Land Cover Change Detection with Remotely Sensed Data",
     "section": "Lesson Slides and Hands-on Notes",
-    "text": "Lesson Slides and Hands-on Notes\n\nLesson slides in html format.\nHands-on Exercises:\n\nGeography of Accessibility: QGIS methods"
+    "text": "Lesson Slides and Hands-on Notes\n\nLesson slides in html format.\nHands-on Exercise 11 in html format."
   },
   {
     "objectID": "outline/lesson11_outline.html#references",
     "href": "outline/lesson11_outline.html#references",
-    "title": "Lesson 11: Geographic Accessibility Analysis with GIS",
+    "title": "Lesson 11: Urban Land Cover Change Detection with Remotely Sensed Data",
     "section": "References",
-    "text": "References\n\nConcepts and Methods\n\nManfred M. Fischer (2003) “GIS AND NETWORK ANALYSIS” in Handbook 5 Transport Geography and Spatial Systems. Hensher D., Button K., Haynes K. and Stopher P. (eds.); Pergamon\n5 Types of Network Analysis in GIS\nChun, Y, and Kim, H. (2018). Networks Defined. The Geographic Information Science & Technology Body of Knowledge (4th Quarter 2018 Edition), John P. Wilson (Ed.).\n\n\n\nApplications\nLee, Jin ; Lubienski, Christopher (2017) “The Impact of School Closures on Equity of Access in Chicago”, Education and Urban Society, Vol.49 (1), p.53-80.\nJan Burdziej (2017) “Using hexagonal grids and network analysis for spatial accessibility assessment in urban environments – a case study of public amenities in Toruń”, MISCELLANEA GEOGRAPHICA – REGIONAL STUDIES ON DEVELOPMENT, Vol. 23, No. 2.\nRizwan Shahid, et al. (2009) “Comparison of distance measures in spatial analytical modeling for health service planning”, BMC Health Services Research, p1-14.\nBalasubramani, K., Gomathi, M., & Prasad, S. (2016) “GIS-based Service Area Analysis for Optimal Planning Strategies: A Case Study of Fire Service Stations in Madurai City”\n\n\nQGIS Methods\n\nAlgorithm description OD-Matrices of QNET3\nLinden, Philip (2021)Improving accessibility to the bus service. Master Thesis, UMEA Universitet.\nRicky Holzer (April 30, 2018) Analyzing Pedestrian Accessibility Using QGIS and OpenStreetMaps Data\nSam Marshall Gravity Model of Spatial Interaction in QGIS"
+    "text": "References\n\nArticles\n\nSandipta Das . Dasharatha P Angadi (2022) “Land use land cover change detection and monitoring of urban growth using remote sensing and GIS techniques: a micro-level study” GeoJournal, Vol. 87, pp. 2101–2123.\nJane Ferah Gondwe, Sun Lin, Rodger Millar Munthali, “Analysis of Land Use and Land Cover Changes in Urban Areas Using Remote Sensing: Case of Blantyre City”, Discrete Dynamics in Nature and Society, vol. 2021, Article ID 8011565, 17 pages, 2021. https://doi.org/10.1155/2021/8011565\nGeymen, Abdurrahman ; Baz, Ibrahim (2007) Monitoring urban growth and detecting land-cover changes on the Istanbul metropolitan area, Environmental Monitoring and Assessment, Vol.136 (1-3), p.449-459.\nYin, Jie et. al. (2010) Monitoring urban expansion and land use/land cover changes of Shanghai metropolitan area during the transitional economy (1979–2009) in China, Environmental Monitoring and Assessment, Vol.177 (1-4), p.609-621.\nPraveen Kumar Mallupattu* and Jayarama Reddy Sreenivasula Reddy (2013) Analysis of Land Use/Land Cover Changes Using Remote Sensing Data and GIS at an Urban Area, Tirupati, India, The Scientific World Journal (online)\n\n\n\nQGIS Methods\n\nLandcover change detection using QGIS. Land use landcover change detection\nStep-by-Step: Land Cover Change Detection through Supervised Classification.\nCalculating Land surface temperature using Landsat 8 Imagery || QGIS Tutorial\n\n\n\nQGIS Plugin\n\nSemi-Automatic Classification Plugin (SCP) for QGIS\nOrfeo toolbox Plugin for QGIS\nOTB Plugin installation\nObject-based Image classification in QGIS. This video tutorial demonstrates the use of OTB to perform Object-based Image classification (OBIA).\nGEOBIA\nGEOBIA - Geographic Object-Based Image Analysis. This video tutorial tutorial demonstrates the use GEOBIA QGIS plugin to perform Geographic Object-Based Image Analysis (GEOBIA).\ndzetsaka: Classification tool supports Random Forest, KNN and SVM for supervised classification of multi-spectral satellite data.\nNeural Network MLPClassifier provides a supervised classification method for multi-band passive optical remote sensing data based on the Neural Network MLPClassifier by scikit-learn.\nGEOSYS Plugin\nPCA4CD - PCA for change detection\nbuildseg: QGIS plugin for building extraction\nTerminus\nTree Density Calculator\nRS&GIS"
   },
   {
     "objectID": "lesson/Lesson01/lesson01.html#what-will-you-learn-from-this-lesson",
@@ -1234,9 +1234,9 @@
   {
     "objectID": "lesson/Lesson11/lesson11.html#content",
     "href": "lesson/Lesson11/lesson11.html#content",
-    "title": "Lesson 11: Geographic Accessibility Analysis with GIS",
+    "title": "Lesson 11: Urban Land Cover Change Detection Using Remote Sensing",
     "section": "Content",
-    "text": "Content\n\nBasic Concepts of Geography of Accessibility\nAccessibility Models\n\nStewart Potential model\nReilly model\nHuff model"
+    "text": "Content\n\nWhy monitoring urban land cover change?\nUrban land cover change detection methods:\n\nPre- and Post-Classification Change Detection,\nPixel-Based Change Detection, and\n\nObject-Based Change Detection."
   },
   {
     "objectID": "lesson/Lesson11/lesson11.html#what-is-geography-of-accessibility",
@@ -1601,5 +1601,26 @@
     "title": "Lesson 10: Urban Network Analysis with GIS",
     "section": "QGIS Network Analysis Support",
     "text": "QGIS Network Analysis Support\n\n\n\nBuild in\n\n\n\n\nPlug-in\n\n\nFor more detail, visit this link"
+  },
+  {
+    "objectID": "lesson/Lesson11/lesson11.html#pre--and-post-classification-change-detection",
+    "href": "lesson/Lesson11/lesson11.html#pre--and-post-classification-change-detection",
+    "title": "Lesson 11: Urban Land Cover Change Detection Using Remote Sensing",
+    "section": "Pre- and Post-Classification Change Detection",
+    "text": "Pre- and Post-Classification Change Detection\nThis method involves classifying land cover in images from different time periods and then comparing the classified maps to identify changes."
+  },
+  {
+    "objectID": "lesson/Lesson11/lesson11.html#pixel-based-change-detection",
+    "href": "lesson/Lesson11/lesson11.html#pixel-based-change-detection",
+    "title": "Lesson 11: Urban Land Cover Change Detection Using Remote Sensing",
+    "section": "Pixel-Based Change Detection",
+    "text": "Pixel-Based Change Detection\nThis approach directly compares pixel values in different images to detect changes."
+  },
+  {
+    "objectID": "lesson/Lesson11/lesson11.html#object-based-change-detection",
+    "href": "lesson/Lesson11/lesson11.html#object-based-change-detection",
+    "title": "Lesson 11: Urban Land Cover Change Detection Using Remote Sensing",
+    "section": "Object-Based Change Detection",
+    "text": "Object-Based Change Detection\nThis method analyzes images by grouping pixels into objects, which are then compared to identify changes."
   }
 ]
