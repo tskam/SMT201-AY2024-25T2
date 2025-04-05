@@ -10,7 +10,7 @@
   <meta name="generator" content="quarto-1.6.42">
 
   <meta name="author" content="Dr.&nbsp;Kam Tin Seong Assoc. Professor of Information Systems">
-  <meta name="dcterms.date" content="2025-03-24">
+  <meta name="dcterms.date" content="2025-04-05">
   <title>SMT201-AY2024-25T2 – Lesson 11: Urban Land Cover Change Detection Using Remote Sensing</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -141,7 +141,7 @@ Dr.&nbsp;Kam Tin Seong<br>Assoc. Professor of Information Systems
     </div>
 </div>
 
-  <p class="date">2025-03-24</p>
+  <p class="date">2025-04-05</p>
 </section>
 <section id="content" class="slide level2">
 <h2>Content</h2>
@@ -167,6 +167,87 @@ Dr.&nbsp;Kam Tin Seong<br>Assoc. Professor of Information Systems
 <section id="object-based-change-detection" class="slide level2">
 <h2>Object-Based Change Detection</h2>
 <p>This method analyzes images by grouping pixels into objects, which are then compared to identify changes.</p>
+</section>
+<section id="post-classification-comparison-change-detection" class="slide level2">
+<h2>Post-Classification Comparison Change Detection</h2>
+
+<img data-src="img/image1.jpg" class="r-stretch"></section>
+<section id="per-pixal-post-classification-comparison" class="slide level2">
+<h2>Per-Pixal Post-Classification Comparison</h2>
+<div class="columns">
+<div class="column" style="width:40%;">
+<ul>
+<li><p>Rectified Landsat Thematic Mapper data of an area centered on Fort Moultrie, SC, obtained on (a) November 9, 1982, and (b) December 19, 1988 (RGB = bands 4, 3, 2).</p></li>
+<li><p>Classification maps of the Fort Moultrie, SC, study area produced from the (c) November 9, 1982, and (d) December 19, 1988, Landsat TM data. Some barren land is included in the Developed/Exposed Land category (original imagery courtesy of NASA).</p></li>
+</ul>
+</div><div class="column" style="width:60%;">
+<p><img data-src="img/image2.jpg"></p>
+</div></div>
+</section>
+<section class="slide level2">
+
+<h3 id="section"></h3>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li>Change detection map of the Fort Moultrie, SC, study areas derived from analysis of November 11, 1982, and December 19, 1988, Landsat Thematic Mapper data.</li>
+<li>The natures of the change classes selected for display are summarised in the <strong>From–To Change Detection Matrix</strong> (based on Jensen et al., 1993a).</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<p><img data-src="img/image3.jpg"></p>
+</div></div>
+</section>
+<section id="obia-or-object-based-image-analysis" class="slide level2">
+<h2>OBIA, or Object-Based Image Analysis</h2>
+<p>OBIA is a technique that segments an image into distinct objects (or segments) based on spatial, spectral, and textural characteristics, and then classifies these objects rather than individual pixels.</p>
+</section>
+<section id="how-it-works" class="slide level2">
+<h2>How it works?</h2>
+<ul>
+<li>Segmentation: The first step is to segment the image into homogeneous regions (objects) using algorithms that consider pixel similarity.</li>
+<li>Feature Extraction: Once the objects are created, features like spectral, spatial, and textural properties are extracted from each object.</li>
+<li>Classification: Finally, these extracted features are used to classify each object into a predefined class.</li>
+</ul>
+</section>
+<section id="advantages-of-obia" class="slide level2">
+<h2>Advantages of OBIA</h2>
+<ul>
+<li><p>Improved Accuracy: By analyzing objects rather than pixels, OBIA can lead to more accurate classifications, especially for complex scenes.</p></li>
+<li><p>Reduced Noise: OBIA can help reduce noise and improve the reliability of the classification results.</p></li>
+<li><p>Efficiency: OBIA can be more efficient than pixel-based classification, especially for high-resolution images.</p></li>
+<li><p>Applicability: OBIA can be applied to a variety of applications, including land use/land cover classification, forest mapping, mineral mapping, coastal zone studies, crop classification, and urban studies.</p></li>
+</ul>
+</section>
+<section id="applications-of-obia" class="slide level2">
+<h2>Applications of OBIA</h2>
+<ul>
+<li><p>Land Use/Land Cover Classification: Identifying different types of land cover, such as forests, fields, and urban areas.</p></li>
+<li><p>Forest Mapping: Mapping different types of forests and assessing forest health.</p></li>
+<li><p>Mineral Mapping: Identifying and mapping different types of minerals. Coastal Zone Studies: Analyzing and mapping coastal zones and their features.</p></li>
+<li><p>Crop Classification: Identifying different types of crops and assessing their health.</p></li>
+<li><p>Urban Studies: Analyzing and mapping urban areas and their features.</p></li>
+</ul>
+</section>
+<section id="obia-post-classification-comparison" class="slide level2">
+<h2>OBIA Post-Classification Comparison</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p>In this example below, OBIA segmentation. Selected object-based segmentation of the Bluffton, SC, Pictometry International, 2007 and 2011 natural color aerial photography at (a,b) 40 scale, and (c,d) 120 scale (imagery courtesy of Beaufort County GIS Department)</p>
+</div><div class="column" style="width:50%;">
+<p><img data-src="img/image4.jpg"></p>
+</div></div>
+</section>
+<section id="section-1" class="slide level2">
+<h2></h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p>Post-classification change detection of Bluffton, SC, based on 2007 and 2011 Pictometry, Inc., natural color aerial photography and object-based im age analysis.</p>
+<p>a) Classification of 2007 photography (rasterized).</p>
+<p>b) Classification of 2011 photography (rasterized).</p>
+<p>c) Union of 2007 and 2011 classification maps using GIS map overlay function with selected from–to classes highlighted.</p>
+</div><div class="column" style="width:50%;">
+<p><img data-src="img/image5.jpg"></p>
+</div></div>
 
 
 </section>

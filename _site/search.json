@@ -1622,5 +1622,68 @@
     "title": "Lesson 11: Urban Land Cover Change Detection Using Remote Sensing",
     "section": "Object-Based Change Detection",
     "text": "Object-Based Change Detection\nThis method analyzes images by grouping pixels into objects, which are then compared to identify changes."
+  },
+  {
+    "objectID": "lesson/Lesson11/lesson11.html#post-classification-comparison-change-detection",
+    "href": "lesson/Lesson11/lesson11.html#post-classification-comparison-change-detection",
+    "title": "Lesson 11: Urban Land Cover Change Detection Using Remote Sensing",
+    "section": "Post-Classification Comparison Change Detection",
+    "text": "Post-Classification Comparison Change Detection"
+  },
+  {
+    "objectID": "lesson/Lesson11/lesson11.html#section",
+    "href": "lesson/Lesson11/lesson11.html#section",
+    "title": "Lesson 11: Urban Land Cover Change Detection Using Remote Sensing",
+    "section": "",
+    "text": "Rectified Landsat Thematic Mapper data of an area centered on Fort Moultrie, SC, obtained on (a) November 9, 1982, and (b) December 19, 1988 (RGB = bands 4, 3, 2).\nClassification maps of the Fort Moultrie, SC, study area produced from the (c) November 9, 1982, and (d) December 19, 1988, Landsat TM data. Some barren land is included in the Developed/Exposed Land category (original imagery courtesy of NASA)."
+  },
+  {
+    "objectID": "lesson/Lesson11/lesson11.html#per-pixal-post-classification-comparison",
+    "href": "lesson/Lesson11/lesson11.html#per-pixal-post-classification-comparison",
+    "title": "Lesson 11: Urban Land Cover Change Detection Using Remote Sensing",
+    "section": "Per-Pixal Post-Classification Comparison",
+    "text": "Per-Pixal Post-Classification Comparison\n\n\n\nRectified Landsat Thematic Mapper data of an area centered on Fort Moultrie, SC, obtained on (a) November 9, 1982, and (b) December 19, 1988 (RGB = bands 4, 3, 2).\nClassification maps of the Fort Moultrie, SC, study area produced from the (c) November 9, 1982, and (d) December 19, 1988, Landsat TM data. Some barren land is included in the Developed/Exposed Land category (original imagery courtesy of NASA)."
+  },
+  {
+    "objectID": "lesson/Lesson11/lesson11.html#obia-post-classification-comparison",
+    "href": "lesson/Lesson11/lesson11.html#obia-post-classification-comparison",
+    "title": "Lesson 11: Urban Land Cover Change Detection Using Remote Sensing",
+    "section": "OBIA Post-Classification Comparison",
+    "text": "OBIA Post-Classification Comparison\n\n\nIn this example below, OBIA segmentation. Selected object-based segmentation of the Bluffton, SC, Pictometry International, 2007 and 2011 natural color aerial photography at (a,b) 40 scale, and (c,d) 120 scale (imagery courtesy of Beaufort County GIS Department)"
+  },
+  {
+    "objectID": "lesson/Lesson11/lesson11.html#section-1",
+    "href": "lesson/Lesson11/lesson11.html#section-1",
+    "title": "Lesson 11: Urban Land Cover Change Detection Using Remote Sensing",
+    "section": "",
+    "text": "Post-classification change detection of Bluffton, SC, based on 2007 and 2011 Pictometry, Inc., natural color aerial photography and object-based im age analysis.\na) Classification of 2007 photography (rasterized).\nb) Classification of 2011 photography (rasterized).\nc) Union of 2007 and 2011 classification maps using GIS map overlay function with selected from–to classes highlighted."
+  },
+  {
+    "objectID": "lesson/Lesson11/lesson11.html#obia-or-object-based-image-analysis",
+    "href": "lesson/Lesson11/lesson11.html#obia-or-object-based-image-analysis",
+    "title": "Lesson 11: Urban Land Cover Change Detection Using Remote Sensing",
+    "section": "OBIA, or Object-Based Image Analysis",
+    "text": "OBIA, or Object-Based Image Analysis\nOBIA is a technique that segments an image into distinct objects (or segments) based on spatial, spectral, and textural characteristics, and then classifies these objects rather than individual pixels."
+  },
+  {
+    "objectID": "lesson/Lesson11/lesson11.html#how-it-works",
+    "href": "lesson/Lesson11/lesson11.html#how-it-works",
+    "title": "Lesson 11: Urban Land Cover Change Detection Using Remote Sensing",
+    "section": "How it works?",
+    "text": "How it works?\n\nSegmentation: The first step is to segment the image into homogeneous regions (objects) using algorithms that consider pixel similarity.\nFeature Extraction: Once the objects are created, features like spectral, spatial, and textural properties are extracted from each object.\nClassification: Finally, these extracted features are used to classify each object into a predefined class."
+  },
+  {
+    "objectID": "lesson/Lesson11/lesson11.html#advantages-of-obia",
+    "href": "lesson/Lesson11/lesson11.html#advantages-of-obia",
+    "title": "Lesson 11: Urban Land Cover Change Detection Using Remote Sensing",
+    "section": "Advantages of OBIA",
+    "text": "Advantages of OBIA\n\nImproved Accuracy: By analyzing objects rather than pixels, OBIA can lead to more accurate classifications, especially for complex scenes.\nReduced Noise: OBIA can help reduce noise and improve the reliability of the classification results.\nEfficiency: OBIA can be more efficient than pixel-based classification, especially for high-resolution images.\nApplicability: OBIA can be applied to a variety of applications, including land use/land cover classification, forest mapping, mineral mapping, coastal zone studies, crop classification, and urban studies."
+  },
+  {
+    "objectID": "lesson/Lesson11/lesson11.html#applications-of-obia",
+    "href": "lesson/Lesson11/lesson11.html#applications-of-obia",
+    "title": "Lesson 11: Urban Land Cover Change Detection Using Remote Sensing",
+    "section": "Applications of OBIA",
+    "text": "Applications of OBIA\n\nLand Use/Land Cover Classification: Identifying different types of land cover, such as forests, fields, and urban areas.\nForest Mapping: Mapping different types of forests and assessing forest health.\nMineral Mapping: Identifying and mapping different types of minerals. Coastal Zone Studies: Analyzing and mapping coastal zones and their features.\nCrop Classification: Identifying different types of crops and assessing their health.\nUrban Studies: Analyzing and mapping urban areas and their features."
   }
 ]
